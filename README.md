@@ -1,4 +1,4 @@
-﻿FIADD
+﻿# FIADD
 
 
 ### About FIADD
@@ -45,34 +45,30 @@ echo “export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/a/uav/src/my_uav/model
 cd mininet-wifi  && sudo util/install.sh -Wlnfv  
 
 6. 将DDS和ros2_ws目录中的setup.bash脚本写入~/.bashrc
-# ROS-PX4桥
 source ~/ros2_ws/install/setup.bash
-# DDS
-#source ~/px4_ros_uxrce_dds_ws/install/setup.bash
-
+source ~/px4_ros_uxrce_dds_ws/install/setup.bash
 
 ### FIADD启动步骤：
 1. 开启olsr自组织网络：
-cd ~/FIADD/mininet-wifi/examples/my_uav
-sudo python3 olsr.py olsrd  # 开启9个虚拟节点uav1~uav9，代表9个UAV，和一个用于加载Gazebo world的虚拟节点sta1.
+cd ~/FIADD/mininet-wifi/examples/my_uav && sudo python3 olsr.py olsrd  # 开启9个虚拟节点uav1~uav9，代表9个UAV，和一个用于加载Gazebo world的虚拟节点sta1.
 
-2. 初始化FANET：
+3. 初始化FANET：
 在sat1节点上执行：source sat1.sh
 在uav1~uav9节点上分别执行：source uav.sh 1/2/3/4/5/6/7/8/9 p450_2Dlidar_depth
 
-3. 开启随机通信任务：
+4. 开启随机通信任务：
 在mininet-wifi的CLI终端：
 start_traffic 6000 10  	# 随机通信6000s
 tcpdump 6000 		# 对所有节点抓包，时长为6000s
 
-4. 模拟攻击
+5. 模拟攻击
 在mininet-wifi的CLI终端，执行相应攻击的指令：
     • ddos 60 600 0		# 执行ddos攻击，总时长600s 
     • si uav7-wlan0 corrupt	# 对uav7执行信号干扰攻击   
     • mitm uav3-wlan0 10.0.0.1 10.0.0.2 600	# uav3作为attacker对uav1（10.0.0.1）和uav2（10.0.0.2）执行MITM攻击，时长600s
     • gps_spoof 10.0.0.4  22.5 11.1 100  # 对uav4执行GPS spoof攻击,注入错误数据(x,y,z)=(22.5,11.1,100)
 
-5. 查看模型输出
+6. 查看模型输出
 cat /home/a/uav/logs/conversation_history.txt
 
 
