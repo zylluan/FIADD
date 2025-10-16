@@ -38,6 +38,8 @@ import os
 
 sys.path.append("/home/a/mininet-wifi/examples/my_uav/attack")
 from ddos_hping3 import ddos_attack
+from gps_spoof import send_fake_gps
+from MITM import mitm_loop
 
 # ---------------- 日志函数 ----------------
 def _log(self, log_file, message):
@@ -223,14 +225,14 @@ def topology(args):
     uav1 = net.addStation('uav1', ip6='fe80::1',position='25,50,0', **kwargs)
     uav2 = net.addStation('uav2', ip6='fe80::2',position='75,10,0', **kwargs)
     uav3 = net.addStation('uav3', ip6='fe80::3',position='75,90,0', **kwargs)
-    sta1 = net.addStation('sta1', ip6='fe80::4',position='125,50,0', **kwargs)
-    '''
+    uav4 = net.addStation('uav4', ip6='fe80::4',position='125,50,0', **kwargs)
     uav5 = net.addStation('uav5', ip6='fe80::5',position='125,100,0', **kwargs)
     uav6 = net.addStation('uav6', ip6='fe80::6',position='200,50,0', **kwargs)
     uav7 = net.addStation('uav7', ip6='fe80::7',position='175,50,0', **kwargs)
     uav8 = net.addStation('uav8', ip6='fe80::8',position='100,30,0', **kwargs)
     uav9 = net.addStation('uav9', ip6='fe80::9',position='200,200,0', **kwargs)
-    '''
+    sta1 = net.addStation('sta1', ip6='fe80::10',position='125,50,0', **kwargs)
+    
 
     net.setPropagationModel(model="logDistance", exp=4)
 
@@ -254,10 +256,12 @@ def topology(args):
     net.addLink(uav3, cls=adhoc, intf='uav3-wlan0',
                 ssid='adhocNet', mode='g', channel=5,
                 ht_cap='HT40+', **kwargs)
+    net.addLink(uav4, cls=adhoc, intf='uav4-wlan0',
+                ssid='adhocNet', mode='g', channel=5,
+                ht_cap='HT40+', **kwargs)
     net.addLink(sta1, cls=adhoc, intf='sta1-wlan0',
                 ssid='adhocNet', mode='g', channel=5,
                 ht_cap='HT40+', **kwargs)
-    '''
     net.addLink(uav5, cls=adhoc, intf='uav5-wlan0',
                 ssid='adhocNet', mode='g', channel=5,
                 ht_cap='HT40+', **kwargs)
@@ -273,7 +277,7 @@ def topology(args):
     net.addLink(uav9, cls=adhoc, intf='uav9-wlan0',
                 ssid='adhocNet', mode='g', channel=5,
                 ht_cap='HT40+', **kwargs)
-    '''
+    
 
     info("*** Plotting graph\n")
     net.plotGraph(max_x=300, max_y=300)   # 绘制拓扑图
@@ -290,16 +294,16 @@ def topology(args):
     if 'proto' not in kwargs:
         info("\n*** Addressing...\n")
         uav1.setIP6('2001::1/64', intf="uav1-wlan0")
-        sta2.setIP6('2001::2/64', intf="uav2-wlan0")
-        sta3.setIP6('2001::3/64', intf="uav3-wlan0")
+        uav2.setIP6('2001::2/64', intf="uav2-wlan0")
+        uav3.setIP6('2001::3/64', intf="uav3-wlan0")
         sta1.setIP6('2001::4/64', intf="sta1-wlan0")
-        '''
-        sta5.setIP6('2001::5/64', intf="uav5-wlan0")
-        sta6.setIP6('2001::6/64', intf="uav6-wlan0")
-        sta7.setIP6('2001::7/64', intf="uav7-wlan0")
-        sta8.setIP6('2001::8/64', intf="uav8-wlan0")
-        sta9.setIP6('2001::9/64', intf="uav9-wlan0")
-        '''
+        uav4.setIP6('2001::4/64', intf="uav4-wlan0")
+        uav5.setIP6('2001::5/64', intf="uav5-wlan0")
+        uav6.setIP6('2001::6/64', intf="uav6-wlan0")
+        uav7.setIP6('2001::7/64', intf="uav7-wlan0")
+        uav8.setIP6('2001::8/64', intf="uav8-wlan0")
+        uav9.setIP6('2001::9/64', intf="uav9-wlan0")
+        
         
     # 替换成 MyCLI
     info("*** Running CLI\n")
