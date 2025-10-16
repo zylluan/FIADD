@@ -1,0 +1,223 @@
+[0.015s] Invoking command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent': /usr/bin/cmake /home/a/px4_ros_uxrce_dds_ws/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent
+[0.084s] -- The C compiler identification is GNU 9.4.0
+[0.088s] -- Check for working C compiler: /usr/bin/cc
+[0.170s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.171s] -- Detecting C compiler ABI info
+[0.247s] -- Detecting C compiler ABI info - done
+[0.258s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.318s] -- The CXX compiler identification is GNU 9.4.0
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.418s] -- Detecting CXX compiler ABI info
+[0.502s] -- Detecting CXX compiler ABI info - done
+[0.513s] -- Detecting CXX compile features
+[0.514s] -- Detecting CXX compile features - done
+[0.589s] -- Configuring done
+[0.594s] -- Generating done
+[0.597s] -- Build files have been written to: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent
+[0.603s] Invoked command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake /home/a/px4_ros_uxrce_dds_ws/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent
+[0.604s] Invoking command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent -- -j2 -l2
+[0.664s] [35m[1mScanning dependencies of target microxrcedds_client[0m
+[0.670s] [35m[1mScanning dependencies of target spdlog[0m
+[0.694s] [  4%] [34m[1mCreating directories for 'microxrcedds_client'[0m
+[0.695s] [  8%] [34m[1mCreating directories for 'spdlog'[0m
+[0.827s] [ 12%] [34m[1mPerforming download step (git clone) for 'microxrcedds_client'[0m
+[0.827s] [ 16%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+[0.862s] Cloning into 'microxrcedds_client'...
+[0.862s] Cloning into 'spdlog'...
+[11.154s] fatal: unable to access 'https://github.com/gabime/spdlog.git/': GnuTLS recv error (-110): The TLS connection was non-properly terminated.
+[11.156s] Cloning into 'spdlog'...
+[19.541s] -- Had to git clone more than once:
+[19.541s]           2 times.
+[19.558s] Note: switching to 'v1.9.2'.
+[19.558s] 
+[19.558s] You are in 'detached HEAD' state. You can look around, make experimental
+[19.558s] changes and commit them, and you can discard any commits you make in this
+[19.558s] state without impacting any branches by switching back to a branch.
+[19.558s] 
+[19.558s] If you want to create a new branch to retain commits you create, you may
+[19.558s] do so (now or later) by using -c with the switch command. Example:
+[19.558s] 
+[19.558s]   git switch -c <new-branch-name>
+[19.558s] 
+[19.558s] Or undo this operation with:
+[19.558s] 
+[19.559s]   git switch -
+[19.559s] 
+[19.559s] Turn off this advice by setting config variable advice.detachedHead to false
+[19.559s] 
+[19.559s] HEAD is now at eb322062 Bump version to 1.9.2
+[19.608s] [ 20%] [34m[1mNo patch step for 'spdlog'[0m
+[19.632s] [ 25%] [34m[1mPerforming update step for 'spdlog'[0m
+[19.655s] [ 29%] [34m[1mPerforming configure step for 'spdlog'[0m
+[19.664s] loading initial cache file /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/spdlog/tmp/spdlog-cache-.cmake
+[19.719s] -- The CXX compiler identification is GNU 9.4.0
+[19.722s] -- Check for working CXX compiler: /usr/bin/c++
+[19.799s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[19.800s] -- Detecting CXX compiler ABI info
+[19.869s] -- Detecting CXX compiler ABI info - done
+[19.878s] -- Detecting CXX compile features
+[19.879s] -- Detecting CXX compile features - done
+[19.880s] -- Build spdlog: 1.9.2
+[19.885s] -- Looking for C++ include pthread.h
+[19.960s] -- Looking for C++ include pthread.h - found
+[19.960s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[20.036s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[20.037s] -- Looking for pthread_create in pthreads
+[20.100s] -- Looking for pthread_create in pthreads - not found
+[20.100s] -- Looking for pthread_create in pthread
+[20.169s] -- Looking for pthread_create in pthread - found
+[20.170s] -- Found Threads: TRUE  
+[20.170s] -- Build type: Release
+[20.171s] -- Generating example(s)
+[20.171s] -- Generating install
+[20.181s] -- Configuring done
+[20.186s] -- Generating done
+[20.187s] -- Build files have been written to: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/spdlog/src/spdlog-build
+[20.207s] [ 33%] [34m[1mPerforming build step for 'spdlog'[0m
+[20.235s] [35m[1mScanning dependencies of target spdlog[0m
+[20.252s] [ 10%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o[0m
+[21.923s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Client.git/': Failed to connect to github.com port 443: Connection refused
+[21.925s] Cloning into 'microxrcedds_client'...
+[27.164s] [ 20%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o[0m
+[28.364s] [ 30%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o[0m
+[29.719s] [ 40%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o[0m
+[30.648s] [ 50%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o[0m
+[31.680s] [ 60%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o[0m
+[32.407s] [ 70%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o[0m
+[35.341s] [ 80%] [32m[1mLinking CXX static library libspdlog.a[0m
+[35.380s] [ 80%] Built target spdlog
+[35.389s] [35m[1mScanning dependencies of target example[0m
+[35.404s] [ 90%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[38.934s] [100%] [32m[1mLinking CXX executable example[0m
+[39.023s] [100%] Built target example
+[39.049s] [ 37%] [34m[1mPerforming install step for 'spdlog'[0m
+[39.091s] [ 80%] Built target spdlog
+[39.112s] [100%] Built target example
+[39.129s] [36mInstall the project...[0m
+[39.137s] -- Install configuration: "Release"
+[39.137s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include
+[39.137s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog
+[39.138s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/formatter.h
+[39.138s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h
+[39.138s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h
+[39.138s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h
+[39.138s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h
+[39.138s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h
+[39.139s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async.h
+[39.139s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/version.h
+[39.139s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt
+[39.139s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h
+[39.139s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h
+[39.139s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h
+[39.140s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h
+[39.140s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h
+[39.140s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h
+[39.140s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h
+[39.140s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h
+[39.141s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/logger.h
+[39.141s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h
+[39.141s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details
+[39.141s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/os.h
+[39.141s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h
+[39.141s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h
+[39.142s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h
+[39.142s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h
+[39.142s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h
+[39.142s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h
+[39.142s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h
+[39.142s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h
+[39.143s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h
+[39.143s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h
+[39.143s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h
+[39.143s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h
+[39.143s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h
+[39.143s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h
+[39.144s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h
+[39.144s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h
+[39.144s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h
+[39.144s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h
+[39.144s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h
+[39.144s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h
+[39.145s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h
+[39.145s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h
+[39.145s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h
+[39.145s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h
+[39.145s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h
+[39.145s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h
+[39.146s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/common.h
+[39.146s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks
+[39.146s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h
+[39.146s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h
+[39.146s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h
+[39.146s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h
+[39.147s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h
+[39.147s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h
+[39.147s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h
+[39.147s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h
+[39.147s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h
+[39.147s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h
+[39.148s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h
+[39.148s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h
+[39.148s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h
+[39.148s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h
+[39.148s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h
+[39.149s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h
+[39.149s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h
+[39.149s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h
+[39.149s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h
+[39.149s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h
+[39.149s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h
+[39.150s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h
+[39.150s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h
+[39.150s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h
+[39.150s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h
+[39.151s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h
+[39.151s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h
+[39.151s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h
+[39.151s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h
+[39.151s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h
+[39.151s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h
+[39.152s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fwd.h
+[39.152s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg
+[39.152s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h
+[39.152s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h
+[39.152s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h
+[39.153s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h
+[39.153s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/libspdlog.a
+[39.154s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/
+[39.155s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h
+[39.155s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h
+[39.155s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h
+[39.155s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h
+[39.155s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h
+[39.156s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h
+[39.156s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h
+[39.156s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h
+[39.156s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h
+[39.156s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h
+[39.156s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h
+[39.157s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h
+[39.157s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h
+[39.157s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc
+[39.157s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[39.158s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[39.158s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake
+[39.158s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[39.176s] [ 41%] [34m[1mCompleted 'spdlog'[0m
+[39.207s] [ 41%] Built target spdlog
+[42.947s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Client.git/': Failed to connect to github.com port 443: Connection refused
+[42.950s] Cloning into 'microxrcedds_client'...
+[64.011s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Client.git/': Failed to connect to github.com port 443: Connection refused
+[64.012s] CMake Error at /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/tmp/microxrcedds_client-gitclone.cmake:31 (message):
+[64.012s]   Failed to clone repository:
+[64.012s]   'https://github.com/eProsima/Micro-XRCE-DDS-Client.git'
+[64.012s] 
+[64.012s] -- Had to git clone more than once:
+[64.012s]           3 times.
+[64.012s] 
+[64.013s] make[2]: *** [CMakeFiles/microxrcedds_client.dir/build.make:91: microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-download] Error 1
+[64.014s] make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/microxrcedds_client.dir/all] Error 2
+[64.016s] make: *** [Makefile:84: all] Error 2
+[64.017s] Invoked command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent' returned '2': /usr/bin/cmake --build /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent -- -j2 -l2

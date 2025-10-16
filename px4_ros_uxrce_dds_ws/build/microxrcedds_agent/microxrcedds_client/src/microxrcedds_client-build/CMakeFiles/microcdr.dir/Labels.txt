@@ -1,0 +1,13 @@
+# Target labels
+ microcdr
+# Source files and their labels
+/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr
+/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr.rule
+/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr-complete.rule
+/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-install.rule
+/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-mkdir.rule
+/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-download.rule
+/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-update.rule
+/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-patch.rule
+/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-configure.rule
+/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-build.rule

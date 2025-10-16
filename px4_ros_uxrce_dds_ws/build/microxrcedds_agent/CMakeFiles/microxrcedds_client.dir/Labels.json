@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client"
+		},
+		{
+			"file" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client.rule"
+		},
+		{
+			"file" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client-complete.rule"
+		},
+		{
+			"file" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-install.rule"
+		},
+		{
+			"file" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-mkdir.rule"
+		},
+		{
+			"file" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-download.rule"
+		},
+		{
+			"file" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-update.rule"
+		},
+		{
+			"file" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-patch.rule"
+		},
+		{
+			"file" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-configure.rule"
+		},
+		{
+			"file" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"microxrcedds_client"
+		],
+		"name" : "microxrcedds_client"
+	}
+}

@@ -1,0 +1,4 @@
+Invoking command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent -- -j2 -l2
+Invoked command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --build /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent -- -j2 -l2
+Invoking command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent': /usr/bin/cmake --install /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent
+Invoked command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --install /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent

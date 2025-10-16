@@ -1,0 +1,844 @@
+[0.013s] Invoking command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent -- -j2 -l2
+[0.059s] [  8%] [34m[1mPerforming update step for 'spdlog'[0m
+[0.059s] [  8%] [34m[1mPerforming download step (git clone) for 'microxrcedds_client'[0m
+[0.078s] Cloning into 'microxrcedds_client'...
+[0.085s] [ 12%] [34m[1mPerforming configure step for 'spdlog'[0m
+[0.093s] loading initial cache file /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/spdlog/tmp/spdlog-cache-.cmake
+[0.097s] -- Build spdlog: 1.9.2
+[0.100s] -- Build type: Release
+[0.100s] -- Generating example(s)
+[0.101s] -- Generating install
+[0.108s] -- Configuring done
+[0.116s] -- Generating done
+[0.117s] -- Build files have been written to: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/spdlog/src/spdlog-build
+[0.135s] [ 16%] [34m[1mPerforming build step for 'spdlog'[0m
+[0.176s] [ 80%] Built target spdlog
+[0.196s] [100%] Built target example
+[0.223s] [ 20%] [34m[1mPerforming install step for 'spdlog'[0m
+[0.263s] [ 80%] Built target spdlog
+[0.282s] [100%] Built target example
+[0.299s] [36mInstall the project...[0m
+[0.307s] -- Install configuration: "Release"
+[0.307s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include
+[0.307s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog
+[0.307s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/formatter.h
+[0.307s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h
+[0.307s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/version.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/logger.h
+[0.308s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/os.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h
+[0.309s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/common.h
+[0.310s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h
+[0.311s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h
+[0.312s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h
+[0.312s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h
+[0.312s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h
+[0.312s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h
+[0.312s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h
+[0.312s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h
+[0.313s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h
+[0.313s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h
+[0.313s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h
+[0.313s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h
+[0.313s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h
+[0.313s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h
+[0.313s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h
+[0.316s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h
+[0.316s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h
+[0.316s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h
+[0.316s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h
+[0.316s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fwd.h
+[0.316s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg
+[0.316s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h
+[0.316s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h
+[0.316s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h
+[0.317s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h
+[0.317s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/libspdlog.a
+[0.317s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/
+[0.317s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h
+[0.317s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h
+[0.317s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h
+[0.317s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h
+[0.317s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h
+[0.317s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h
+[0.318s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h
+[0.318s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h
+[0.318s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h
+[0.318s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h
+[0.318s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h
+[0.318s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h
+[0.318s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h
+[0.318s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc
+[0.319s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[0.319s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[0.319s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake
+[0.319s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[0.337s] [ 25%] [34m[1mCompleted 'spdlog'[0m
+[0.371s] [ 37%] Built target spdlog
+[5.240s] Note: switching to 'v2.4.2'.
+[5.240s] 
+[5.240s] You are in 'detached HEAD' state. You can look around, make experimental
+[5.240s] changes and commit them, and you can discard any commits you make in this
+[5.240s] state without impacting any branches by switching back to a branch.
+[5.240s] 
+[5.240s] If you want to create a new branch to retain commits you create, you may
+[5.240s] do so (now or later) by using -c with the switch command. Example:
+[5.240s] 
+[5.240s]   git switch -c <new-branch-name>
+[5.241s] 
+[5.241s] Or undo this operation with:
+[5.241s] 
+[5.241s]   git switch -
+[5.241s] 
+[5.241s] Turn off this advice by setting config variable advice.detachedHead to false
+[5.241s] 
+[5.241s] HEAD is now at 0c6743f Release v2.4.2
+[5.289s] [ 45%] [34m[1mNo patch step for 'microxrcedds_client'[0m
+[5.289s] [ 45%] [34m[1mPerforming update step for 'microxrcedds_client'[0m
+[5.314s] [ 50%] [34m[1mPerforming configure step for 'microxrcedds_client'[0m
+[5.325s] loading initial cache file /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/tmp/microxrcedds_client-cache-.cmake
+[5.384s] -- The C compiler identification is GNU 9.4.0
+[5.386s] -- Check for working C compiler: /usr/bin/cc
+[5.444s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.445s] -- Detecting C compiler ABI info
+[5.509s] -- Detecting C compiler ABI info - done
+[5.519s] -- Detecting C compile features
+[5.519s] -- Detecting C compile features - done
+[5.567s] -- The CXX compiler identification is GNU 9.4.0
+[5.570s] -- Check for working CXX compiler: /usr/bin/c++
+[5.648s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.649s] -- Detecting CXX compiler ABI info
+[5.723s] -- Detecting CXX compiler ABI info - done
+[5.732s] -- Detecting CXX compile features
+[5.732s] -- Detecting CXX compile features - done
+[5.766s] -- Configuring done
+[5.769s] -- Generating done
+[5.770s] -- Build files have been written to: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build
+[5.790s] [ 54%] [34m[1mPerforming build step for 'microxrcedds_client'[0m
+[5.818s] [35m[1mScanning dependencies of target microcdr[0m
+[5.828s] [  6%] [34m[1mCreating directories for 'microcdr'[0m
+[5.903s] [ 12%] [34m[1mPerforming download step (git clone) for 'microcdr'[0m
+[5.922s] Cloning into 'microcdr'...
+[8.251s] Note: switching to 'v2.0.1'.
+[8.251s] 
+[8.251s] You are in 'detached HEAD' state. You can look around, make experimental
+[8.251s] changes and commit them, and you can discard any commits you make in this
+[8.251s] state without impacting any branches by switching back to a branch.
+[8.251s] 
+[8.251s] If you want to create a new branch to retain commits you create, you may
+[8.251s] do so (now or later) by using -c with the switch command. Example:
+[8.251s] 
+[8.251s]   git switch -c <new-branch-name>
+[8.251s] 
+[8.251s] Or undo this operation with:
+[8.251s] 
+[8.251s]   git switch -
+[8.251s] 
+[8.251s] Turn off this advice by setting config variable advice.detachedHead to false
+[8.251s] 
+[8.251s] HEAD is now at 3d1b177 Release v2.0.1
+[8.306s] [ 18%] [34m[1mNo patch step for 'microcdr'[0m
+[8.310s] [ 25%] [34m[1mPerforming update step for 'microcdr'[0m
+[8.334s] [ 31%] [34m[1mPerforming configure step for 'microcdr'[0m
+[8.343s] loading initial cache file /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/tmp/microcdr-cache-.cmake
+[8.344s] -- Setting build type to 'Release' as none was specified.
+[8.391s] -- The C compiler identification is GNU 9.4.0
+[8.395s] -- Check for working C compiler: /usr/bin/cc
+[8.456s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.457s] -- Detecting C compiler ABI info
+[8.517s] -- Detecting C compiler ABI info - done
+[8.526s] -- Detecting C compile features
+[8.526s] -- Detecting C compile features - done
+[8.570s] -- The CXX compiler identification is GNU 9.4.0
+[8.573s] -- Check for working CXX compiler: /usr/bin/c++
+[8.639s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[8.640s] -- Detecting CXX compiler ABI info
+[8.707s] -- Detecting CXX compiler ABI info - done
+[8.716s] -- Detecting CXX compile features
+[8.716s] -- Detecting CXX compile features - done
+[8.724s] -- Configuring done
+[8.726s] -- Generating done
+[8.726s] -- Build files have been written to: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build
+[8.743s] [ 37%] [34m[1mPerforming build step for 'microcdr'[0m
+[8.770s] [35m[1mScanning dependencies of target ucdr[0m
+[8.779s] [ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[8.846s] [ 25%] [34m[1mNo download step for 'ucdr'[0m
+[8.870s] [ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[8.870s] [ 50%] [34m[1mNo update step for 'ucdr'[0m
+[8.894s] [ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+[8.903s] loading initial cache file /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[8.909s] -- Configuring done
+[8.913s] -- Generating done
+[8.913s] -- Build files have been written to: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build
+[8.931s] [ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[8.956s] [35m[1mScanning dependencies of target microcdr[0m
+[8.967s] [ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o[0m
+[8.967s] [ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.o[0m
+[9.039s] [ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.o[0m
+[9.071s] [ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.o[0m
+[9.272s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o[0m
+[9.440s] [100%] [32m[1mLinking C shared library libmicrocdr.so[0m
+[9.485s] [100%] Built target microcdr
+[9.509s] [34m[1mNo install step for 'ucdr'[0m
+[9.532s] [34m[1mCompleted 'ucdr'[0m
+[9.562s] Built target ucdr
+[9.587s] [ 43%] [34m[1mPerforming install step for 'microcdr'[0m
+[9.646s] [100%] Built target microcdr
+[9.664s] [36mInstall the project...[0m
+[9.672s] -- Install configuration: "Release"
+[9.672s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.so.2.0.1
+[9.673s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.so.2.0
+[9.673s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.so
+[9.673s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr
+[9.673s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/visibility.h
+[9.674s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/microcdr.h
+[9.674s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/config.h
+[9.675s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrTargets.cmake
+[9.675s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrTargets-release.cmake
+[9.675s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrConfig.cmake
+[9.675s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrConfigVersion.cmake
+[9.694s] [ 50%] [34m[1mCompleted 'microcdr'[0m
+[9.726s] [ 50%] Built target microcdr
+[9.737s] [35m[1mScanning dependencies of target uclient[0m
+[9.748s] [ 56%] [34m[1mCreating directories for 'uclient'[0m
+[9.824s] [ 62%] [34m[1mNo download step for 'uclient'[0m
+[9.848s] [ 68%] [34m[1mNo patch step for 'uclient'[0m
+[9.848s] [ 75%] [34m[1mNo update step for 'uclient'[0m
+[9.872s] [ 81%] [34m[1mPerforming configure step for 'uclient'[0m
+[9.881s] loading initial cache file /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/tmp/uclient-cache-.cmake
+[9.884s] -- Setting build type to 'Release' as none was specified.
+[9.888s] -- Looking for pthread.h
+[9.950s] -- Looking for pthread.h - found
+[9.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.012s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.012s] -- Looking for pthread_create in pthreads
+[10.064s] -- Looking for pthread_create in pthreads - not found
+[10.064s] -- Looking for pthread_create in pthread
+[10.129s] -- Looking for pthread_create in pthread - found
+[10.130s] -- Found Threads: TRUE  
+[10.132s] -- Configuring done
+[10.140s] -- Generating done
+[10.141s] -- Build files have been written to: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build
+[10.157s] [ 87%] [34m[1mPerforming build step for 'uclient'[0m
+[10.184s] [35m[1mScanning dependencies of target microxrcedds_client[0m
+[10.209s] [  2%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o[0m
+[10.210s] [  5%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o[0m
+[10.238s] [  8%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o[0m
+[10.273s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o[0m
+[10.287s] [ 14%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o[0m
+[10.350s] [ 17%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o[0m
+[10.376s] [ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o[0m
+[10.387s] [ 23%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o[0m
+[10.407s] [ 26%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o[0m
+[10.467s] [ 29%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o[0m
+[10.501s] [ 32%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o[0m
+[10.535s] [ 35%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o[0m
+[10.598s] [ 38%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o[0m
+[10.632s] [ 41%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o[0m
+[10.661s] [ 44%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o[0m
+[10.690s] [ 47%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o[0m
+[10.752s] [ 50%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o[0m
+[10.791s] [ 52%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o[0m
+[10.847s] [ 55%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o[0m
+[10.904s] [ 58%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o[0m
+[10.982s] [ 61%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o[0m
+[10.983s] [ 64%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o[0m
+[11.036s] [ 67%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o[0m
+[11.067s] [ 70%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o[0m
+[11.123s] [ 73%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o[0m
+[11.144s] [ 76%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o[0m
+[11.182s] [ 79%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o[0m
+[11.209s] [ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o[0m
+[11.244s] [ 85%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o[0m
+[11.257s] [ 88%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o[0m
+[11.294s] [ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o[0m
+[11.299s] [ 94%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o[0m
+[11.357s] [ 97%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o[0m
+[11.400s] [100%] [32m[1mLinking C shared library libmicroxrcedds_client.so[0m
+[11.459s] [100%] Built target microxrcedds_client
+[11.482s] [34m[1mNo install step for 'uclient'[0m
+[11.505s] [34m[1mCompleted 'uclient'[0m
+[11.537s] Built target uclient
+[11.561s] [ 58%] [34m[1mPerforming install step for 'microxrcedds_client'[0m
+[11.608s] [100%] Built target microxrcedds_client
+[11.629s] [36mInstall the project...[0m
+[11.637s] -- Install configuration: "Release"
+[11.638s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so.2.4.2
+[11.638s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so.2.4
+[11.639s] -- Set runtime path of "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so.2.4.2" to ""
+[11.639s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so
+[11.639s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client
+[11.639s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/transport.h
+[11.639s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/visibility.h
+[11.639s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core
+[11.640s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/type
+[11.640s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/type/xrce_types.h
+[11.640s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/communication
+[11.640s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/communication/communication.h
+[11.640s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session
+[11.640s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream
+[11.640s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/input_reliable_stream.h
+[11.641s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/seq_num.h
+[11.641s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/stream_id.h
+[11.641s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/stream_storage.h
+[11.641s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/reliable_stream.h
+[11.641s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[11.641s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/output_reliable_stream.h
+[11.641s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[11.642s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/session.h
+[11.642s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/read_access.h
+[11.642s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_bin.h
+[11.642s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_xml.h
+[11.642s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/object_id.h
+[11.642s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/write_access.h
+[11.643s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/time_sync.h
+[11.643s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/common_create_entities.h
+[11.643s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_ref.h
+[11.643s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/session_info.h
+[11.643s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile
+[11.643s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport
+[11.644s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/custom
+[11.644s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/custom/custom_transport.h
+[11.644s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can
+[11.644s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can/can_transport.h
+[11.644s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can/can_transport_posix.h
+[11.644s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip
+[11.644s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp
+[11.645s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[11.645s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[11.645s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[11.645s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[11.645s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[11.645s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[11.646s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp
+[11.646s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[11.646s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[11.646s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[11.646s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[11.646s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[11.646s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[11.647s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/ip.h
+[11.647s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial
+[11.647s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[11.647s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[11.647s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport.h
+[11.647s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[11.648s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/stream_framing
+[11.648s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[11.648s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/discovery
+[11.648s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/discovery/discovery.h
+[11.648s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/multithread
+[11.648s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/multithread/multithread.h
+[11.649s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util
+[11.649s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util/ping.h
+[11.649s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util/time.h
+[11.649s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/client.h
+[11.650s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/defines.h
+[11.650s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/config.h
+[11.650s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[11.651s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[11.651s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[11.651s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[11.651s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1
+[11.652s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib
+[11.652s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib/libmicrocdr.so
+[11.652s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib/libmicrocdr.so.2.0
+[11.652s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib/libmicrocdr.so.2.0.1
+[11.652s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share
+[11.652s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr
+[11.652s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake
+[11.653s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrTargets.cmake
+[11.653s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrConfigVersion.cmake
+[11.653s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrTargets-release.cmake
+[11.653s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrConfig.cmake
+[11.653s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include
+[11.653s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr
+[11.653s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr/visibility.h
+[11.654s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr/config.h
+[11.654s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr/microcdr.h
+[11.672s] [ 62%] [34m[1mCompleted 'microxrcedds_client'[0m
+[11.704s] [ 66%] Built target microxrcedds_client
+[11.715s] [35m[1mScanning dependencies of target uagent[0m
+[11.725s] [ 70%] [34m[1mCreating directories for 'uagent'[0m
+[11.793s] [ 75%] [34m[1mNo download step for 'uagent'[0m
+[11.816s] [ 83%] [34m[1mNo patch step for 'uagent'[0m
+[11.816s] [ 83%] [34m[1mNo update step for 'uagent'[0m
+[11.841s] [ 87%] [34m[1mPerforming configure step for 'uagent'[0m
+[11.850s] loading initial cache file /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent/uagent-prefix/tmp/uagent-cache-.cmake
+[11.855s] -- Setting build type to 'Release' as none was specified.
+[11.877s] -- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[11.934s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.936s] -- Looking for pthread.h
+[12.002s] -- Looking for pthread.h - found
+[12.002s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.068s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.068s] -- Looking for pthread_create in pthreads
+[12.122s] -- Looking for pthread_create in pthreads - not found
+[12.122s] -- Looking for pthread_create in pthread
+[12.183s] -- Looking for pthread_create in pthread - found
+[12.184s] -- Found Threads: TRUE  
+[12.188s] -- Configuring done
+[12.201s] -- Generating done
+[12.204s] -- Build files have been written to: /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent
+[12.222s] [ 91%] [34m[1mPerforming build step for 'uagent'[0m
+[12.251s] [35m[1mScanning dependencies of target microxrcedds_agent[0m
+[12.372s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[12.372s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[16.753s] [  6%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[21.481s] [  8%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[22.752s] [ 10%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[29.655s] [ 12%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[31.105s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[32.281s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[33.786s] [ 18%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[34.783s] [ 20%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[35.828s] [ 22%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[39.867s] [ 24%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[41.039s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[43.811s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[44.414s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[45.282s] [ 32%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[46.037s] [ 34%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[46.753s] [ 36%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[50.448s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[50.857s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[53.142s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[54.636s] [ 44%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[55.075s] [ 46%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[59.726s] [ 48%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[60.883s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[64.793s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[65.923s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[70.050s] [ 56%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[70.824s] [ 58%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[73.466s] [ 60%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[74.005s] [ 62%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[77.474s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[77.939s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[80.880s] [ 68%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[81.605s] [ 70%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/p2p/AgentDiscovererLinux.cpp.o[0m
+[84.585s] [ 72%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[84.979s] [ 74%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[85.331s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[86.628s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[87.836s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[92.506s] [ 82%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[93.513s] [ 84%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[97.794s] [ 86%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/ced/CedEntities.cpp.o[0m
+[99.043s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/ced/CedMiddleware.cpp.o[0m
+[100.990s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/p2p/AgentDiscoverer.cpp.o[0m
+[101.458s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/p2p/InternalClientManager.cpp.o[0m
+[101.737s] [ 94%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/p2p/InternalClient.cpp.o[0m
+[104.776s] [ 96%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[105.113s] [ 96%] Built target microxrcedds_agent
+[105.123s] [35m[1mScanning dependencies of target MicroXRCEAgent[0m
+[105.144s] [ 98%] [32mBuilding CXX object CMakeFiles/MicroXRCEAgent.dir/microxrce_agent.cpp.o[0m
+[106.213s] [100%] [32m[1mLinking CXX executable MicroXRCEAgent[0m
+[106.329s] [100%] Built target MicroXRCEAgent
+[106.353s] [34m[1mNo install step for 'uagent'[0m
+[106.377s] [34m[1mCompleted 'uagent'[0m
+[106.407s] Built target uagent
+[106.420s] Invoked command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --build /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent -- -j2 -l2
+[106.430s] Invoking command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent': /usr/bin/cmake --install /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent
+[106.437s] -- Install configuration: "Release"
+[106.437s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4.2
+[106.441s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4
+[106.441s] -- Set runtime path of "/home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4.2" to ""
+[106.441s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so
+[106.441s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent
+[106.441s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport
+[106.441s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp
+[106.441s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/custom
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/can
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery
+[106.442s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/Server.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/TransportRc.hpp
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/util
+[106.443s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[106.444s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[106.444s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial
+[106.444s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[106.444s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[106.444s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[106.444s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[106.444s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/SessionManager.hpp
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/logger
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/logger/Logger.hpp
+[106.445s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/utils
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutex.hpp
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/utils/Color.hpp
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/utils/SeqNum.hpp
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/utils/Time.hpp
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/utils/Functions.hpp
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/utils/TokenBucket.hpp
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/utils/Conversion.hpp
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/topic
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/topic/Topic.hpp
+[106.446s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/client
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/client/ProxyClient.hpp
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/client/session
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/client/session/Session.hpp
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/datawriter
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/scheduler
+[106.447s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[106.448s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[106.448s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/p2p
+[106.448s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[106.448s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClient.hpp
+[106.448s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/publisher
+[106.448s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/publisher/Publisher.hpp
+[106.448s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/visibility.hpp
+[106.448s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/datareader
+[106.448s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/datareader/DataReader.hpp
+[106.448s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/types
+[106.449s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[106.449s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/types/XRCETypes.hpp
+[106.449s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[106.449s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/types/Optional.hpp
+[106.449s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/types/MessageHeader.hpp
+[106.449s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/subscriber
+[106.449s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[106.450s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/Root.hpp
+[106.450s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/processor
+[106.450s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/processor/Processor.hpp
+[106.450s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/reader
+[106.450s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/reader/Reader.hpp
+[106.450s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/replier
+[106.450s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/replier/Replier.hpp
+[106.450s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/Agent.hpp
+[106.450s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/message
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/message/Packet.hpp
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/message/InputMessage.hpp
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/message/OutputMessage.hpp
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/participant
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/participant/Participant.hpp
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/object
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/object/XRCEObject.hpp
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/AgentInstance.hpp
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/utils
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[106.451s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/Middleware.hpp
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/requester
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/requester/Requester.hpp
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/bin/MicroXRCEAgent
+[106.452s] -- Set runtime path of "/home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/bin/MicroXRCEAgent" to ""
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/agent/config.hpp
+[106.452s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_agent/LICENSE
+[106.453s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[106.453s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[106.453s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent
+[106.453s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib
+[106.453s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libmicrocdr.so
+[106.453s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libmicrocdr.so.2.0
+[106.453s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libmicrocdr.so.2.0.1
+[106.453s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share
+[106.453s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microcdr
+[106.454s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microcdr/cmake
+[106.454s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrTargets.cmake
+[106.454s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrConfigVersion.cmake
+[106.454s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrTargets-release.cmake
+[106.454s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrConfig.cmake
+[106.454s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include
+[106.454s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/ucdr
+[106.454s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/ucdr/visibility.h
+[106.454s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/ucdr/config.h
+[106.454s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/ucdr/microcdr.h
+[106.454s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent
+[106.455s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib
+[106.455s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so
+[106.455s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so.2.4.2
+[106.455s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so.2.4
+[106.455s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share
+[106.455s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_client
+[106.455s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake
+[106.455s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[106.455s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[106.455s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[106.455s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[106.456s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include
+[106.456s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr
+[106.456s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client
+[106.456s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/transport.h
+[106.456s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/visibility.h
+[106.456s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/config.h
+[106.456s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core
+[106.456s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/type
+[106.456s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/type/xrce_types.h
+[106.456s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/communication
+[106.456s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/communication/communication.h
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/input_reliable_stream.h
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/seq_num.h
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/stream_id.h
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/stream_storage.h
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/reliable_stream.h
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/output_reliable_stream.h
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[106.457s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/session.h
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/read_access.h
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_bin.h
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_xml.h
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/object_id.h
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/write_access.h
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/time_sync.h
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/common_create_entities.h
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_ref.h
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/core/session/session_info.h
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport
+[106.458s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/custom
+[106.459s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/custom/custom_transport.h
+[106.459s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can
+[106.459s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can/can_transport.h
+[106.459s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can/can_transport_posix.h
+[106.459s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip
+[106.459s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp
+[106.459s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[106.459s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[106.459s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[106.459s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/ip.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[106.460s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport.h
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/stream_framing
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/discovery
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/discovery/discovery.h
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/multithread
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/profile/multithread/multithread.h
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/util
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/util/ping.h
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/util/time.h
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/client.h
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/uxr/client/defines.h
+[106.461s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent
+[106.461s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/cmake
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/cmake/spdlog
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfig.cmake
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/pkgconfig
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/pkgconfig/spdlog.pc
+[106.461s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/lib/libspdlog.a
+[106.462s] -- Up-to-date: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include
+[106.462s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog
+[106.462s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/formatter.h
+[106.462s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/spdlog.h
+[106.462s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/async_logger.h
+[106.462s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/tweakme.h
+[106.462s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/logger-inl.h
+[106.462s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/spdlog-inl.h
+[106.462s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/async.h
+[106.462s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/version.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/fmt.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/compile.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/xchar.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/chrono.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/os.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/ranges.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/format-inl.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/compile.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/printf.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/xchar.h
+[106.463s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/ostream.h
+[106.464s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/locale.h
+[106.464s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/chrono.h
+[106.464s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/core.h
+[106.464s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/format.h
+[106.464s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/color.h
+[106.464s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bundled/args.h
+[106.464s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/bin_to_hex.h
+[106.464s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fmt/ostr.h
+[106.464s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/stopwatch.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/pattern_formatter-inl.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/logger.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/common-inl.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/os.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/null_mutex.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/log_msg-inl.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/synchronous_factory.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/tcp_client-windows.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/log_msg_buffer-inl.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/registry-inl.h
+[106.465s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/thread_pool.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/mpmc_blocking_q.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/tcp_client.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/backtracer-inl.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/windows_include.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/log_msg.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/file_helper.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/circular_q.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/console_globals.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/os-inl.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/periodic_worker-inl.h
+[106.466s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/fmt_helper.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/backtracer.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/file_helper-inl.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/registry.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/thread_pool-inl.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/periodic_worker.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/details/log_msg_buffer.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/async_logger-inl.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/pattern_formatter.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/common.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/ostream_sink.h
+[106.467s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/win_eventlog_sink.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/wincolor_sink.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/stdout_color_sinks.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/hourly_file_sink.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/sink-inl.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/null_sink.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/stdout_color_sinks-inl.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/basic_file_sink-inl.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/syslog_sink.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/dup_filter_sink.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/daily_file_sink.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/stdout_sinks-inl.h
+[106.468s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/rotating_file_sink-inl.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/ansicolor_sink.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/msvc_sink.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/dist_sink.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/sink.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/tcp_sink.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/basic_file_sink.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/qt_sinks.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/mongo_sink.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/base_sink.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/systemd_sink.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/wincolor_sink-inl.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/ringbuffer_sink.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/ansicolor_sink-inl.h
+[106.469s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/base_sink-inl.h
+[106.470s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/stdout_sinks.h
+[106.470s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/android_sink.h
+[106.470s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/sinks/rotating_file_sink.h
+[106.470s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/fwd.h
+[106.470s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/cfg
+[106.470s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/cfg/env.h
+[106.470s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/cfg/helpers.h
+[106.470s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/cfg/helpers-inl.h
+[106.470s] -- Installing: /home/a/px4_ros_uxrce_dds_ws/install/microxrcedds_agent/include/spdlog/cfg/argv.h
+[106.473s] Invoked command in '/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --install /home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent

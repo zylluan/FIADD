@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "microxrcedds_agent",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MicroXRCEAgent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MicroXRCEAgent-Release-618bc96e205d769aff34.json",
+					"name" : "MicroXRCEAgent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microxrcedds_agent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microxrcedds_agent-Release-57e6ed986c9904d6121e.json",
+					"name" : "microxrcedds_agent",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/a/px4_ros_uxrce_dds_ws/build/microxrcedds_agent",
+		"source" : "/home/a/px4_ros_uxrce_dds_ws/src/Micro-XRCE-DDS-Agent"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
