@@ -1,0 +1,82 @@
+[0.083s] Invoking command in '/home/a/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/home/a/ros2_ws/install/my_msg:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/home/a/ros2_ws/install/my_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2
+[0.470s] [  5%] Built target my_uav_node
+[0.611s] [ 10%] Built target offboard_control_mode
+[0.703s] [ 15%] Built target commander
+[0.804s] [ 20%] Built target arm
+[0.896s] [ 25%] Built target offboard_position_control
+[0.977s] [ 30%] Built target rates_setpoint
+[1.071s] [ 35%] Built target vel_yaw
+[1.143s] [ 40%] Built target trajectory_setpoint
+[1.245s] [ 45%] Built target start
+[1.291s] [35m[1mScanning dependencies of target sensor_combined_listener[0m
+[1.352s] [ 47%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[34.592s] [ 50%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[35.203s] [ 50%] Built target sensor_combined_listener
+[35.313s] [ 55%] Built target vehicle_gps_position_listener
+[35.420s] [ 60%] Built target debug_vect_advertiser
+[35.555s] [ 65%] Built target point
+[35.730s] [ 70%] Built target vehicle_attitude_listener
+[35.826s] [ 75%] Built target vehicle_status
+[35.944s] [ 80%] Built target offboard_control
+[36.035s] [ 85%] Built target param_test
+[36.141s] [ 90%] Built target msgsub_test
+[36.256s] [ 95%] Built target frame_transforms
+[36.370s] [100%] Built target param_chang
+[36.404s] Invoked command in '/home/a/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/home/a/ros2_ws/install/my_msg:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/home/a/ros2_ws/install/my_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2
+[36.441s] Invoking command in '/home/a/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/home/a/ros2_ws/install/my_msg:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/home/a/ros2_ws/install/my_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --install /home/a/ros2_ws/build/px4_ros_com
+[36.471s] -- Install configuration: "RELWITHDEBINFO"
+[36.473s] -- Execute custom install script
+[36.474s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[36.477s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[36.478s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_attitude_listener
+[36.482s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_status
+[36.484s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[36.486s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[36.488s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/point
+[36.489s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/param_test
+[36.490s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/msgsub_test
+[36.493s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/param_chang
+[36.495s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/start
+[36.496s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/trajectory_setpoint
+[36.501s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vel_yaw
+[36.504s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/rates_setpoint
+[36.507s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_position_control
+[36.510s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/arm
+[36.511s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/commander
+[36.513s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_mode
+[36.514s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/my_uav_node
+[36.517s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[36.518s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[36.521s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[36.524s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/all_launch.py
+[36.524s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/all_launch.xml
+[36.526s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[36.528s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[36.529s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/vehicle_attitude_listener.launch.py
+[36.534s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[36.536s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[36.537s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[36.537s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[36.538s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[36.541s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[36.543s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[36.550s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[36.554s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[36.557s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[36.557s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[36.558s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[36.561s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[36.567s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[36.568s] -- Symlinking: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[36.605s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[36.606s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.608s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[36.611s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.616s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[36.619s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[36.621s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[36.623s] -- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[36.626s] -- Up-to-date: /home/a/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so
+[36.631s] -- Up-to-date: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[36.631s] -- Up-to-date: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-relwithdebinfo.cmake
+[36.648s] Invoked command in '/home/a/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/home/a/ros2_ws/install/my_msg:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/home/a/ros2_ws/install/my_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --install /home/a/ros2_ws/build/px4_ros_com

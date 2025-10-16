@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (-) JobUnselected: {'identifier': 'my_uav'}
+[0.000315] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000331] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/a/ros2_ws/install/px4_msgs')])}
+[0.001035] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.013751] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.015241] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[0.015320] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/ros2_ws/build/px4_ros_com', '--', '-j2', '-l2'], 'cwd': '/home/a/ros2_ws/build/px4_ros_com', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'a'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1382'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/ros2_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/a'), ('OLDPWD', '/home/a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:47990'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/a-vm:@/tmp/.ICE-unix/1418,unix/a-vm:/tmp/.ICE-unix/1418'), ('INVOCATION_ID', 'd63f3fc916c24423a0127a2d0bbda2ce'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7faf3a24_8d72_4a9a_922d_c8c235b3e280'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/ros2_ws/install/px4_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/ros2_ws/build/px4_ros_com'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OGRE_RENDERER', 'OGRE1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/a/ros2_ws/install/px4_msgs:/opt/ros/galactic')]), 'shell': False}
+[0.076274] (px4_ros_com) StdoutLine: {'line': b'[  2%] Built target frame_transforms\n'}
+[0.077299] (px4_ros_com) StdoutLine: {'line': b'[  4%] Built target offboard_control\n'}
+[0.086181] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_gps_position_listener\x1b[0m\n'}
+[0.088048] (px4_ros_com) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating micro-RTPS agent code...\x1b[0m\n'}
+[0.099751] (-) TimerEvent: {}
+[0.123955] (px4_ros_com) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o\x1b[0m\n'}
+[0.200517] (-) TimerEvent: {}
+[0.269071] (px4_ros_com) StdoutLine: {'line': b'Traceback (most recent call last):\n'}
+[0.269260] (px4_ros_com) StdoutLine: {'line': b'  File "/home/a/ros2_ws/src/px4_ros_com/scripts/generate_microRTPS_bridge.py", line 189, in <module>\n'}
+[0.269315] (px4_ros_com) StdoutLine: {'line': b'    raise Exception(\n'}
+[0.269359] (px4_ros_com) StdoutLine: {'line': b'Exception: FastRTPSGen not found. Specify the location of fastrtpsgen with the -f flag\n'}
+[0.301265] (-) TimerEvent: {}
+[0.401860] (-) TimerEvent: {}
+[0.503120] (-) TimerEvent: {}
+[0.603856] (-) TimerEvent: {}
+[0.704647] (-) TimerEvent: {}
+[0.806807] (-) TimerEvent: {}
+[0.907825] (-) TimerEvent: {}
+[1.008559] (-) TimerEvent: {}
+[1.109139] (-) TimerEvent: {}
+[1.210354] (-) TimerEvent: {}
+[1.311051] (-) TimerEvent: {}
+[1.411689] (-) TimerEvent: {}
+[1.468665] (px4_ros_com) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating micro-RTPS agent code...\x1b[0m\n'}
+[1.512725] (-) TimerEvent: {}
+[1.613364] (-) TimerEvent: {}
+[1.645022] (px4_ros_com) StdoutLine: {'line': b'Traceback (most recent call last):\n'}
+[1.645190] (px4_ros_com) StdoutLine: {'line': b'  File "/home/a/ros2_ws/src/px4_ros_com/scripts/generate_microRTPS_bridge.py", line 189, in <module>\n'}
+[1.645267] (px4_ros_com) StdoutLine: {'line': b'    raise Exception(\n'}
+[1.645324] (px4_ros_com) StdoutLine: {'line': b'Exception: FastRTPSGen not found. Specify the location of fastrtpsgen with the -f flag\n'}
+[1.653533] (px4_ros_com) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/micrortps_agent.dir/src/micrortps_agent/microRTPS_agent.cpp.o\x1b[0m\n'}
+[1.655344] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K/home/a/ros2_ws/build/px4_ros_com/src/micrortps_agent/microRTPS_agent.cpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[1.655693] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kno input files\n'}
+[1.655759] (px4_ros_com) StderrLine: {'line': b'compilation terminated.\n'}
+[1.656136] (px4_ros_com) StderrLine: {'line': b'make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:496\xef\xbc\x9aCMakeFiles/micrortps_agent.dir/src/micrortps_agent/microRTPS_agent.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.656314] (px4_ros_com) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:142\xef\xbc\x9aCMakeFiles/micrortps_agent.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[1.656368] (px4_ros_com) StderrLine: {'line': b'make[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[1.714098] (-) TimerEvent: {}
+[1.815915] (-) TimerEvent: {}
+[1.916790] (-) TimerEvent: {}
+[2.018044] (-) TimerEvent: {}
+[2.118817] (-) TimerEvent: {}
+[2.220223] (-) TimerEvent: {}
+[2.320782] (-) TimerEvent: {}
+[2.421398] (-) TimerEvent: {}
+[2.522776] (-) TimerEvent: {}
+[2.623326] (-) TimerEvent: {}
+[2.724289] (-) TimerEvent: {}
+[2.825091] (-) TimerEvent: {}
+[2.925695] (-) TimerEvent: {}
+[3.026324] (-) TimerEvent: {}
+[3.127337] (-) TimerEvent: {}
+[3.228753] (-) TimerEvent: {}
+[3.329309] (-) TimerEvent: {}
+[3.429961] (-) TimerEvent: {}
+[3.530687] (-) TimerEvent: {}
+[3.631396] (-) TimerEvent: {}
+[3.732011] (-) TimerEvent: {}
+[3.832964] (-) TimerEvent: {}
+[3.934176] (-) TimerEvent: {}
+[4.034934] (-) TimerEvent: {}
+[4.136383] (-) TimerEvent: {}
+[4.236782] (-) TimerEvent: {}
+[4.337354] (-) TimerEvent: {}
+[4.438038] (-) TimerEvent: {}
+[4.539217] (-) TimerEvent: {}
+[4.639949] (-) TimerEvent: {}
+[4.740612] (-) TimerEvent: {}
+[4.841295] (-) TimerEvent: {}
+[4.941956] (-) TimerEvent: {}
+[5.042691] (-) TimerEvent: {}
+[5.143365] (-) TimerEvent: {}
+[5.243732] (-) TimerEvent: {}
+[5.344404] (-) TimerEvent: {}
+[5.445057] (-) TimerEvent: {}
+[5.545882] (-) TimerEvent: {}
+[5.646524] (-) TimerEvent: {}
+[5.747189] (-) TimerEvent: {}
+[5.847879] (-) TimerEvent: {}
+[5.948488] (-) TimerEvent: {}
+[6.049341] (-) TimerEvent: {}
+[6.150546] (-) TimerEvent: {}
+[6.251596] (-) TimerEvent: {}
+[6.352046] (-) TimerEvent: {}
+[6.452671] (-) TimerEvent: {}
+[6.553073] (-) TimerEvent: {}
+[6.653553] (-) TimerEvent: {}
+[6.754327] (-) TimerEvent: {}
+[6.855971] (-) TimerEvent: {}
+[6.956978] (-) TimerEvent: {}
+[7.058378] (-) TimerEvent: {}
+[7.159712] (-) TimerEvent: {}
+[7.260836] (-) TimerEvent: {}
+[7.304915] (px4_ros_com) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX executable vehicle_gps_position_listener\x1b[0m\n'}
+[7.360936] (-) TimerEvent: {}
+[7.462200] (-) TimerEvent: {}
+[7.563640] (-) TimerEvent: {}
+[7.601095] (px4_ros_com) StdoutLine: {'line': b'[  8%] Built target vehicle_gps_position_listener\n'}
+[7.602247] (px4_ros_com) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.604968] (px4_ros_com) CommandEnded: {'returncode': 2}
+[7.612349] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 2}
+[7.623833] (-) EventReactorShutdown: {}

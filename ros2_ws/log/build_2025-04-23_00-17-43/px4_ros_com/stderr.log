@@ -1,0 +1,24 @@
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:24:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   24 |   rclcpp::Subscription<[01;31m[Ktutorial_interfaces[m[K::msg::Num>::SharedPtr subscription_;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[Krcl_interfaces[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:24:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |   rclcpp::Subscription<tutorial_interfaces::msg::Num[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:24:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:24:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   24 |   rclcpp::Subscription<tutorial_interfaces::msg::Num>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:24:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   24 | rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                [32m[Krcl_subscription_t[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   15 |     [01;31m[Ksubscription_[m[K = this->create_subscription<my_msg::msg::Position>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_subscription_t[m[K
+make[2]: *** [CMakeFiles/msgsub_test.dir/build.make:63：CMakeFiles/msgsub_test.dir/src/examples/offboard/msgsub_test.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:600：CMakeFiles/msgsub_test.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

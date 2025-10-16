@@ -1,0 +1,515 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (-) JobUnselected: {'identifier': 'my_uav'}
+[0.000372] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000409] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/a/ros2_ws/install/px4_msgs')])}
+[0.000452] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.023785] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.026061] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[0.028786] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/ros2_ws/build/px4_ros_com', '--', '-j2', '-l2'], 'cwd': '/home/a/ros2_ws/build/px4_ros_com', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'a'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1622'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('HOME', '/home/a'), ('OLDPWD', '/home/a/px4_ros_uxrce_dds_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1524'), ('Uav_id', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/a/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:55768'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/a/uav/src/my_uav/models:/home/a/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/a-vm:@/tmp/.ICE-unix/1657,unix/a-vm:/tmp/.ICE-unix/1657'), ('INVOCATION_ID', '86c25ec9b16f448bb6ab62a6c1ad5d17'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0660d130_9c93_4ebe_989f_739adec9da79'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/ros2_ws/build/px4_ros_com'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OGRE_RENDERER', 'OGRE1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic')]), 'shell': False}
+[0.090292] (-) TimerEvent: {}
+[0.190916] (-) TimerEvent: {}
+[0.207263] (px4_ros_com) StdoutLine: {'line': b'[  5%] Built target my_uav_node\n'}
+[0.283806] (px4_ros_com) StdoutLine: {'line': b'[ 11%] Built target offboard_control_mode\n'}
+[0.291493] (-) TimerEvent: {}
+[0.393190] (-) TimerEvent: {}
+[0.397879] (px4_ros_com) StdoutLine: {'line': b'[ 17%] Built target commander\n'}
+[0.465136] (px4_ros_com) StdoutLine: {'line': b'[ 23%] Built target arm\n'}
+[0.493911] (-) TimerEvent: {}
+[0.526044] (px4_ros_com) StdoutLine: {'line': b'[ 29%] Built target offboard_position_control\n'}
+[0.592613] (px4_ros_com) StdoutLine: {'line': b'[ 35%] Built target rates_setpoint\n'}
+[0.594442] (-) TimerEvent: {}
+[0.673537] (px4_ros_com) StdoutLine: {'line': b'[ 41%] Built target frame_transforms\n'}
+[0.695096] (-) TimerEvent: {}
+[0.750252] (px4_ros_com) StdoutLine: {'line': b'[ 47%] Built target sensor_combined_listener\n'}
+[0.795660] (-) TimerEvent: {}
+[0.826000] (px4_ros_com) StdoutLine: {'line': b'[ 52%] Built target vehicle_gps_position_listener\n'}
+[0.896565] (-) TimerEvent: {}
+[0.899078] (px4_ros_com) StdoutLine: {'line': b'[ 58%] Built target debug_vect_advertiser\n'}
+[0.964442] (px4_ros_com) StdoutLine: {'line': b'[ 64%] Built target point\n'}
+[0.997001] (-) TimerEvent: {}
+[1.021531] (px4_ros_com) StdoutLine: {'line': b'[ 70%] Built target trajectory_setpoint\n'}
+[1.097211] (-) TimerEvent: {}
+[1.098717] (px4_ros_com) StdoutLine: {'line': b'[ 76%] Built target vel_yaw\n'}
+[1.155145] (px4_ros_com) StdoutLine: {'line': b'[ 82%] Built target vehicle_attitude_listener\n'}
+[1.198095] (-) TimerEvent: {}
+[1.213993] (px4_ros_com) StdoutLine: {'line': b'[ 88%] Built target vehicle_status\n'}
+[1.244135] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target offboard_control\x1b[0m\n'}
+[1.298246] (-) TimerEvent: {}
+[1.299020] (px4_ros_com) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o\x1b[0m\n'}
+[1.399004] (-) TimerEvent: {}
+[1.500116] (-) TimerEvent: {}
+[1.601032] (-) TimerEvent: {}
+[1.702286] (-) TimerEvent: {}
+[1.804014] (-) TimerEvent: {}
+[1.904635] (-) TimerEvent: {}
+[2.005224] (-) TimerEvent: {}
+[2.106204] (-) TimerEvent: {}
+[2.207630] (-) TimerEvent: {}
+[2.308253] (-) TimerEvent: {}
+[2.409063] (-) TimerEvent: {}
+[2.509582] (-) TimerEvent: {}
+[2.610432] (-) TimerEvent: {}
+[2.710958] (-) TimerEvent: {}
+[2.811921] (-) TimerEvent: {}
+[2.912648] (-) TimerEvent: {}
+[3.013117] (-) TimerEvent: {}
+[3.113843] (-) TimerEvent: {}
+[3.214332] (-) TimerEvent: {}
+[3.315946] (-) TimerEvent: {}
+[3.416841] (-) TimerEvent: {}
+[3.519066] (-) TimerEvent: {}
+[3.619761] (-) TimerEvent: {}
+[3.721002] (-) TimerEvent: {}
+[3.822237] (-) TimerEvent: {}
+[3.922846] (-) TimerEvent: {}
+[4.024392] (-) TimerEvent: {}
+[4.126041] (-) TimerEvent: {}
+[4.227352] (-) TimerEvent: {}
+[4.328558] (-) TimerEvent: {}
+[4.429650] (-) TimerEvent: {}
+[4.530808] (-) TimerEvent: {}
+[4.633439] (-) TimerEvent: {}
+[4.734174] (-) TimerEvent: {}
+[4.835015] (-) TimerEvent: {}
+[4.936605] (-) TimerEvent: {}
+[5.037186] (-) TimerEvent: {}
+[5.138444] (-) TimerEvent: {}
+[5.239557] (-) TimerEvent: {}
+[5.340158] (-) TimerEvent: {}
+[5.440896] (-) TimerEvent: {}
+[5.546804] (-) TimerEvent: {}
+[5.648163] (-) TimerEvent: {}
+[5.749517] (-) TimerEvent: {}
+[5.851919] (-) TimerEvent: {}
+[5.952530] (-) TimerEvent: {}
+[6.053273] (-) TimerEvent: {}
+[6.155405] (-) TimerEvent: {}
+[6.256715] (-) TimerEvent: {}
+[6.359572] (-) TimerEvent: {}
+[6.460658] (-) TimerEvent: {}
+[6.562116] (-) TimerEvent: {}
+[6.663821] (-) TimerEvent: {}
+[6.764639] (-) TimerEvent: {}
+[6.865754] (-) TimerEvent: {}
+[6.966806] (-) TimerEvent: {}
+[7.068154] (-) TimerEvent: {}
+[7.168733] (-) TimerEvent: {}
+[7.270007] (-) TimerEvent: {}
+[7.374315] (-) TimerEvent: {}
+[7.475760] (-) TimerEvent: {}
+[7.577421] (-) TimerEvent: {}
+[7.680334] (-) TimerEvent: {}
+[7.781551] (-) TimerEvent: {}
+[7.882405] (-) TimerEvent: {}
+[7.983687] (-) TimerEvent: {}
+[8.084402] (-) TimerEvent: {}
+[8.185073] (-) TimerEvent: {}
+[8.286539] (-) TimerEvent: {}
+[8.388152] (-) TimerEvent: {}
+[8.489212] (-) TimerEvent: {}
+[8.589809] (-) TimerEvent: {}
+[8.691271] (-) TimerEvent: {}
+[8.794145] (-) TimerEvent: {}
+[8.895757] (-) TimerEvent: {}
+[8.996390] (-) TimerEvent: {}
+[9.098410] (-) TimerEvent: {}
+[9.200760] (-) TimerEvent: {}
+[9.302228] (-) TimerEvent: {}
+[9.403897] (-) TimerEvent: {}
+[9.505254] (-) TimerEvent: {}
+[9.607976] (-) TimerEvent: {}
+[9.708922] (-) TimerEvent: {}
+[9.814033] (-) TimerEvent: {}
+[9.917810] (-) TimerEvent: {}
+[10.018343] (-) TimerEvent: {}
+[10.119041] (-) TimerEvent: {}
+[10.219764] (-) TimerEvent: {}
+[10.321375] (-) TimerEvent: {}
+[10.422010] (-) TimerEvent: {}
+[10.522673] (-) TimerEvent: {}
+[10.623675] (-) TimerEvent: {}
+[10.724664] (-) TimerEvent: {}
+[10.825990] (-) TimerEvent: {}
+[10.926667] (-) TimerEvent: {}
+[11.028364] (-) TimerEvent: {}
+[11.129487] (-) TimerEvent: {}
+[11.230847] (-) TimerEvent: {}
+[11.332533] (-) TimerEvent: {}
+[11.436497] (-) TimerEvent: {}
+[11.540322] (-) TimerEvent: {}
+[11.641829] (-) TimerEvent: {}
+[11.743588] (-) TimerEvent: {}
+[11.844811] (-) TimerEvent: {}
+[11.945325] (-) TimerEvent: {}
+[12.045816] (-) TimerEvent: {}
+[12.146776] (-) TimerEvent: {}
+[12.247351] (-) TimerEvent: {}
+[12.348032] (-) TimerEvent: {}
+[12.448991] (-) TimerEvent: {}
+[12.549998] (-) TimerEvent: {}
+[12.653087] (-) TimerEvent: {}
+[12.753917] (-) TimerEvent: {}
+[12.855273] (-) TimerEvent: {}
+[12.956091] (-) TimerEvent: {}
+[13.057604] (-) TimerEvent: {}
+[13.158575] (-) TimerEvent: {}
+[13.259955] (-) TimerEvent: {}
+[13.360690] (-) TimerEvent: {}
+[13.462595] (-) TimerEvent: {}
+[13.564091] (-) TimerEvent: {}
+[13.665145] (-) TimerEvent: {}
+[13.765995] (-) TimerEvent: {}
+[13.866746] (-) TimerEvent: {}
+[13.968141] (-) TimerEvent: {}
+[14.068780] (-) TimerEvent: {}
+[14.170133] (-) TimerEvent: {}
+[14.271215] (-) TimerEvent: {}
+[14.371853] (-) TimerEvent: {}
+[14.472976] (-) TimerEvent: {}
+[14.574129] (-) TimerEvent: {}
+[14.675804] (-) TimerEvent: {}
+[14.777543] (-) TimerEvent: {}
+[14.878288] (-) TimerEvent: {}
+[14.980273] (-) TimerEvent: {}
+[15.081476] (-) TimerEvent: {}
+[15.182123] (-) TimerEvent: {}
+[15.282745] (-) TimerEvent: {}
+[15.385406] (-) TimerEvent: {}
+[15.488183] (-) TimerEvent: {}
+[15.590108] (-) TimerEvent: {}
+[15.690862] (-) TimerEvent: {}
+[15.791818] (-) TimerEvent: {}
+[15.894446] (-) TimerEvent: {}
+[15.995033] (-) TimerEvent: {}
+[16.096822] (-) TimerEvent: {}
+[16.198280] (-) TimerEvent: {}
+[16.299076] (-) TimerEvent: {}
+[16.399753] (-) TimerEvent: {}
+[16.500343] (-) TimerEvent: {}
+[16.601295] (-) TimerEvent: {}
+[16.701907] (-) TimerEvent: {}
+[16.802593] (-) TimerEvent: {}
+[16.903048] (-) TimerEvent: {}
+[17.003917] (-) TimerEvent: {}
+[17.107143] (-) TimerEvent: {}
+[17.210407] (-) TimerEvent: {}
+[17.311388] (-) TimerEvent: {}
+[17.411967] (-) TimerEvent: {}
+[17.515909] (-) TimerEvent: {}
+[17.616620] (-) TimerEvent: {}
+[17.717364] (-) TimerEvent: {}
+[17.818322] (-) TimerEvent: {}
+[17.918710] (-) TimerEvent: {}
+[18.024499] (-) TimerEvent: {}
+[18.126425] (-) TimerEvent: {}
+[18.226893] (-) TimerEvent: {}
+[18.327940] (-) TimerEvent: {}
+[18.429573] (-) TimerEvent: {}
+[18.530241] (-) TimerEvent: {}
+[18.630850] (-) TimerEvent: {}
+[18.731763] (-) TimerEvent: {}
+[18.833335] (-) TimerEvent: {}
+[18.933999] (-) TimerEvent: {}
+[19.035047] (-) TimerEvent: {}
+[19.135553] (-) TimerEvent: {}
+[19.237500] (-) TimerEvent: {}
+[19.338666] (-) TimerEvent: {}
+[19.439815] (-) TimerEvent: {}
+[19.542092] (-) TimerEvent: {}
+[19.643323] (-) TimerEvent: {}
+[19.744940] (-) TimerEvent: {}
+[19.846619] (-) TimerEvent: {}
+[19.948228] (-) TimerEvent: {}
+[20.051769] (-) TimerEvent: {}
+[20.152216] (-) TimerEvent: {}
+[20.256367] (-) TimerEvent: {}
+[20.357632] (-) TimerEvent: {}
+[20.458354] (-) TimerEvent: {}
+[20.559603] (-) TimerEvent: {}
+[20.660942] (-) TimerEvent: {}
+[20.762443] (-) TimerEvent: {}
+[20.863219] (-) TimerEvent: {}
+[20.963842] (-) TimerEvent: {}
+[21.064437] (-) TimerEvent: {}
+[21.166007] (-) TimerEvent: {}
+[21.266701] (-) TimerEvent: {}
+[21.367598] (-) TimerEvent: {}
+[21.468490] (-) TimerEvent: {}
+[21.568999] (-) TimerEvent: {}
+[21.670089] (-) TimerEvent: {}
+[21.771365] (-) TimerEvent: {}
+[21.872280] (-) TimerEvent: {}
+[21.974248] (-) TimerEvent: {}
+[22.075049] (-) TimerEvent: {}
+[22.176173] (-) TimerEvent: {}
+[22.277042] (-) TimerEvent: {}
+[22.379056] (-) TimerEvent: {}
+[22.479886] (-) TimerEvent: {}
+[22.581368] (-) TimerEvent: {}
+[22.686872] (-) TimerEvent: {}
+[22.787540] (-) TimerEvent: {}
+[22.888482] (-) TimerEvent: {}
+[22.990740] (-) TimerEvent: {}
+[23.091242] (-) TimerEvent: {}
+[23.192156] (-) TimerEvent: {}
+[23.293073] (-) TimerEvent: {}
+[23.397005] (-) TimerEvent: {}
+[23.497531] (-) TimerEvent: {}
+[23.598355] (-) TimerEvent: {}
+[23.699394] (-) TimerEvent: {}
+[23.801043] (-) TimerEvent: {}
+[23.901878] (-) TimerEvent: {}
+[24.002855] (-) TimerEvent: {}
+[24.103711] (-) TimerEvent: {}
+[24.204644] (-) TimerEvent: {}
+[24.305689] (-) TimerEvent: {}
+[24.411649] (-) TimerEvent: {}
+[24.513319] (-) TimerEvent: {}
+[24.614230] (-) TimerEvent: {}
+[24.715166] (-) TimerEvent: {}
+[24.815623] (-) TimerEvent: {}
+[24.916794] (-) TimerEvent: {}
+[25.017910] (-) TimerEvent: {}
+[25.118442] (-) TimerEvent: {}
+[25.219884] (-) TimerEvent: {}
+[25.320326] (-) TimerEvent: {}
+[25.421758] (-) TimerEvent: {}
+[25.522915] (-) TimerEvent: {}
+[25.623888] (-) TimerEvent: {}
+[25.725802] (-) TimerEvent: {}
+[25.826584] (-) TimerEvent: {}
+[25.933842] (-) TimerEvent: {}
+[26.046030] (-) TimerEvent: {}
+[26.147060] (-) TimerEvent: {}
+[26.248979] (-) TimerEvent: {}
+[26.354856] (-) TimerEvent: {}
+[26.456441] (-) TimerEvent: {}
+[26.557269] (-) TimerEvent: {}
+[26.658061] (-) TimerEvent: {}
+[26.759130] (-) TimerEvent: {}
+[26.860525] (-) TimerEvent: {}
+[26.961465] (-) TimerEvent: {}
+[27.070391] (-) TimerEvent: {}
+[27.171959] (-) TimerEvent: {}
+[27.280160] (-) TimerEvent: {}
+[27.382207] (-) TimerEvent: {}
+[27.484092] (-) TimerEvent: {}
+[27.588480] (-) TimerEvent: {}
+[27.689806] (-) TimerEvent: {}
+[27.790803] (-) TimerEvent: {}
+[27.891328] (-) TimerEvent: {}
+[27.994644] (-) TimerEvent: {}
+[28.095917] (-) TimerEvent: {}
+[28.197000] (-) TimerEvent: {}
+[28.297758] (-) TimerEvent: {}
+[28.399685] (-) TimerEvent: {}
+[28.500549] (-) TimerEvent: {}
+[28.602046] (-) TimerEvent: {}
+[28.704067] (-) TimerEvent: {}
+[28.810454] (-) TimerEvent: {}
+[28.911498] (-) TimerEvent: {}
+[29.012121] (-) TimerEvent: {}
+[29.113965] (-) TimerEvent: {}
+[29.221518] (-) TimerEvent: {}
+[29.323407] (-) TimerEvent: {}
+[29.426726] (-) TimerEvent: {}
+[29.529939] (-) TimerEvent: {}
+[29.633345] (-) TimerEvent: {}
+[29.736161] (-) TimerEvent: {}
+[29.836761] (-) TimerEvent: {}
+[29.937524] (-) TimerEvent: {}
+[30.038052] (-) TimerEvent: {}
+[30.138755] (-) TimerEvent: {}
+[30.239628] (-) TimerEvent: {}
+[30.340251] (-) TimerEvent: {}
+[30.440709] (-) TimerEvent: {}
+[30.542916] (-) TimerEvent: {}
+[30.643642] (-) TimerEvent: {}
+[30.744241] (-) TimerEvent: {}
+[30.844823] (-) TimerEvent: {}
+[30.945415] (-) TimerEvent: {}
+[31.048069] (-) TimerEvent: {}
+[31.148524] (-) TimerEvent: {}
+[31.249269] (-) TimerEvent: {}
+[31.350660] (-) TimerEvent: {}
+[31.451368] (-) TimerEvent: {}
+[31.552185] (-) TimerEvent: {}
+[31.653180] (-) TimerEvent: {}
+[31.754269] (-) TimerEvent: {}
+[31.855535] (-) TimerEvent: {}
+[31.956233] (-) TimerEvent: {}
+[32.057139] (-) TimerEvent: {}
+[32.157895] (-) TimerEvent: {}
+[32.258514] (-) TimerEvent: {}
+[32.359814] (-) TimerEvent: {}
+[32.460269] (-) TimerEvent: {}
+[32.561380] (-) TimerEvent: {}
+[32.661793] (-) TimerEvent: {}
+[32.762174] (-) TimerEvent: {}
+[32.862533] (-) TimerEvent: {}
+[32.962973] (-) TimerEvent: {}
+[33.063532] (-) TimerEvent: {}
+[33.163894] (-) TimerEvent: {}
+[33.264420] (-) TimerEvent: {}
+[33.364934] (-) TimerEvent: {}
+[33.466269] (-) TimerEvent: {}
+[33.566600] (-) TimerEvent: {}
+[33.667480] (-) TimerEvent: {}
+[33.768278] (-) TimerEvent: {}
+[33.869044] (-) TimerEvent: {}
+[33.970360] (-) TimerEvent: {}
+[34.071080] (-) TimerEvent: {}
+[34.171993] (-) TimerEvent: {}
+[34.272525] (-) TimerEvent: {}
+[34.373823] (-) TimerEvent: {}
+[34.474329] (-) TimerEvent: {}
+[34.575176] (-) TimerEvent: {}
+[34.675620] (-) TimerEvent: {}
+[34.776169] (-) TimerEvent: {}
+[34.877406] (-) TimerEvent: {}
+[34.977862] (-) TimerEvent: {}
+[35.078355] (-) TimerEvent: {}
+[35.178891] (-) TimerEvent: {}
+[35.280217] (-) TimerEvent: {}
+[35.380804] (-) TimerEvent: {}
+[35.481323] (-) TimerEvent: {}
+[35.581737] (-) TimerEvent: {}
+[35.682274] (-) TimerEvent: {}
+[35.782690] (-) TimerEvent: {}
+[35.883607] (-) TimerEvent: {}
+[35.984378] (-) TimerEvent: {}
+[36.084827] (-) TimerEvent: {}
+[36.185224] (-) TimerEvent: {}
+[36.285691] (-) TimerEvent: {}
+[36.386105] (-) TimerEvent: {}
+[36.486614] (-) TimerEvent: {}
+[36.587356] (-) TimerEvent: {}
+[36.687875] (-) TimerEvent: {}
+[36.788848] (-) TimerEvent: {}
+[36.889285] (-) TimerEvent: {}
+[36.989791] (-) TimerEvent: {}
+[37.090294] (-) TimerEvent: {}
+[37.190930] (-) TimerEvent: {}
+[37.292175] (-) TimerEvent: {}
+[37.393477] (-) TimerEvent: {}
+[37.494115] (-) TimerEvent: {}
+[37.594746] (-) TimerEvent: {}
+[37.695512] (-) TimerEvent: {}
+[37.796646] (-) TimerEvent: {}
+[37.897280] (-) TimerEvent: {}
+[37.998093] (-) TimerEvent: {}
+[38.098646] (-) TimerEvent: {}
+[38.199264] (-) TimerEvent: {}
+[38.299948] (-) TimerEvent: {}
+[38.400457] (-) TimerEvent: {}
+[38.501129] (-) TimerEvent: {}
+[38.602198] (-) TimerEvent: {}
+[38.702821] (-) TimerEvent: {}
+[38.803480] (-) TimerEvent: {}
+[38.904266] (-) TimerEvent: {}
+[39.004869] (-) TimerEvent: {}
+[39.105524] (-) TimerEvent: {}
+[39.206161] (-) TimerEvent: {}
+[39.306871] (-) TimerEvent: {}
+[39.407686] (-) TimerEvent: {}
+[39.508338] (-) TimerEvent: {}
+[39.609046] (-) TimerEvent: {}
+[39.710362] (-) TimerEvent: {}
+[39.811366] (-) TimerEvent: {}
+[39.911961] (-) TimerEvent: {}
+[40.012687] (-) TimerEvent: {}
+[40.113385] (-) TimerEvent: {}
+[40.214046] (-) TimerEvent: {}
+[40.314720] (-) TimerEvent: {}
+[40.415276] (-) TimerEvent: {}
+[40.516066] (-) TimerEvent: {}
+[40.616916] (-) TimerEvent: {}
+[40.717632] (-) TimerEvent: {}
+[40.818211] (-) TimerEvent: {}
+[40.919087] (-) TimerEvent: {}
+[41.019549] (-) TimerEvent: {}
+[41.122213] (-) TimerEvent: {}
+[41.222747] (-) TimerEvent: {}
+[41.323608] (-) TimerEvent: {}
+[41.424292] (-) TimerEvent: {}
+[41.524899] (-) TimerEvent: {}
+[41.625804] (-) TimerEvent: {}
+[41.726491] (-) TimerEvent: {}
+[41.827514] (-) TimerEvent: {}
+[41.928455] (-) TimerEvent: {}
+[42.029052] (-) TimerEvent: {}
+[42.129692] (-) TimerEvent: {}
+[42.230160] (-) TimerEvent: {}
+[42.331203] (-) TimerEvent: {}
+[42.431851] (-) TimerEvent: {}
+[42.532456] (-) TimerEvent: {}
+[42.557844] (px4_ros_com) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable offboard_control\x1b[0m\n'}
+[42.632690] (-) TimerEvent: {}
+[42.736709] (-) TimerEvent: {}
+[42.837500] (-) TimerEvent: {}
+[42.938650] (-) TimerEvent: {}
+[43.039277] (-) TimerEvent: {}
+[43.140073] (-) TimerEvent: {}
+[43.223705] (px4_ros_com) StdoutLine: {'line': b'[ 94%] Built target offboard_control\n'}
+[43.242012] (-) TimerEvent: {}
+[43.300225] (px4_ros_com) StdoutLine: {'line': b'[100%] Built target param_test\n'}
+[43.348671] (-) TimerEvent: {}
+[43.351070] (px4_ros_com) CommandEnded: {'returncode': 0}
+[43.359877] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'install'}
+[43.390290] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/a/ros2_ws/build/px4_ros_com'], 'cwd': '/home/a/ros2_ws/build/px4_ros_com', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'a'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1622'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('HOME', '/home/a'), ('OLDPWD', '/home/a/px4_ros_uxrce_dds_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1524'), ('Uav_id', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/a/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:55768'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/a/uav/src/my_uav/models:/home/a/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/a-vm:@/tmp/.ICE-unix/1657,unix/a-vm:/tmp/.ICE-unix/1657'), ('INVOCATION_ID', '86c25ec9b16f448bb6ab62a6c1ad5d17'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0660d130_9c93_4ebe_989f_739adec9da79'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/ros2_ws/build/px4_ros_com'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OGRE_RENDERER', 'OGRE1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic')]), 'shell': False}
+[43.423207] (px4_ros_com) StdoutLine: {'line': b'-- Install configuration: "RELWITHDEBINFO"\n'}
+[43.426400] (px4_ros_com) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[43.428180] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener\n'}
+[43.431142] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener\n'}
+[43.432117] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_attitude_listener\n'}
+[43.432798] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_status\n'}
+[43.433513] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser\n'}
+[43.434584] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control\n'}
+[43.436835] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/point\n'}
+[43.440319] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/param_test\n'}
+[43.444996] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/trajectory_setpoint\n'}
+[43.447118] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vel_yaw\n'}
+[43.448949] (-) TimerEvent: {}
+[43.449598] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/rates_setpoint\n'}
+[43.453240] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_position_control\n'}
+[43.455323] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/arm\n'}
+[43.457337] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/commander\n'}
+[43.459370] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_mode\n'}
+[43.463519] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/lib/px4_ros_com/my_uav_node\n'}
+[43.467343] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh\n'}
+[43.469739] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv\n'}
+[43.476405] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h\n'}
+[43.479065] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml\n'}
+[43.480544] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py\n'}
+[43.482254] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/vehicle_attitude_listener.launch.py\n'}
+[43.483522] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py\n'}
+[43.487084] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py\n'}
+[43.487851] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py\n'}
+[43.488414] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py\n'}
+[43.493680] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com\n'}
+[43.497263] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com\n'}
+[43.501392] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh\n'}
+[43.503569] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv\n'}
+[43.505611] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh\n'}
+[43.507110] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv\n'}
+[43.508760] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash\n'}
+[43.509784] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh\n'}
+[43.511190] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh\n'}
+[43.511991] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv\n'}
+[43.512521] (px4_ros_com) StdoutLine: {'line': b'-- Symlinking: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv\n'}
+[43.546259] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com\n'}
+[43.548660] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[43.549659] (-) TimerEvent: {}
+[43.551898] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[43.555275] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[43.558452] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[43.559949] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake\n'}
+[43.563475] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake\n'}
+[43.563667] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml\n'}
+[43.565038] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/a/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so\n'}
+[43.569987] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake\n'}
+[43.570238] (px4_ros_com) StdoutLine: {'line': b'-- Up-to-date: /home/a/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-relwithdebinfo.cmake\n'}
+[43.572927] (px4_ros_com) CommandEnded: {'returncode': 0}
+[43.649836] (-) TimerEvent: {}
+[43.670536] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 0}
+[43.671271] (-) EventReactorShutdown: {}

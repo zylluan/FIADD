@@ -1,0 +1,6 @@
+[  7%] Built target my_uav_node
+[ 10%] [32mBuilding CXX object CMakeFiles/offboard_control_mode.dir/src/examples/offboard/offboard_control_mode.cpp.o[0m
+[35m[1mScanning dependencies of target commander[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/commander.dir/src/examples/offboard/commander.cpp.o[0m
+[ 17%] [32m[1mLinking CXX executable commander[0m
+[ 17%] Built target commander

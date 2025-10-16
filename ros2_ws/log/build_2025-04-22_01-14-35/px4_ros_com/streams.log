@@ -1,0 +1,78 @@
+[0.022s] Invoking command in '/home/a/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2
+[0.053s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.146s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.154s] -- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.332s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[0.334s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.389s] -- Found px4_msgs: 2.0.1 (/home/a/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.407s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.457s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.459s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.480s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.627s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.725s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.795s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.799s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.800s] -- Configured cppcheck include dirs: /home/a/ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/a/ros2_ws/src/px4_ros_com/include/px4_ros_com>
+[0.800s] -- Configured cppcheck exclude dirs and/or files: 
+[0.803s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.803s] -- Configured cpplint exclude dirs and/or files: 
+[0.804s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.806s] -- Added test 'lint_cmake' to check CMake code style
+[0.807s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.814s] -- Added test 'uncrustify' to check C / C++ code style
+[0.814s] -- Configured uncrustify additional arguments: 
+[0.815s] -- Added test 'xmllint' to check XML markup files
+[0.820s] -- Configuring done
+[0.889s] -- Generating done
+[0.918s] -- Build files have been written to: /home/a/ros2_ws/build/px4_ros_com
+[0.981s] [  5%] Built target my_uav_node
+[0.983s] [ 11%] Built target offboard_control_mode
+[1.039s] [ 17%] Built target commander
+[1.041s] [ 23%] Built target arm
+[1.097s] [ 35%] Built target rates_setpoint
+[1.097s] [ 35%] Built target offboard_position_control
+[1.156s] [ 47%] Built target sensor_combined_listener
+[1.156s] [ 47%] Built target frame_transforms
+[1.217s] [ 55%] Built target debug_vect_advertiser
+[1.217s] [ 58%] Built target vehicle_gps_position_listener
+[1.242s] [35m[1mScanning dependencies of target point[0m
+[1.263s] [ 64%] Built target trajectory_setpoint
+[1.285s] [ 67%] [32mBuilding CXX object CMakeFiles/point.dir/src/examples/offboard/point.cpp.o[0m
+[1.307s] [ 73%] Built target vel_yaw
+[1.358s] [ 79%] Built target vehicle_attitude_listener
+[1.405s] [ 85%] Built target vehicle_status
+[1.450s] [ 91%] Built target offboard_control
+[1.465s] [35m[1mScanning dependencies of target param_test[0m
+[1.516s] [ 94%] [32mBuilding CXX object CMakeFiles/param_test.dir/src/examples/offboard/param_test.cpp.o[0m
+[4.342s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/point.cpp:[m[K In lambda function:
+[4.342s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/point.cpp:37:59:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst rclcpp::ParameterValue[m[K’ to ‘[01m[Kfloat[m[K’ in initialization
+[4.342s]    37 |    float x1 = [01;31m[Kthis->get_parameter("x").get_parameter_value()[m[K;
+[4.342s]       |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.342s]       |                                                           [01;31m[K|[m[K
+[4.343s]       |                                                           [01;31m[Kconst rclcpp::ParameterValue[m[K
+[4.343s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[4.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[4.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[4.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[4.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[4.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[4.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[4.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[4.343s]                  from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/point.cpp:3[m[K:
+[4.343s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/point.cpp:38:52:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kx1[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+[4.343s]    38 |    RCLCPP_INFO(this->get_logger(), "Hello %s!", x1.[01;31m[Kc_str[m[K());
+[4.343s]       |                                                    [01;31m[K^~~~~[m[K
+[5.312s] make[2]: *** [CMakeFiles/point.dir/build.make:63：CMakeFiles/point.dir/src/examples/offboard/point.cpp.o] 错误 1
+[5.312s] make[1]: *** [CMakeFiles/Makefile2:434：CMakeFiles/point.dir/all] 错误 2
+[5.312s] make[1]: *** 正在等待未完成的任务....
+[6.076s] [ 97%] [32m[1mLinking CXX executable param_test[0m
+[6.211s] [ 97%] Built target param_test
+[6.213s] make: *** [Makefile:141：all] 错误 2
+[6.220s] Invoked command in '/home/a/ros2_ws/build/px4_ros_com' returned '2': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2

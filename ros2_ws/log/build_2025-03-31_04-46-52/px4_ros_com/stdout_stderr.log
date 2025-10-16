@@ -1,0 +1,25 @@
+[ 16%] Built target my_uav_node
+[ 16%] Built target frame_transforms
+[ 25%] Built target offboard_control
+[ 33%] Built target arm
+[ 41%] Built target vehicle_gps_position_listener
+[ 50%] Built target sensor_combined_listener
+[ 66%] Built target debug_vect_advertiser
+[ 66%] Built target trajectory_setpoint
+[ 83%] Built target vel_yaw
+[ 83%] Built target vehicle_attitude_listener
+[35m[1mScanning dependencies of target offboard_control_mode[0m
+[ 91%] Built target offboard_position_control
+[ 95%] [32mBuilding CXX object CMakeFiles/offboard_control_mode.dir/src/examples/offboard/offboard_control_mode.cpp.o[0m
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In constructor ‘[01m[KOffboardmode::Offboardmode()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:72:36:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   72 |   timer_ = this->create_wall_timer([01;31m[K100ms[m[K, timer_callback);
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In member function ‘[01m[Kvoid Offboardmode::publish_offboard_control_mode(bool, bool, bool, bool, bool, bool)[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:120:135:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kactuator[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  120 | ion, bool velocity, bool acceleration, bool attitude, bool body_rate, [01;35m[Kbool actuator[m[K)
+      |                                                                       [01;35m[K~~~~~^~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/offboard_control_mode.dir/build.make:63：CMakeFiles/offboard_control_mode.dir/src/examples/offboard/offboard_control_mode.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:451：CMakeFiles/offboard_control_mode.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

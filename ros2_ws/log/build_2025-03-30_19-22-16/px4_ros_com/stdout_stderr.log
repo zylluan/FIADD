@@ -1,0 +1,48 @@
+[ 11%] Built target offboard_control
+[ 22%] Built target frame_transforms
+[ 33%] Built target my_uav_node
+[ 44%] Built target sensor_combined_listener
+[ 55%] Built target vehicle_gps_position_listener
+[ 66%] Built target debug_vect_advertiser
+[35m[1mScanning dependencies of target position[0m
+[ 77%] Built target offboard_position_control
+[ 83%] [32mBuilding CXX object CMakeFiles/position.dir/src/examples/offboard/position.cpp.o[0m
+[ 94%] Built target vehicle_attitude_listener
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:17:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32[m[K’ was not declared in this scope; did you mean ‘[01m[Kfloat_t[m[K’?
+   17 |         this->declare_parameter<[01;31m[Kfloat32[m[K>("target_yaw", -3.14);
+      |                                 [01;31m[K^~~~~~~[m[K
+      |                                 [32m[Kfloat_t[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:17:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOffboardControl::declare_parameter<<expression error> >(const char [11], double)[m[K’
+   17 |         this->declare_parameter<float32>("target_yaw", -3.14[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:1329[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:1[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node_impl.hpp:196:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+  196 | [01;36m[KNode[m[K::declare_parameter(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp/node_impl.hpp:196:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:17:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |         this->declare_parameter<float32>("target_yaw", -3.14[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:1[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:460:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+  460 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:460:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:17:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |         this->declare_parameter<float32>("target_yaw", -3.14[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:23:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kyaw[m[K’
+   23 |         float32[01;31m[K [m[K[32m[Kyaw[m[K = this->get_parameter("target_yaw").as_float32();
+      |                [01;31m[K^[m[K[32m[K~~~[m[K
+      |                [32m[K;[m[K
+make[2]: *** [CMakeFiles/position.dir/build.make:63：CMakeFiles/position.dir/src/examples/offboard/position.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:337：CMakeFiles/position.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

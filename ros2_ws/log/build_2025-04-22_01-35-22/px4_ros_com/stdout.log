@@ -1,0 +1,18 @@
+[  5%] Built target my_uav_node
+[ 11%] Built target offboard_control_mode
+[ 17%] Built target commander
+[ 23%] Built target arm
+[ 29%] Built target offboard_position_control
+[ 35%] Built target rates_setpoint
+[ 41%] Built target frame_transforms
+[ 47%] Built target sensor_combined_listener
+[ 52%] Built target vehicle_gps_position_listener
+[ 58%] Built target debug_vect_advertiser
+[35m[1mScanning dependencies of target point[0m
+[ 64%] Built target trajectory_setpoint
+[ 67%] [32mBuilding CXX object CMakeFiles/point.dir/src/examples/offboard/point.cpp.o[0m
+[ 73%] Built target vel_yaw
+[ 79%] Built target vehicle_attitude_listener
+[ 85%] Built target vehicle_status
+[ 91%] Built target offboard_control
+[ 97%] Built target param_test

@@ -1,0 +1,50 @@
+[35m[1mScanning dependencies of target offboard_control_mode[0m
+[  7%] Built target my_uav_node
+[ 10%] [32mBuilding CXX object CMakeFiles/offboard_control_mode.dir/src/examples/offboard/offboard_control_mode.cpp.o[0m
+[ 17%] Built target commander
+[ 25%] Built target frame_transforms
+[35m[1mScanning dependencies of target offboard_control[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[ 32%] [32m[1mLinking CXX executable offboard_control_mode[0m
+[ 32%] Built target offboard_control_mode
+[35m[1mScanning dependencies of target arm[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/arm.dir/src/examples/offboard/arm.cpp.o[0m
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:[m[K In member function ‘[01m[Kvoid arm::publish_vehicle_command(uint16_t, float)[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:73:38:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus[m[K’ is not a member of ‘[01m[Kpx4_msgs::msg[m[K’
+   73 |  rclcpp::Subscription<px4_msgs::msg::[01;31m[KVehicleStatus[m[K>::SharedPtr subscription_;
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:73:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   73 |  rclcpp::Subscription<px4_msgs::msg::VehicleStatus[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:73:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:73:64:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ksubscription_[m[K’
+   73 |  rclcpp::Subscription<px4_msgs::msg::VehicleStatus>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:77:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   77 |  [01;31m[Ksubscription_[m[K = this->create_subscription<px4_msgs::msg::VehicleStatus>(VehicleStatus_topic, qos,
+      |  [01;31m[K^~~~~~~~~~~~~[m[K
+      |  [32m[Krcl_subscription_t[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:77:59:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus[m[K’ is not a member of ‘[01m[Kpx4_msgs::msg[m[K’
+   77 |  subscription_ = this->create_subscription<px4_msgs::msg::[01;31m[KVehicleStatus[m[K>(VehicleStatus_topic, qos,
+      |                                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:78:36:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus[m[K’ in namespace ‘[01m[Kpx4_msgs::msg[m[K’ does not name a type
+   78 |  [this, &msg](const px4_msgs::msg::[01;31m[KVehicleStatus[m[K::UniquePtr msg2) {
+      |                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:[m[K In lambda function:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:83:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   83 |  })[01;31m[K;[m[K
+      |    [01;31m[K^[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:[m[K In member function ‘[01m[Kvoid arm::publish_vehicle_command(uint16_t, float)[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:83:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   83 |  })[01;31m[K;[m[K
+      |    [01;31m[K^[m[K
+      |    [32m[K)[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:77:73:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   77 |  subscription_ = this->create_subscription<px4_msgs::msg::VehicleStatus>[01;36m[K([m[KVehicleStatus_topic, qos,
+      |                                                                         [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/arm.dir/build.make:63：CMakeFiles/arm.dir/src/examples/offboard/arm.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:293：CMakeFiles/arm.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[ 39%] [32m[1mLinking CXX executable offboard_control[0m
+[ 39%] Built target offboard_control
+make: *** [Makefile:141：all] 错误 2

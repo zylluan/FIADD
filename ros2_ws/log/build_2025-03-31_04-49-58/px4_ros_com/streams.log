@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/a/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2
+[0.080s] [  8%] Built target my_uav_node
+[0.081s] [ 16%] Built target frame_transforms
+[0.116s] [ 25%] Built target offboard_control
+[0.119s] [ 33%] Built target arm
+[0.155s] [ 41%] Built target vehicle_gps_position_listener
+[0.155s] [ 50%] Built target sensor_combined_listener
+[0.192s] [ 66%] Built target trajectory_setpoint
+[0.192s] [ 66%] Built target debug_vect_advertiser
+[0.223s] [ 83%] Built target vehicle_attitude_listener
+[0.223s] [ 83%] Built target vel_yaw
+[0.237s] [35m[1mScanning dependencies of target offboard_control_mode[0m
+[0.255s] [ 91%] Built target offboard_position_control
+[0.265s] [ 95%] [32mBuilding CXX object CMakeFiles/offboard_control_mode.dir/src/examples/offboard/offboard_control_mode.cpp.o[0m
+[2.341s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In constructor ‘[01m[KOffboardmode::Offboardmode()[m[K’:
+[2.342s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:73:36:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[2.342s]    73 |   timer_ = this->create_wall_timer([01;31m[K100ms[m[K, timer_callback);
+[2.342s]       |                                    [01;31m[K^~~~~[m[K
+[2.350s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In member function ‘[01m[Kvoid Offboardmode::publish_offboard_control_mode(bool, bool, bool, bool, bool, bool)[m[K’:
+[2.350s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:121:135:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kactuator[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.350s]   121 | void Offboardmode::publish_offboard_control_mode(bool position, bool velocity, bool acceleration, bool attitude, bool body_rate, [01;35m[Kbool actuator[m[K)
+[2.350s]       |                                                                                                                                  [01;35m[K~~~~~^~~~~~~~[m[K
+[3.254s] make[2]: *** [CMakeFiles/offboard_control_mode.dir/build.make:63：CMakeFiles/offboard_control_mode.dir/src/examples/offboard/offboard_control_mode.cpp.o] 错误 1
+[3.254s] make[1]: *** [CMakeFiles/Makefile2:451：CMakeFiles/offboard_control_mode.dir/all] 错误 2
+[3.254s] make: *** [Makefile:141：all] 错误 2
+[3.259s] Invoked command in '/home/a/ros2_ws/build/px4_ros_com' returned '2': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2

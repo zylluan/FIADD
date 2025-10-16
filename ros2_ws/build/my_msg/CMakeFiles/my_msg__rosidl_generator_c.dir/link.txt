@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libmy_msg__rosidl_generator_c.so -o libmy_msg__rosidl_generator_c.so CMakeFiles/my_msg__rosidl_generator_c.dir/rosidl_generator_c/my_msg/msg/detail/position__functions.c.o  -Wl,-rpath,/opt/ros/galactic/lib: /opt/ros/galactic/lib/librosidl_runtime_c.so /opt/ros/galactic/lib/librcutils.so -ldl 

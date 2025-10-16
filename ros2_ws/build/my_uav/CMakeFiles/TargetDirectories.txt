@@ -1,0 +1,10 @@
+/home/a/ros2_ws/build/my_uav/CMakeFiles/install/strip.dir
+/home/a/ros2_ws/build/my_uav/CMakeFiles/install/local.dir
+/home/a/ros2_ws/build/my_uav/CMakeFiles/install.dir
+/home/a/ros2_ws/build/my_uav/CMakeFiles/list_install_components.dir
+/home/a/ros2_ws/build/my_uav/CMakeFiles/rebuild_cache.dir
+/home/a/ros2_ws/build/my_uav/CMakeFiles/edit_cache.dir
+/home/a/ros2_ws/build/my_uav/CMakeFiles/test.dir
+/home/a/ros2_ws/build/my_uav/CMakeFiles/uav_control_node.dir
+/home/a/ros2_ws/build/my_uav/CMakeFiles/my_uav_uninstall.dir
+/home/a/ros2_ws/build/my_uav/CMakeFiles/uninstall.dir

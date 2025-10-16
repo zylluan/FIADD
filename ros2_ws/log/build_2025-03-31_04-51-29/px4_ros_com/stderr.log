@@ -1,0 +1,5 @@
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In member function ‘[01m[Kvoid Offboardmode::publish_offboard_control_mode(bool, bool, bool, bool, bool, bool)[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:123:135:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kactuator[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  123 | ion, bool velocity, bool acceleration, bool attitude, bool body_rate, [01;35m[Kbool actuator[m[K)
+      |                                                                       [01;35m[K~~~~~^~~~~~~~[m[K
+

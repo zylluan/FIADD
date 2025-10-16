@@ -1,0 +1,76 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+-- Found px4_msgs: 2.0.1 (/home/a/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/a/ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/a/ros2_ws/src/px4_ros_com/include/px4_ros_com>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/a/ros2_ws/build/px4_ros_com
+[  5%] Built target my_uav_node
+[ 11%] Built target offboard_control_mode
+[ 17%] Built target commander
+[ 23%] Built target arm
+[ 35%] Built target rates_setpoint
+[ 35%] Built target offboard_position_control
+[ 47%] Built target sensor_combined_listener
+[ 47%] Built target frame_transforms
+[ 55%] Built target debug_vect_advertiser
+[ 58%] Built target vehicle_gps_position_listener
+[35m[1mScanning dependencies of target point[0m
+[ 64%] Built target trajectory_setpoint
+[ 67%] [32mBuilding CXX object CMakeFiles/point.dir/src/examples/offboard/point.cpp.o[0m
+[ 73%] Built target vel_yaw
+[ 79%] Built target vehicle_attitude_listener
+[ 85%] Built target vehicle_status
+[ 91%] Built target offboard_control
+[35m[1mScanning dependencies of target param_test[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/param_test.dir/src/examples/offboard/param_test.cpp.o[0m
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/point.cpp:[m[K In lambda function:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/point.cpp:37:59:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst rclcpp::ParameterValue[m[K’ to ‘[01m[Kfloat[m[K’ in initialization
+   37 |    float x1 = [01;31m[Kthis->get_parameter("x").get_parameter_value()[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                                           [01;31m[K|[m[K
+      |                                                           [01;31m[Kconst rclcpp::ParameterValue[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/point.cpp:3[m[K:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/point.cpp:38:52:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kx1[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   38 |    RCLCPP_INFO(this->get_logger(), "Hello %s!", x1.[01;31m[Kc_str[m[K());
+      |                                                    [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/point.dir/build.make:63：CMakeFiles/point.dir/src/examples/offboard/point.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:434：CMakeFiles/point.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[ 97%] [32m[1mLinking CXX executable param_test[0m
+[ 97%] Built target param_test
+make: *** [Makefile:141：all] 错误 2

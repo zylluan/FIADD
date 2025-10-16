@@ -1,0 +1,10 @@
+[ 11%] Built target offboard_control
+[ 22%] Built target frame_transforms
+[ 33%] Built target my_uav_node
+[ 44%] Built target sensor_combined_listener
+[ 55%] Built target vehicle_gps_position_listener
+[ 66%] Built target debug_vect_advertiser
+[35m[1mScanning dependencies of target position[0m
+[ 77%] Built target offboard_position_control
+[ 83%] [32mBuilding CXX object CMakeFiles/position.dir/src/examples/offboard/position.cpp.o[0m
+[ 94%] Built target vehicle_attitude_listener

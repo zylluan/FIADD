@@ -1,0 +1,75 @@
+[35m[1mScanning dependencies of target offboard_control_mode[0m
+[  6%] Built target my_uav_node
+[ 10%] [32mBuilding CXX object CMakeFiles/offboard_control_mode.dir/src/examples/offboard/offboard_control_mode.cpp.o[0m
+[ 16%] Built target commander
+[35m[1mScanning dependencies of target arm[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/arm.dir/src/examples/offboard/arm.cpp.o[0m
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:116:17:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus[m[K’ in namespace ‘[01m[Kpx4_msgs::msg[m[K’ does not name a type
+  116 |  px4_msgs::msg::[01;31m[KVehicleStatus[m[K last_status_;  // 缓存收到的状态
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:129:38:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus[m[K’ is not a member of ‘[01m[Kpx4_msgs::msg[m[K’
+  129 |  rclcpp::Subscription<px4_msgs::msg::[01;31m[KVehicleStatus[m[K>::SharedPtr VehicleStatus_subscription_;
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:129:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  129 |  rclcpp::Subscription<px4_msgs::msg::VehicleStatus[01;31m[K>[m[K::SharedPtr VehicleStatus_subscription_;
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:129:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:129:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  129 |  rclcpp::Subscription<px4_msgs::msg::VehicleStatus>::[01;31m[KSharedPtr[m[K VehicleStatus_subscription_;
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:129:64:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus_subscription_[m[K’ does not name a type
+  129 |  rclcpp::Subscription<px4_msgs::msg::VehicleStatus>::SharedPtr [01;31m[KVehicleStatus_subscription_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In constructor ‘[01m[KOffboardmode::Offboardmode()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:93:3:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus_subscription_[m[K’ was not declared in this scope
+   93 |   [01;31m[KVehicleStatus_subscription_[m[K = this->create_subscription<px4_msgs::msg::VehicleStatus>(
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:93:74:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus[m[K’ is not a member of ‘[01m[Kpx4_msgs::msg[m[K’
+   93 |   VehicleStatus_subscription_ = this->create_subscription<px4_msgs::msg::[01;31m[KVehicleStatus[m[K>(
+      |                                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:95:32:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus[m[K’ in namespace ‘[01m[Kpx4_msgs::msg[m[K’ does not name a type
+   95 |    [this](const px4_msgs::msg::[01;31m[KVehicleStatus[m[K::UniquePtr msg2) {
+      |                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In lambda function:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:105:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  105 |   })[01;31m[K;[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In constructor ‘[01m[KOffboardmode::Offboardmode()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:105:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  105 |   })[01;31m[K;[m[K
+      |     [01;31m[K^[m[K
+      |     [32m[K)[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:93:88:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   93 |   VehicleStatus_subscription_ = this->create_subscription<px4_msgs::msg::VehicleStatus>[01;36m[K([m[K
+      |                                                                                        [01;36m[K^[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In member function ‘[01m[Kvoid Offboardmode::publish_vehicle_command(uint16_t, float, float)[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:189:23:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_status_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgot_status_[m[K’?
+  189 |   msg.source_system = [01;31m[Klast_status_[m[K.system_id;
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+      |                       [32m[Kgot_status_[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:211:31:[m[K [01;31m[Kerror: [m[K‘[01m[Karm[m[K’ was not declared in this scope
+  211 |  auto node = std::make_shared<[01;31m[Karm[m[K>(); //创建实例，自动执行构造函数
+      |                               [01;31m[K^~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:211:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+  211 |  auto node = std::make_shared<arm>([01;31m[K)[m[K; //创建实例，自动执行构造函数
+      |                                    [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+                 from [01m[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8[m[K,
+                 from [01m[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7[m[K,
+                 from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:13[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:211:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  211 |  auto node = std::make_shared<arm>([01;31m[K)[m[K; //创建实例，自动执行构造函数
+      |                                    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/offboard_control_mode.dir/build.make:63：CMakeFiles/offboard_control_mode.dir/src/examples/offboard/offboard_control_mode.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:133：CMakeFiles/offboard_control_mode.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[ 23%] [32m[1mLinking CXX executable arm[0m
+[ 23%] Built target arm
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/a/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2
+[0.075s] [  2%] Built target frame_transforms
+[0.076s] [  4%] Built target offboard_control
+[0.085s] [35m[1mScanning dependencies of target vehicle_gps_position_listener[0m
+[0.087s] [  5%] [34m[1mGenerating micro-RTPS agent code...[0m
+[0.123s] [  6%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[0.268s] Traceback (most recent call last):
+[0.268s]   File "/home/a/ros2_ws/src/px4_ros_com/scripts/generate_microRTPS_bridge.py", line 189, in <module>
+[0.268s]     raise Exception(
+[0.268s] Exception: FastRTPSGen not found. Specify the location of fastrtpsgen with the -f flag
+[1.468s] [  6%] [34m[1mGenerating micro-RTPS agent code...[0m
+[1.644s] Traceback (most recent call last):
+[1.644s]   File "/home/a/ros2_ws/src/px4_ros_com/scripts/generate_microRTPS_bridge.py", line 189, in <module>
+[1.644s]     raise Exception(
+[1.644s] Exception: FastRTPSGen not found. Specify the location of fastrtpsgen with the -f flag
+[1.653s] [  7%] [32mBuilding CXX object CMakeFiles/micrortps_agent.dir/src/micrortps_agent/microRTPS_agent.cpp.o[0m
+[1.654s] [01m[Kc++:[m[K [01;31m[Kerror: [m[K/home/a/ros2_ws/build/px4_ros_com/src/micrortps_agent/microRTPS_agent.cpp: 没有那个文件或目录
+[1.655s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[Kno input files
+[1.655s] compilation terminated.
+[1.655s] make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:496：CMakeFiles/micrortps_agent.dir/src/micrortps_agent/microRTPS_agent.cpp.o] 错误 1
+[1.655s] make[1]: *** [CMakeFiles/Makefile2:142：CMakeFiles/micrortps_agent.dir/all] 错误 2
+[1.655s] make[1]: *** 正在等待未完成的任务....
+[7.304s] [  8%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[7.600s] [  8%] Built target vehicle_gps_position_listener
+[7.601s] make: *** [Makefile:141：all] 错误 2
+[7.604s] Invoked command in '/home/a/ros2_ws/build/px4_ros_com' returned '2': AMENT_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2

@@ -1,0 +1,76 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+-- Found px4_msgs: 2.0.1 (/home/a/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found my_msg: 0.0.0 (/home/a/ros2_ws/install/my_msg/share/my_msg/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/a/ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/a/ros2_ws/src/px4_ros_com/include/px4_ros_com>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/a/ros2_ws/build/px4_ros_com
+[  5%] Built target my_uav_node
+[ 10%] Built target offboard_control_mode
+[ 15%] Built target commander
+[ 21%] Built target arm
+[ 26%] Built target offboard_position_control
+[ 31%] Built target rates_setpoint
+[ 36%] Built target vel_yaw
+[ 42%] Built target trajectory_setpoint
+[ 47%] Built target sensor_combined_listener
+[ 52%] Built target vehicle_gps_position_listener
+[ 57%] Built target debug_vect_advertiser
+[ 63%] Built target point
+[ 68%] Built target vehicle_attitude_listener
+[ 73%] Built target vehicle_status
+[ 78%] Built target offboard_control
+[ 84%] Built target param_test
+[35m[1mScanning dependencies of target msgsub_test[0m
+[ 89%] Built target frame_transforms
+[ 92%] [32mBuilding CXX object CMakeFiles/msgsub_test.dir/src/examples/offboard/msgsub_test.cpp.o[0m
+[ 97%] Built target param_chang
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:24:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   24 |   rclcpp::Subscription<[01;31m[Ktutorial_interfaces[m[K::msg::Num>::SharedPtr subscription_;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[Krcl_interfaces[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:24:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |   rclcpp::Subscription<tutorial_interfaces::msg::Num[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:24:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:24:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   24 |   rclcpp::Subscription<tutorial_interfaces::msg::Num>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:24:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   24 | rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                [32m[Krcl_subscription_t[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/msgsub_test.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   15 |     [01;31m[Ksubscription_[m[K = this->create_subscription<my_msg::msg::Position>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_subscription_t[m[K
+make[2]: *** [CMakeFiles/msgsub_test.dir/build.make:63：CMakeFiles/msgsub_test.dir/src/examples/offboard/msgsub_test.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:600：CMakeFiles/msgsub_test.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

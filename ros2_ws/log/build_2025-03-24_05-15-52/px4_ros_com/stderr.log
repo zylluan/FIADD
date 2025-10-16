@@ -1,0 +1,7 @@
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_position_control.cpp:64:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   64 |  void publish_trajectory_setpoints([01;31m[K)[m[K
+      |                                    [01;31m[K^[m[K
+      |                                     [32m[K;[m[K
+make[2]: *** [CMakeFiles/offboard_position_control.dir/build.make:63：CMakeFiles/offboard_position_control.dir/src/examples/offboard/offboard_position_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:254：CMakeFiles/offboard_position_control.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

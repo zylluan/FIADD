@@ -1,0 +1,22 @@
+[  6%] Built target my_uav_node
+[ 13%] Built target offboard_control_mode
+[ 20%] Built target commander
+[35m[1mScanning dependencies of target arm[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/arm.dir/src/examples/offboard/arm.cpp.o[0m
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:[m[K In constructor ‘[01m[Karm::arm()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus_subscription_[m[K’ was not declared in this scope
+   35 |   [01;31m[KVehicleStatus_subscription_[m[K = this->create_subscription<px4_msgs::msg::VehicleStatus>(
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:[m[K In lambda function:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[KVehicleStatus_subscription_[m[K’ is not captured
+   45 |     [01;31m[KVehicleStatus_subscription_[m[K.reset(); // 取消订阅：只执行一次回调后不再触发
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:37:9:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   37 |    [this[01;36m[K][m[K(const px4_msgs::msg::VehicleStatus::UniquePtr msg2) {
+      |         [01;36m[K^[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:35:3:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>VehicleStatus_subscription_[m[K’ declared here
+   35 |   [01;36m[KVehicleStatus_subscription_[m[K = this->create_subscription<px4_msgs::msg::VehicleStatus>(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/arm.dir/build.make:63：CMakeFiles/arm.dir/src/examples/offboard/arm.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:187：CMakeFiles/arm.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

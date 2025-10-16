@@ -1,0 +1,5 @@
+[  6%] Built target my_uav_node
+[ 13%] Built target offboard_control_mode
+[ 20%] Built target commander
+[35m[1mScanning dependencies of target arm[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/arm.dir/src/examples/offboard/arm.cpp.o[0m

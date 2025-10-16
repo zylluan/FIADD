@@ -1,0 +1,16 @@
+uint64 timestamp	# time since system start (microseconds)
+
+# body angular rates in NED frame
+#roll, pitch, yaw：这三个值分别表示滚转、俯仰、偏航的角速度设定点，单位是弧度每秒（rad/s）
+float32 roll		# [rad/s] roll rate setpoint
+float32 pitch		# [rad/s] pitch rate setpoint
+float32 yaw		# [rad/s] yaw rate setpoint
+
+# For clarification: For multicopters thrust_body[0] and thrust[1] are usually 0 and thrust[2] is the negative throttle demand.
+#对于多旋翼机，推力体[0]和推力[1]通常为0，推力[2]是负油门需求
+# For fixed wings thrust_x is the throttle demand and thrust_y, thrust_z will usually be zero.对于固定翼，thrust_x是油门需求，而thrust_y， thrust_z通常为零
+#thrust_body：三个维度的推力命令，表示机体坐标系下的推力，范围为 [-1,1]
+float32[3] thrust_body	# Normalized thrust command in body NED frame [-1,1]
+
+#表示是否重置滚转/俯仰/偏航积分器
+bool reset_integral # Reset roll/pitch/yaw integrals (navigation logic change)

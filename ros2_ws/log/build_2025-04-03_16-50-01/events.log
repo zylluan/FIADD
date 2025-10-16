@@ -1,0 +1,611 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (-) JobUnselected: {'identifier': 'my_uav'}
+[0.000169] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000185] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/a/ros2_ws/install/px4_msgs')])}
+[0.000206] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.015057] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.016169] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[0.017526] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/ros2_ws/build/px4_ros_com', '--', '-j2', '-l2'], 'cwd': '/home/a/ros2_ws/build/px4_ros_com', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'a'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1539'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('HOME', '/home/a'), ('OLDPWD', '/home/a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1438'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/a/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:50024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/a/uav/src/my_uav/models:/home/a/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/a-vm:@/tmp/.ICE-unix/1574,unix/a-vm:/tmp/.ICE-unix/1574'), ('INVOCATION_ID', '3b5c4787dc2948109713afe6696dde1a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/95954a4a_2fd0_4b89_ab6d_1f386b6c710b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/ros2_ws/build/px4_ros_com'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OGRE_RENDERER', 'OGRE1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic')]), 'shell': False}
+[0.099269] (-) TimerEvent: {}
+[0.120189] (px4_ros_com) StdoutLine: {'line': b'[  7%] Built target my_uav_node\n'}
+[0.173133] (px4_ros_com) StdoutLine: {'line': b'[ 14%] Built target offboard_control_mode\n'}
+[0.199791] (-) TimerEvent: {}
+[0.221182] (px4_ros_com) StdoutLine: {'line': b'[ 21%] Built target commander\n'}
+[0.265822] (px4_ros_com) StdoutLine: {'line': b'[ 28%] Built target frame_transforms\n'}
+[0.286820] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target offboard_control\x1b[0m\n'}
+[0.300267] (-) TimerEvent: {}
+[0.324715] (px4_ros_com) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o\x1b[0m\n'}
+[0.400815] (-) TimerEvent: {}
+[0.501924] (-) TimerEvent: {}
+[0.602304] (-) TimerEvent: {}
+[0.702588] (-) TimerEvent: {}
+[0.803278] (-) TimerEvent: {}
+[0.904197] (-) TimerEvent: {}
+[1.004550] (-) TimerEvent: {}
+[1.105038] (-) TimerEvent: {}
+[1.205417] (-) TimerEvent: {}
+[1.306223] (-) TimerEvent: {}
+[1.406746] (-) TimerEvent: {}
+[1.507306] (-) TimerEvent: {}
+[1.607702] (-) TimerEvent: {}
+[1.708325] (-) TimerEvent: {}
+[1.808797] (-) TimerEvent: {}
+[1.909365] (-) TimerEvent: {}
+[2.009873] (-) TimerEvent: {}
+[2.110392] (-) TimerEvent: {}
+[2.210797] (-) TimerEvent: {}
+[2.311154] (-) TimerEvent: {}
+[2.412009] (-) TimerEvent: {}
+[2.512783] (-) TimerEvent: {}
+[2.613139] (-) TimerEvent: {}
+[2.714019] (-) TimerEvent: {}
+[2.814382] (-) TimerEvent: {}
+[2.915153] (-) TimerEvent: {}
+[3.015723] (-) TimerEvent: {}
+[3.116121] (-) TimerEvent: {}
+[3.141637] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KOffboardControl::OffboardControl()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.144149] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:35:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(char*&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.146611] (px4_ros_com) StderrLine: {'line': b'   35 | boardControlMode_topic = "/px4_" + std::to_string(uav_id\x1b[01;31m\x1b[K)\x1b[m\x1b[K + "/fmu/in/offboard_control_mode";\n'}
+[3.146687] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.146759] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.146861] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.146943] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.146998] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.147054] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.147109] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.147163] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.147216] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.147269] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.147323] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.147417] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.147477] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.147531] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.147590] (px4_ros_com) StderrLine: {'line': b' 6549 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[3.147650] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.147711] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.147770] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:35:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.147828] (px4_ros_com) StderrLine: {'line': b'   35 | ng OffboardControlMode_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/offboard_control_mode";\n'}
+[3.147881] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.147960] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.148017] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.148072] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.148125] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.148179] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.148231] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.148282] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.148334] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.148401] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.148455] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.148532] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.148587] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.148640] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.148693] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.148745] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.148798] (px4_ros_com) StderrLine: {'line': b' 6554 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[3.148851] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.148904] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.149079] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:35:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.149142] (px4_ros_com) StderrLine: {'line': b'   35 | ng OffboardControlMode_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/offboard_control_mode";\n'}
+[3.149194] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.149247] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.152600] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.152699] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.152757] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.152811] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.152866] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.154178] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.154239] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.154294] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.154349] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.154402] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.154459] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.154745] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.154807] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.154861] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.154918] (px4_ros_com) StderrLine: {'line': b' 6560 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[3.154971] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.155024] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.155107] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:35:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.155174] (px4_ros_com) StderrLine: {'line': b'   35 | ng OffboardControlMode_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/offboard_control_mode";\n'}
+[3.155228] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.155279] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.155331] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.155398] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.155454] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.155507] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.155569] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.155645] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.155713] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.155775] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.155828] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.155880] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.155933] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.156008] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.156081] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.156140] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.156288] (px4_ros_com) StderrLine: {'line': b' 6565 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[3.156345] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.156400] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.156454] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:35:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.156517] (px4_ros_com) StderrLine: {'line': b'   35 | ng OffboardControlMode_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/offboard_control_mode";\n'}
+[3.156576] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.156629] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.156682] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.164493] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.170213] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.170632] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.170777] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.170882] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.170981] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.171148] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.171262] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.172023] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.179129] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.179418] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.179549] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.179643] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.179732] (px4_ros_com) StderrLine: {'line': b' 6571 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[3.180630] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.180844] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.180962] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:35:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.181077] (px4_ros_com) StderrLine: {'line': b'   35 | ng OffboardControlMode_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/offboard_control_mode";\n'}
+[3.181165] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.181252] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.181346] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.181436] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.181585] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.181678] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.181774] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.181874] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.181973] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.182106] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.182207] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.182302] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.182399] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.182497] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.185949] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.186150] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.186221] (px4_ros_com) StderrLine: {'line': b' 6577 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[3.186281] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.186339] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.186396] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:35:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.186615] (px4_ros_com) StderrLine: {'line': b'   35 | ng OffboardControlMode_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/offboard_control_mode";\n'}
+[3.186687] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.186752] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.186811] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.186865] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.186918] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:36:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(char*&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.186975] (px4_ros_com) StderrLine: {'line': b'   36 | ajectorySetpoint_topic = "/px4_" + std::to_string(uav_id\x1b[01;31m\x1b[K)\x1b[m\x1b[K + "/fmu/in/trajectory_setpoint";\n'}
+[3.187032] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.187240] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.187297] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.187353] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.187407] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.187462] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.188893] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.189080] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.189140] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.189195] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.189286] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.189354] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.189409] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.189466] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.189524] (px4_ros_com) StderrLine: {'line': b' 6549 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[3.189579] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.189649] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.189704] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:36:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.189762] (px4_ros_com) StderrLine: {'line': b'   36 | ing TrajectorySetpoint_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/trajectory_setpoint";\n'}
+[3.198022] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.198218] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.198356] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.198447] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.198636] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.198750] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.198840] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.198928] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.199017] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.200619] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.201107] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.201233] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.201371] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.201469] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.201562] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.201654] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.201746] (px4_ros_com) StderrLine: {'line': b' 6554 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[3.201998] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.202108] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.202221] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:36:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.202326] (px4_ros_com) StderrLine: {'line': b'   36 | ing TrajectorySetpoint_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/trajectory_setpoint";\n'}
+[3.202473] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.202569] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.202660] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.202753] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.202850] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.204246] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.204376] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.204488] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.204602] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.204709] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.204801] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.204891] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.204982] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.205072] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.205221] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.205315] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.205419] (px4_ros_com) StderrLine: {'line': b' 6560 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[3.205511] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.205603] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.205720] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:36:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.205822] (px4_ros_com) StderrLine: {'line': b'   36 | ing TrajectorySetpoint_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/trajectory_setpoint";\n'}
+[3.205915] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.206007] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.206100] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.206191] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.213546] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.213648] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.213709] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.213767] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.213825] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.213881] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.215150] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.215360] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.215445] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.215505] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.215599] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.215796] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.215856] (px4_ros_com) StderrLine: {'line': b' 6565 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[3.215912] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.215966] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.216020] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:36:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.216086] (px4_ros_com) StderrLine: {'line': b'   36 | ing TrajectorySetpoint_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/trajectory_setpoint";\n'}
+[3.216172] (-) TimerEvent: {}
+[3.216405] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.216481] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.216540] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.216595] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.216649] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.216800] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.216856] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.216912] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.216968] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.217023] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.217077] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.217132] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.217188] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.217291] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.217362] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.217422] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.217480] (px4_ros_com) StderrLine: {'line': b' 6571 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[3.217537] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.217592] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.217655] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:36:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.217713] (px4_ros_com) StderrLine: {'line': b'   36 | ing TrajectorySetpoint_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/trajectory_setpoint";\n'}
+[3.217944] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.218017] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.218074] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.218130] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.218187] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.218242] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.218297] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.218415] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.218472] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.218527] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.218582] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.218637] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.218692] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.218747] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.218803] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.218887] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.220753] (px4_ros_com) StderrLine: {'line': b' 6577 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[3.220830] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.220888] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.220957] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:36:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.221022] (px4_ros_com) StderrLine: {'line': b'   36 | ing TrajectorySetpoint_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/trajectory_setpoint";\n'}
+[3.221115] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.221178] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.221233] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.221288] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.221343] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:37:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(char*&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.221399] (px4_ros_com) StderrLine: {'line': b'   37 | g VehicleCommand_topic = "/px4_" + std::to_string(uav_id\x1b[01;31m\x1b[K)\x1b[m\x1b[K + "/fmu/in/vehicle_command";\n'}
+[3.221453] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.221507] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.221561] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.227467] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.227756] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.228735] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.228891] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.228953] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.229010] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.229067] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.229125] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.229181] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.229237] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.229292] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.230141] (px4_ros_com) StderrLine: {'line': b' 6549 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[3.230213] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.230281] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.230339] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:37:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.230402] (px4_ros_com) StderrLine: {'line': b'   37 | :string VehicleCommand_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_command";\n'}
+[3.230502] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.230558] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.230616] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.230671] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.230725] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.230780] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.230836] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.230891] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.230945] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.231477] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.231571] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.231629] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.231684] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.231741] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.231796] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.231859] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.231917] (px4_ros_com) StderrLine: {'line': b' 6554 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[3.231974] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.232028] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.232120] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:37:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.232185] (px4_ros_com) StderrLine: {'line': b'   37 | :string VehicleCommand_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_command";\n'}
+[3.232245] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.232300] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.232354] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.232412] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.232468] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.232522] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.232577] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.232719] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.234146] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.234222] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.234305] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.234363] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.234420] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.234476] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.234532] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.234587] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.234645] (px4_ros_com) StderrLine: {'line': b' 6560 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[3.234701] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.234755] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.234871] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:37:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.234948] (px4_ros_com) StderrLine: {'line': b'   37 | :string VehicleCommand_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_command";\n'}
+[3.235005] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.235060] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.235114] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.235167] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.235222] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.235288] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.235433] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.235515] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.235572] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.235627] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.235683] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.235737] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.235793] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.235847] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.235903] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.236119] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.236183] (px4_ros_com) StderrLine: {'line': b' 6565 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[3.236238] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.236292] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.236349] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:37:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.236422] (px4_ros_com) StderrLine: {'line': b'   37 | :string VehicleCommand_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_command";\n'}
+[3.237214] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.237287] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.237343] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.237398] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.237452] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.237507] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.237584] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.237649] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.237704] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.237757] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.237818] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.237873] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.237928] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.237983] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.238037] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.238092] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.247450] (px4_ros_com) StderrLine: {'line': b' 6571 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[3.247647] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.247711] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.247771] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:37:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.247836] (px4_ros_com) StderrLine: {'line': b'   37 | :string VehicleCommand_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_command";\n'}
+[3.247893] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.247948] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.248003] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.248123] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.248179] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.248233] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.248287] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.248341] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.248394] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.248448] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.248501] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.248556] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.248639] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.248696] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.248761] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.248817] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.248875] (px4_ros_com) StderrLine: {'line': b' 6577 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[3.248930] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.248984] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.249039] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:37:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.249104] (px4_ros_com) StderrLine: {'line': b'   37 | :string VehicleCommand_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_command";\n'}
+[3.249952] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.250012] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.250077] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.250133] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.300739] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OffboardControl::publish_vehicle_command(uint16_t, float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.300975] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:167:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(char*&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.301046] (px4_ros_com) StderrLine: {'line': b'  167 | ng VehicleStatus_topic = "/px4_" + std::to_string(uav_id\x1b[01;31m\x1b[K)\x1b[m\x1b[K + "/fmu/in/vehicle_status";\n'}
+[3.301109] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.301168] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.301448] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.301541] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.301600] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.301657] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.301714] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.301770] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.301828] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.301884] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.302356] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.302423] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.302601] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.302668] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.302732] (px4_ros_com) StderrLine: {'line': b' 6549 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[3.302790] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.302846] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.302904] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:167:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.302965] (px4_ros_com) StderrLine: {'line': b'  167 | ::string VehicleStatus_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_status";\n'}
+[3.303071] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.303137] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.303195] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.303252] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.303310] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.303368] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.303426] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.303482] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.303539] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.303623] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.303684] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.303741] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.303797] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.303870] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.303946] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.304017] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.304081] (px4_ros_com) StderrLine: {'line': b' 6554 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[3.304183] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.304245] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.304302] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:167:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.304373] (px4_ros_com) StderrLine: {'line': b'  167 | ::string VehicleStatus_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_status";\n'}
+[3.304431] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.304486] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.304542] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.304598] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.304653] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.304837] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.304898] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.304955] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.305012] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.305067] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.305123] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.305181] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.305270] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.305330] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.305386] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.305443] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.305502] (px4_ros_com) StderrLine: {'line': b' 6560 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[3.305559] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.305616] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.305684] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:167:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.305747] (px4_ros_com) StderrLine: {'line': b'  167 | ::string VehicleStatus_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_status";\n'}
+[3.305835] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.305893] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.305951] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.306007] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.306063] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.306119] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.306174] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.306231] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.306295] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.306376] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.306434] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.306496] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.306552] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.306609] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.306667] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.306723] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.306781] (px4_ros_com) StderrLine: {'line': b' 6565 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[3.306842] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.315710] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.315968] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:167:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.316091] (px4_ros_com) StderrLine: {'line': b'  167 | ::string VehicleStatus_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_status";\n'}
+[3.316188] (-) TimerEvent: {}
+[3.320375] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.320664] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.320773] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.320847] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.320907] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.320964] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.321023] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.321080] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.321137] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.321234] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.321296] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.321355] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.321414] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.321474] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.321532] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.321591] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.321650] (px4_ros_com) StderrLine: {'line': b' 6571 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[3.321727] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.321816] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.321882] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:167:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.321965] (px4_ros_com) StderrLine: {'line': b'  167 | ::string VehicleStatus_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_status";\n'}
+[3.322059] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.322155] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.322251] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.322401] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.322478] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.322555] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.322615] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.322671] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.322732] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.322791] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.322938] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[3.323001] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[3.323060] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.323121] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[3.323182] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:13\x1b[m\x1b[K:\n'}
+[3.323241] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 <near match>\n'}
+[3.323304] (px4_ros_com) StderrLine: {'line': b' 6577 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[3.326813] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.327066] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.327151] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:167:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.327324] (px4_ros_com) StderrLine: {'line': b'  167 | ::string VehicleStatus_topic = "/px4_" + std::to_string(\x1b[01;31m\x1b[Kuav_id\x1b[m\x1b[K) + "/fmu/in/vehicle_status";\n'}
+[3.327420] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.327509] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.327571] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.327646] (px4_ros_com) StderrLine: {'line': b'\n'}
+[3.416432] (-) TimerEvent: {}
+[3.516943] (-) TimerEvent: {}
+[3.617813] (-) TimerEvent: {}
+[3.718348] (-) TimerEvent: {}
+[3.818995] (-) TimerEvent: {}
+[3.919730] (-) TimerEvent: {}
+[4.020391] (-) TimerEvent: {}
+[4.120989] (-) TimerEvent: {}
+[4.221737] (-) TimerEvent: {}
+[4.322197] (-) TimerEvent: {}
+[4.423019] (-) TimerEvent: {}
+[4.523587] (-) TimerEvent: {}
+[4.624409] (-) TimerEvent: {}
+[4.725070] (-) TimerEvent: {}
+[4.825581] (-) TimerEvent: {}
+[4.926030] (-) TimerEvent: {}
+[5.026442] (-) TimerEvent: {}
+[5.126947] (-) TimerEvent: {}
+[5.227717] (-) TimerEvent: {}
+[5.328082] (-) TimerEvent: {}
+[5.428785] (-) TimerEvent: {}
+[5.529306] (-) TimerEvent: {}
+[5.629804] (-) TimerEvent: {}
+[5.730243] (-) TimerEvent: {}
+[5.831063] (-) TimerEvent: {}
+[5.932140] (-) TimerEvent: {}
+[6.032704] (-) TimerEvent: {}
+[6.133121] (-) TimerEvent: {}
+[6.233697] (-) TimerEvent: {}
+[6.334136] (-) TimerEvent: {}
+[6.434683] (-) TimerEvent: {}
+[6.535116] (-) TimerEvent: {}
+[6.635708] (-) TimerEvent: {}
+[6.736305] (-) TimerEvent: {}
+[6.837090] (-) TimerEvent: {}
+[6.938311] (-) TimerEvent: {}
+[7.007582] (px4_ros_com) StderrLine: {'line': b'make[2]: *** [CMakeFiles/offboard_control.dir/build.make:63\xef\xbc\x9aCMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.007962] (px4_ros_com) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:266\xef\xbc\x9aCMakeFiles/offboard_control.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.008202] (px4_ros_com) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.010654] (px4_ros_com) CommandEnded: {'returncode': 2}
+[7.027224] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 2}
+[7.038398] (-) EventReactorShutdown: {}

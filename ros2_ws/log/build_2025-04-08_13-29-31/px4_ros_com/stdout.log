@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target offboard_control_mode[0m
+[  7%] Built target my_uav_node
+[ 10%] [32mBuilding CXX object CMakeFiles/offboard_control_mode.dir/src/examples/offboard/offboard_control_mode.cpp.o[0m
+[ 17%] Built target commander
+[ 25%] Built target frame_transforms
+[35m[1mScanning dependencies of target offboard_control[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[ 32%] [32m[1mLinking CXX executable offboard_control_mode[0m
+[ 32%] Built target offboard_control_mode
+[35m[1mScanning dependencies of target arm[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/arm.dir/src/examples/offboard/arm.cpp.o[0m
+[ 39%] [32m[1mLinking CXX executable offboard_control[0m
+[ 39%] Built target offboard_control

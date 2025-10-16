@@ -1,0 +1,689 @@
+[0.000000] (-) TimerEvent: {}
+[0.000272] (-) JobUnselected: {'identifier': 'my_uav'}
+[0.000311] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000340] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/a/ros2_ws/install/px4_msgs')])}
+[0.000393] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.021210] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.023513] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[0.023587] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/ros2_ws/build/px4_ros_com', '--', '-j2', '-l2'], 'cwd': '/home/a/ros2_ws/build/px4_ros_com', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'a'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1432'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('HOME', '/home/a'), ('OLDPWD', '/home/a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/a/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:49986'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/a/uav/src/my_uav/models:/home/a/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/a-vm:@/tmp/.ICE-unix/1467,unix/a-vm:/tmp/.ICE-unix/1467'), ('INVOCATION_ID', '0e7085619686401ab44b3854d1ccf806'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea574ed1_2be8_4ecc_a8ad_e2f6aa457254'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/ros2_ws/build/px4_ros_com'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OGRE_RENDERER', 'OGRE1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic')]), 'shell': False}
+[0.079130] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.099037] (-) TimerEvent: {}
+[0.108241] (px4_ros_com) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.181340] (px4_ros_com) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.198695] (px4_ros_com) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)\n'}
+[0.199244] (-) TimerEvent: {}
+[0.231645] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.237675] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.299465] (-) TimerEvent: {}
+[0.386329] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399790] (-) TimerEvent: {}
+[0.422803] (px4_ros_com) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)\n'}
+[0.428096] (px4_ros_com) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[0.500100] (-) TimerEvent: {}
+[0.500655] (px4_ros_com) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/a/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[0.523609] (px4_ros_com) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.592274] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.594764] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.601089] (-) TimerEvent: {}
+[0.619285] (px4_ros_com) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.702157] (-) TimerEvent: {}
+[0.765802] (px4_ros_com) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[0.803163] (-) TimerEvent: {}
+[0.858183] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.903995] (-) TimerEvent: {}
+[0.950801] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.956936] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.958141] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/a/ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/a/ros2_ws/src/px4_ros_com/include/px4_ros_com>\n'}
+[0.958487] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.962563] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.962734] (px4_ros_com) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.963574] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.965024] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.966181] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.969982] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.970216] (px4_ros_com) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.971246] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.979596] (px4_ros_com) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.005789] (-) TimerEvent: {}
+[1.020539] (px4_ros_com) StdoutLine: {'line': b'-- Generating done\n'}
+[1.034478] (px4_ros_com) StdoutLine: {'line': b'-- Build files have been written to: /home/a/ros2_ws/build/px4_ros_com\n'}
+[1.091895] (px4_ros_com) StdoutLine: {'line': b'[ 14%] Built target frame_transforms\n'}
+[1.098297] (px4_ros_com) StdoutLine: {'line': b'[ 28%] Built target offboard_control\n'}
+[1.106111] (-) TimerEvent: {}
+[1.136135] (px4_ros_com) StdoutLine: {'line': b'[ 42%] Built target my_uav_node\n'}
+[1.141724] (px4_ros_com) StdoutLine: {'line': b'[ 57%] Built target sensor_combined_listener\n'}
+[1.181814] (px4_ros_com) StdoutLine: {'line': b'[ 71%] Built target vehicle_gps_position_listener\n'}
+[1.182093] (px4_ros_com) StdoutLine: {'line': b'[ 85%] Built target debug_vect_advertiser\n'}
+[1.197061] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_attitude_listener\x1b[0m\n'}
+[1.206612] (-) TimerEvent: {}
+[1.248601] (px4_ros_com) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_attitude_listener.dir/src/examples/listeners/vehicle_attitude_listener.cpp.o\x1b[0m\n'}
+[1.307658] (-) TimerEvent: {}
+[1.408257] (-) TimerEvent: {}
+[1.509262] (-) TimerEvent: {}
+[1.609839] (-) TimerEvent: {}
+[1.710962] (-) TimerEvent: {}
+[1.811710] (-) TimerEvent: {}
+[1.912879] (-) TimerEvent: {}
+[2.013783] (-) TimerEvent: {}
+[2.114843] (-) TimerEvent: {}
+[2.215707] (-) TimerEvent: {}
+[2.316313] (-) TimerEvent: {}
+[2.417422] (-) TimerEvent: {}
+[2.518322] (-) TimerEvent: {}
+[2.618940] (-) TimerEvent: {}
+[2.719801] (-) TimerEvent: {}
+[2.820775] (-) TimerEvent: {}
+[2.921753] (-) TimerEvent: {}
+[3.022933] (-) TimerEvent: {}
+[3.124211] (-) TimerEvent: {}
+[3.225822] (-) TimerEvent: {}
+[3.326603] (-) TimerEvent: {}
+[3.427415] (-) TimerEvent: {}
+[3.528308] (-) TimerEvent: {}
+[3.591532] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.592495] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[3.592607] (px4_ros_com) StderrLine: {'line': b'   37 |    \x1b[32m\x1b[Kstd::cout << "delta_q_reset: "\x1b[m\x1b[K \x1b[01;31m\x1b[K<<\x1b[m\x1b[K \x1b[34m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.592662] (px4_ros_com) StderrLine: {'line': b'      |    \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.592866] (px4_ros_com) StderrLine: {'line': b'      |              \x1b[32m\x1b[K|\x1b[m\x1b[K                            \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[3.593046] (px4_ros_com) StderrLine: {'line': b'      |              \x1b[32m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K     \x1b[34m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type {aka std::array<float, 4>}\x1b[m\x1b[K\n'}
+[3.593324] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.593617] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.594151] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.594418] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.594646] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.595013] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.596168] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:108:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.596255] (px4_ros_com) StderrLine: {'line': b'  108 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ostream_type& (*__pf)(__ostream_type&))\n'}
+[3.596313] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.596362] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:108:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.596427] (px4_ros_com) StderrLine: {'line': b'  108 |       operator<<(\x1b[01;36m\x1b[K__ostream_type& (*__pf)(__ostream_type&)\x1b[m\x1b[K)\n'}
+[3.596472] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.596521] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:117:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.596578] (px4_ros_com) StderrLine: {'line': b'  117 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ios_type& (*__pf)(__ios_type&))\n'}
+[3.596623] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.596669] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:117:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.596780] (px4_ros_com) StderrLine: {'line': b'  117 |       operator<<(\x1b[01;36m\x1b[K__ios_type& (*__pf)(__ios_type&)\x1b[m\x1b[K)\n'}
+[3.597015] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.597175] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.597284] (px4_ros_com) StderrLine: {'line': b'  127 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(ios_base& (*__pf) (ios_base&))\n'}
+[3.597369] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.597449] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:127:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::ios_base& (*)(std::ios_base&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.597532] (px4_ros_com) StderrLine: {'line': b'  127 |       operator<<(\x1b[01;36m\x1b[Kios_base& (*__pf) (ios_base&)\x1b[m\x1b[K)\n'}
+[3.597607] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.597683] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:166:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.597794] (px4_ros_com) StderrLine: {'line': b'  166 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long __n)\n'}
+[3.597875] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.597947] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:166:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.598036] (px4_ros_com) StderrLine: {'line': b'  166 |       operator<<(\x1b[01;36m\x1b[Klong __n\x1b[m\x1b[K)\n'}
+[3.598115] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[3.598193] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:170:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.598281] (px4_ros_com) StderrLine: {'line': b'  170 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long __n)\n'}
+[3.598364] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.598449] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:170:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.598551] (px4_ros_com) StderrLine: {'line': b'  170 |       operator<<(\x1b[01;36m\x1b[Kunsigned long __n\x1b[m\x1b[K)\n'}
+[3.598659] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.598825] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:174:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.598961] (px4_ros_com) StderrLine: {'line': b'  174 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(bool __n)\n'}
+[3.599074] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.599162] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:174:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.599255] (px4_ros_com) StderrLine: {'line': b'  174 |       operator<<(\x1b[01;36m\x1b[Kbool __n\x1b[m\x1b[K)\n'}
+[3.599351] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[3.599442] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/ostream:702\x1b[m\x1b[K,\n'}
+[3.599522] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.599595] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.599666] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.599774] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.599850] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.599921] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.599999] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:91:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.600097] (px4_ros_com) StderrLine: {'line': b'   91 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[3.600175] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.600253] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:92:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.600344] (px4_ros_com) StderrLine: {'line': b'   92 |     operator<<(\x1b[01;36m\x1b[Kshort __n\x1b[m\x1b[K)\n'}
+[3.600430] (px4_ros_com) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.600504] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.600579] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.600656] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.600822] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.600911] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.600987] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.601067] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:181:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.601172] (px4_ros_com) StderrLine: {'line': b'  181 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned short __n)\n'}
+[3.601262] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.601354] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:181:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.601441] (px4_ros_com) StderrLine: {'line': b'  181 |       operator<<(\x1b[01;36m\x1b[Kunsigned short __n\x1b[m\x1b[K)\n'}
+[3.601522] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.601616] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/ostream:702\x1b[m\x1b[K,\n'}
+[3.601704] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.601829] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.601913] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.601999] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.602071] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.602127] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.602179] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.602232] (px4_ros_com) StderrLine: {'line': b'  105 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[3.602282] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.602329] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:106:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.602386] (px4_ros_com) StderrLine: {'line': b'  106 |     operator<<(\x1b[01;36m\x1b[Kint __n\x1b[m\x1b[K)\n'}
+[3.602431] (px4_ros_com) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[3.602475] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.602520] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.602564] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.602612] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.602656] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.602701] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.602785] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:192:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.602841] (px4_ros_com) StderrLine: {'line': b'  192 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned int __n)\n'}
+[3.602886] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.602932] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:192:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.602983] (px4_ros_com) StderrLine: {'line': b'  192 |       operator<<(\x1b[01;36m\x1b[Kunsigned int __n\x1b[m\x1b[K)\n'}
+[3.603028] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.603072] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:201:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.603123] (px4_ros_com) StderrLine: {'line': b'  201 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long long __n)\n'}
+[3.603167] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.603212] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:201:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.603261] (px4_ros_com) StderrLine: {'line': b'  201 |       operator<<(\x1b[01;36m\x1b[Klong long __n\x1b[m\x1b[K)\n'}
+[3.603307] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.603354] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:205:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.603405] (px4_ros_com) StderrLine: {'line': b'  205 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long long __n)\n'}
+[3.603448] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.603496] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:205:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.603542] (px4_ros_com) StderrLine: {'line': b'  205 |       operator<<(\x1b[01;36m\x1b[Kunsigned long long __n\x1b[m\x1b[K)\n'}
+[3.603586] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.603629] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:220:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.603675] (px4_ros_com) StderrLine: {'line': b'  220 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(double __f)\n'}
+[3.603743] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.603791] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:220:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.603835] (px4_ros_com) StderrLine: {'line': b'  220 |       operator<<(\x1b[01;36m\x1b[Kdouble __f\x1b[m\x1b[K)\n'}
+[3.603880] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.603923] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:224:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.603977] (px4_ros_com) StderrLine: {'line': b'  224 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(float __f)\n'}
+[3.604020] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.604064] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:224:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.604114] (px4_ros_com) StderrLine: {'line': b'  224 |       operator<<(\x1b[01;36m\x1b[Kfloat __f\x1b[m\x1b[K)\n'}
+[3.604159] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.604203] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:232:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.604247] (px4_ros_com) StderrLine: {'line': b'  232 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long double __f)\n'}
+[3.604295] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.604349] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:232:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.604404] (px4_ros_com) StderrLine: {'line': b'  232 |       operator<<(\x1b[01;36m\x1b[Klong double __f\x1b[m\x1b[K)\n'}
+[3.604458] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.604513] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:245:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.604571] (px4_ros_com) StderrLine: {'line': b'  245 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(const void* __p)\n'}
+[3.604628] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.604682] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:245:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst void*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.604876] (px4_ros_com) StderrLine: {'line': b'  245 |       operator<<(\x1b[01;36m\x1b[Kconst void* __p\x1b[m\x1b[K)\n'}
+[3.604968] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.605049] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:250:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.605110] (px4_ros_com) StderrLine: {'line': b'  250 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(nullptr_t)\n'}
+[3.605172] (px4_ros_com) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.605224] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:250:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.605278] (px4_ros_com) StderrLine: {'line': b'  250 |       operator<<(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K)\n'}
+[3.605329] (px4_ros_com) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.605380] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/ostream:702\x1b[m\x1b[K,\n'}
+[3.605434] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.605486] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.605539] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.605590] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.605641] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.605699] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.605790] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:119:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.605853] (px4_ros_com) StderrLine: {'line': b'  119 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[3.605909] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.605961] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:120:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__streambuf_type*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_streambuf<char>*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.606020] (px4_ros_com) StderrLine: {'line': b'  120 |     operator<<(\x1b[01;36m\x1b[K__streambuf_type* __sbin\x1b[m\x1b[K)\n'}
+[3.606072] (px4_ros_com) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.606128] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[3.606180] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.606232] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.606286] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.606335] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.606379] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[3.606422] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[3.606466] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:154\x1b[m\x1b[K,\n'}
+[3.606510] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.606555] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/string_view:580:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.606603] (px4_ros_com) StderrLine: {'line': b'  580 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[3.606647] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.606696] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/string_view:580:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.606760] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.606808] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << msg->\x1b[01;36m\x1b[Kdelta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.606852] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.606897] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.606941] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.606985] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.607028] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.607072] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[3.607117] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[3.607161] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:154\x1b[m\x1b[K,\n'}
+[3.607233] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.607309] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6419:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.607376] (px4_ros_com) StderrLine: {'line': b' 6419 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[3.607427] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.607478] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6419:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.607529] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.607582] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << msg->\x1b[01;36m\x1b[Kdelta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.607633] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.607684] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[3.607772] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:154\x1b[m\x1b[K,\n'}
+[3.607826] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.607877] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:66:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.607936] (px4_ros_com) StderrLine: {'line': b'   66 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_Ch, _Tr>& __os,\n'}
+[3.607988] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.608038] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:66:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.608088] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.608142] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << msg->\x1b[01;36m\x1b[Kdelta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.608192] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.608241] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/mutex:42\x1b[m\x1b[K,\n'}
+[3.608291] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/future:38\x1b[m\x1b[K,\n'}
+[3.608341] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[3.608393] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.608439] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.608488] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:217:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.608537] (px4_ros_com) StderrLine: {'line': b'  217 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)\n'}
+[3.608584] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.608633] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:217:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.608681] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.608791] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.608844] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.608895] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/future:39\x1b[m\x1b[K,\n'}
+[3.608942] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[3.608988] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.609035] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.609082] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/thread:322:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.609129] (px4_ros_com) StderrLine: {'line': b'  322 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)\n'}
+[3.609177] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.609224] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/thread:322:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.609270] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.609325] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.609372] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.609418] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.609464] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.609511] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.609559] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.609607] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.609653] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.609699] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:506:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.609769] (px4_ros_com) StderrLine: {'line': b'  506 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)\n'}
+[3.609816] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.609864] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:506:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.609910] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[K_CharT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.609963] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << msg->\x1b[01;36m\x1b[Kdelta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.610009] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.610057] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.610103] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.610148] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.610194] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.610241] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.610288] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.610337] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:511:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.610388] (px4_ros_com) StderrLine: {'line': b'  511 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)\n'}
+[3.610435] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.610481] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:511:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.610528] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.610577] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.610624] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.610669] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.610729] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.610783] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.610829] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.610876] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.610923] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.610974] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:517:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.611021] (px4_ros_com) StderrLine: {'line': b'  517 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, char __c)\n'}
+[3.611068] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.611114] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:517:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.611162] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.611219] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.611266] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.611313] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.611359] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.611408] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.611454] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.611501] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.611548] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.611595] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:523:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.611642] (px4_ros_com) StderrLine: {'line': b'  523 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, signed char __c)\n'}
+[3.611691] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.611766] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:523:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.611815] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Ksigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.611866] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.611913] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.611960] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.612011] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.612057] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.612104] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.612155] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.612205] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.612253] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:528:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.612302] (px4_ros_com) StderrLine: {'line': b'  528 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)\n'}
+[3.612351] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.612399] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:528:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.612451] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.612502] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.612550] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.612597] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.612644] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.612692] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.612780] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.612832] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.612880] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.612928] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:548:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.612982] (px4_ros_com) StderrLine: {'line': b'  548 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)\n'}
+[3.613029] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.613077] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:548:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.613125] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.613180] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << msg->\x1b[01;36m\x1b[Kdelta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.613230] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.613278] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/ostream:702\x1b[m\x1b[K,\n'}
+[3.613325] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.613373] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.613418] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.613465] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.613513] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.613560] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.613608] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:321:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.613656] (px4_ros_com) StderrLine: {'line': b'  321 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)\n'}
+[3.613704] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.613773] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:321:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.613821] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.613878] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.613931] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.613979] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.614027] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.614075] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.614122] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.614200] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.614272] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.614325] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:565:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.614379] (px4_ros_com) StderrLine: {'line': b'  565 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const char* __s)\n'}
+[3.614432] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.614483] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:565:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.614535] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.614599] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.614652] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.614703] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.614789] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.614841] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.614893] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.614945] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.614997] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.615047] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:578:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.615100] (px4_ros_com) StderrLine: {'line': b'  578 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)\n'}
+[3.615152] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.615203] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:578:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.615254] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst signed char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.615317] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.615369] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.615416] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.615463] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.615512] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.615560] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.615613] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.615661] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.616104] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:583:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.616256] (px4_ros_com) StderrLine: {'line': b'  583 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)\n'}
+[3.616344] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.616428] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:583:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.616487] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst unsigned char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.616549] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.616640] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.616696] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.616826] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[3.616906] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.616970] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.617027] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.617097] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.617158] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:691:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.617226] (px4_ros_com) StderrLine: {'line': b'  691 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(_Ostream&& __os, const _Tp& __x)\n'}
+[3.617281] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.617337] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:691:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.617394] (px4_ros_com) StderrLine: {'line': b'/usr/include/c++/9/ostream: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::array<float, 4>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.617453] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K   required from here\n'}
+[3.617507] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:691:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::basic_ostream<char>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.617560] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[3.617611] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[3.617664] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[3.617740] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.617824] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.617886] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[3.617938] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[3.617994] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.618044] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.618095] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.618145] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.618198] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.618248] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[3.618300] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.618351] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.618409] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.618458] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.618511] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:79:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.618567] (px4_ros_com) StderrLine: {'line': b'   79 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)\n'}
+[3.618617] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.618668] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:79:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.618718] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Resetiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.618772] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.618876] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.618929] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[3.618979] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[3.619028] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[3.619078] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.619134] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.619184] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[3.619234] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[3.619286] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.619334] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.619381] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.619426] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.619471] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.619517] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[3.619562] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.619609] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.619654] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.619700] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.619750] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:109:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.619799] (px4_ros_com) StderrLine: {'line': b'  109 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)\n'}
+[3.619866] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.619912] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:109:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.619958] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.620013] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.620060] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.620107] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[3.620159] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[3.620206] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[3.620251] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.620297] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.620345] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[3.620397] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[3.620446] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.620495] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.620544] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.620593] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.620641] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.620690] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[3.620783] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.620836] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.620885] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.620935] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.620984] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.621035] (px4_ros_com) StderrLine: {'line': b'  143 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)\n'}
+[3.621084] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.621133] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.621183] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setbase\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.621241] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.621295] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.621342] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[3.621389] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[3.621455] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[3.621521] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.621569] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.621621] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[3.621668] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[3.621714] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.621760] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.621839] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.621888] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.621935] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.621981] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[3.622027] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.622078] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.622124] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.622171] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.622219] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.622268] (px4_ros_com) StderrLine: {'line': b'  178 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)\n'}
+[3.622317] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.622364] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.622413] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setfill<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.622465] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << msg->\x1b[01;36m\x1b[Kdelta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.622512] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.622560] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[3.622607] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[3.622653] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[3.622701] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.622748] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.622808] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[3.622867] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[3.622915] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.622962] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.623010] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.623058] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.623106] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.623153] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[3.623202] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.623250] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.623302] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.623349] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.623396] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:208:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.623446] (px4_ros_com) StderrLine: {'line': b'  208 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)\n'}
+[3.623495] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.623540] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:208:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.623592] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setprecision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.623643] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.623692] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.623738] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[3.623784] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[3.623858] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[3.623904] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.623951] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.623998] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[3.624045] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[3.624092] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.624137] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.624183] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.624229] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.624276] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.624322] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[3.624367] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.624412] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.624457] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.624503] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.624549] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:238:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.624602] (px4_ros_com) StderrLine: {'line': b'  238 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)\n'}
+[3.624649] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.624695] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:238:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.624742] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg.std::unique_ptr<px4_msgs::msg::VehicleAttitude_<std::allocator<void> >, std::default_delete<px4_msgs::msg::VehicleAttitude_<std::allocator<void> > > >::operator->()->px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::delta_q_reset\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::VehicleAttitude_<std::allocator<void> >::_delta_q_reset_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.624837] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << \x1b[01;36m\x1b[Kmsg->delta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.624888] (px4_ros_com) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.624935] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[3.624981] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[3.625026] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[3.625071] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.625116] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.625161] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[3.625208] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[3.625257] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.625306] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.625355] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.625405] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.625453] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.625506] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[3.625556] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.625605] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.625656] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.625704] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.625754] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.625868] (px4_ros_com) StderrLine: {'line': b'  311 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)\n'}
+[3.625964] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.626041] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.626117] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_money<_MoneyT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.626182] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << msg->\x1b[01;36m\x1b[Kdelta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.626232] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.626283] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[3.626333] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[3.626383] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[3.626432] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.626482] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.626531] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[3.626580] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[3.626629] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.626677] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.626735] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.626785] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.626869] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.626919] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[3.626974] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.627026] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.627074] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.627125] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.627175] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:363:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.627224] (px4_ros_com) StderrLine: {'line': b'  363 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)\n'}
+[3.627271] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.627317] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:363:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.627368] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 4>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_time<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.627415] (px4_ros_com) StderrLine: {'line': b'   37 |    std::cout << "delta_q_reset: " << msg->\x1b[01;36m\x1b[Kdelta_q_reset\x1b[m\x1b[K << std::endl;\n'}
+[3.627462] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.627509] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:19\x1b[m\x1b[K,\n'}
+[3.627558] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/experimental/create_intra_process_buffer.hpp:25\x1b[m\x1b[K,\n'}
+[3.627606] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/experimental/subscription_intra_process.hpp:31\x1b[m\x1b[K,\n'}
+[3.627652] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/experimental/intra_process_manager.hpp:34\x1b[m\x1b[K,\n'}
+[3.627699] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/subscription_base.hpp:30\x1b[m\x1b[K,\n'}
+[3.627765] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:26\x1b[m\x1b[K,\n'}
+[3.627813] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.627859] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.627906] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.627952] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.627998] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[3.628045] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.628091] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.628142] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[3.628189] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:13\x1b[m\x1b[K:\n'}
+[3.628236] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cstddef:130:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(std::byte, _IntegerType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.628301] (-) TimerEvent: {}
+[3.628552] (px4_ros_com) StderrLine: {'line': b'  130 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(byte __b, _IntegerType __shift) noexcept\n'}
+[3.628630] (px4_ros_com) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.628679] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cstddef:130:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.628728] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/ros2_ws/src/px4_ros_com/src/examples/listeners/vehicle_attitude_listener.cpp:37:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::operator<< <std::char_traits<char> >(std::cout, ((const char*)"delta_q_reset: "))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::byte\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.628784] (px4_ros_com) StderrLine: {'line': b'   37 |    \x1b[01;36m\x1b[Kstd::cout << "delta_q_reset: "\x1b[m\x1b[K << msg->delta_q_reset << std::endl;\n'}
+[3.628937] (px4_ros_com) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.728909] (-) TimerEvent: {}
+[3.829960] (-) TimerEvent: {}
+[3.931002] (-) TimerEvent: {}
+[4.031952] (-) TimerEvent: {}
+[4.132890] (-) TimerEvent: {}
+[4.233885] (-) TimerEvent: {}
+[4.335534] (-) TimerEvent: {}
+[4.437415] (-) TimerEvent: {}
+[4.538446] (-) TimerEvent: {}
+[4.640126] (-) TimerEvent: {}
+[4.742023] (-) TimerEvent: {}
+[4.842934] (-) TimerEvent: {}
+[4.944117] (-) TimerEvent: {}
+[5.045000] (-) TimerEvent: {}
+[5.146319] (-) TimerEvent: {}
+[5.247636] (-) TimerEvent: {}
+[5.348143] (-) TimerEvent: {}
+[5.449270] (-) TimerEvent: {}
+[5.549918] (-) TimerEvent: {}
+[5.650905] (-) TimerEvent: {}
+[5.751817] (-) TimerEvent: {}
+[5.852938] (-) TimerEvent: {}
+[5.953725] (-) TimerEvent: {}
+[6.054885] (-) TimerEvent: {}
+[6.152096] (px4_ros_com) StderrLine: {'line': b'make[2]: *** [CMakeFiles/vehicle_attitude_listener.dir/build.make:63\xef\xbc\x9aCMakeFiles/vehicle_attitude_listener.dir/src/examples/listeners/vehicle_attitude_listener.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[6.152393] (px4_ros_com) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:306\xef\xbc\x9aCMakeFiles/vehicle_attitude_listener.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.152471] (px4_ros_com) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.156797] (px4_ros_com) CommandEnded: {'returncode': 2}
+[6.157159] (-) TimerEvent: {}
+[6.172330] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 2}
+[6.184931] (-) EventReactorShutdown: {}

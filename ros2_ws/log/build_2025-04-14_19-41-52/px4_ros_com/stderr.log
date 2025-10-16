@@ -1,0 +1,4 @@
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In constructor ‘[01m[KOffboardmode::Offboardmode()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:70:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktimer_callback[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   70 |   auto [01;35m[Ktimer_callback[m[K = [this]() -> void {
+      |        [01;35m[K^~~~~~~~~~~~~~[m[K

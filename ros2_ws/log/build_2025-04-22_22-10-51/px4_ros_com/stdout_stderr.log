@@ -1,0 +1,51 @@
+[  5%] Built target my_uav_node
+[ 11%] Built target offboard_control_mode
+[ 16%] Built target commander
+[ 22%] Built target arm
+[ 27%] Built target offboard_position_control
+[ 33%] Built target rates_setpoint
+[ 38%] Built target vel_yaw
+[ 44%] Built target sensor_combined_listener
+[ 50%] Built target vehicle_gps_position_listener
+[35m[1mScanning dependencies of target point[0m
+[ 55%] Built target debug_vect_advertiser
+[ 58%] [32mBuilding CXX object CMakeFiles/point.dir/src/examples/offboard/point.cpp.o[0m
+[ 63%] Built target trajectory_setpoint
+[ 69%] Built target vehicle_attitude_listener
+[ 75%] Built target vehicle_status
+[35m[1mScanning dependencies of target offboard_control[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable point[0m
+[ 80%] Built target point
+[35m[1mScanning dependencies of target param_test[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/param_test.dir/src/examples/offboard/param_test.cpp.o[0m
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/param_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalParam::timer_callback()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/param_test.cpp:25:15:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::string my_param[m[K’
+   25 |   std::string [01;31m[Kmy_param[m[K = this->get_parameter("b").get_parameter_value().get<std::string>();
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/param_test.cpp:24:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string my_param[m[K’ previously declared here
+   24 |   std::string [01;36m[Kmy_param[m[K = this->get_parameter("a").get_parameter_value().get<std::string>();
+      |               [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/param_test.cpp:5[m[K:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/param_test.cpp:26:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ka[m[K’ was not declared in this scope
+   26 |   RCLCPP_INFO(this->get_logger(), "Hello %s  %s!", [01;31m[Ka[m[K.c_str(),b.c_str());
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/param_test.cpp:26:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kb[m[K’ was not declared in this scope
+   26 |   RCLCPP_INFO(this->get_logger(), "Hello %s  %s!", a.c_str(),[01;31m[Kb[m[K.c_str());
+      |                                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/param_test.dir/build.make:63：CMakeFiles/param_test.dir/src/examples/offboard/param_test.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:571：CMakeFiles/param_test.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[ 86%] [32m[1mLinking CXX executable offboard_control[0m
+[ 86%] Built target offboard_control
+make: *** [Makefile:141：all] 错误 2

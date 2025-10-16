@@ -1,0 +1,8 @@
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_srv.cpp:45:10:[m[K [01;31m[Kfatal error: [m[Kpx4_msgs/srv/vehicle_command.hpp: 没有那个文件或目录
+   45 | #include [01;31m[K<px4_msgs/srv/vehicle_command.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/offboard_control_srv.dir/build.make:63：CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:91：CMakeFiles/offboard_control_srv.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [Makefile:141：all] 错误 2

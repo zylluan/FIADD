@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/home/a/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2
+[0.081s] [  7%] Built target my_uav_node
+[0.085s] [ 14%] Built target offboard_control_mode
+[0.093s] [35m[1mScanning dependencies of target commander[0m
+[0.114s] [ 21%] Built target frame_transforms
+[0.125s] [ 25%] [32mBuilding CXX object CMakeFiles/commander.dir/src/examples/offboard/commander.cpp.o[0m
+[0.155s] [ 32%] Built target offboard_control
+[0.192s] [ 39%] Built target arm
+[0.225s] [ 46%] Built target sensor_combined_listener
+[0.259s] [ 53%] Built target vehicle_gps_position_listener
+[0.291s] [ 60%] Built target debug_vect_advertiser
+[0.323s] [ 67%] Built target trajectory_setpoint
+[0.358s] [ 75%] Built target vel_yaw
+[0.391s] [ 82%] Built target vehicle_attitude_listener
+[0.420s] [ 89%] Built target rates_setpoint
+[0.451s] [ 96%] Built target offboard_position_control
+[1.927s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:140:138:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kconst[m[K’
+[1.927s]   140 | ram1, const float param2, const float param3,  const float param4 [01;31m[Kconst[m[K double param5, const double param6, const float param7)
+[1.927s]       |                                                                   [01;31m[K^~~~~[m[K
+[1.927s] 
+[1.927s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:140:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid commander::send_vehicle_command(uint32_t, float, float, float, float)[m[K’
+[1.927s]   140 | void [01;31m[Kcommander[m[K::send_vehicle_command(const uint32_t cmd, const float param1, const float param2, const float param3,  const float param4 const double param5, const double param6, const float param7)
+[1.927s]       |      [01;31m[K^~~~~~~~~[m[K
+[1.927s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:123:7:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid commander::send_vehicle_command(uint32_t, float, float, float, float, double, double, float)[m[K’
+[1.927s]   123 |  void [01;36m[Ksend_vehicle_command[m[K(const uint32_t cmd, const float param1 = NAN, const float param2 = NAN,
+[1.927s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.927s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:46:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass commander[m[K’ defined here
+[1.927s]    46 | class [01;36m[Kcommander[m[K : public rclcpp::Node
+[1.927s]       |       [01;36m[K^~~~~~~~~[m[K
+[2.635s] make[2]: *** [CMakeFiles/commander.dir/build.make:63：CMakeFiles/commander.dir/src/examples/offboard/commander.cpp.o] 错误 1
+[2.635s] make[1]: *** [CMakeFiles/Makefile2:158：CMakeFiles/commander.dir/all] 错误 2
+[2.636s] make: *** [Makefile:141：all] 错误 2
+[2.638s] Invoked command in '/home/a/ros2_ws/build/px4_ros_com' returned '2': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2

@@ -1,0 +1,25 @@
+# Vehicle Waypoints Trajectory description. See also MAVLink MAV_TRAJECTORY_REPRESENTATION msg
+# The topic vehicle_trajectory_waypoint_desired is used to send the user desired waypoints from the position controller to the companion computer / avoidance module.
+# The topic vehicle_trajectory_waypoint is used to send the adjusted waypoints from the companion computer / avoidance module to the position controller.
+
+#topic vehicle_trajectory_waypoint_desired用于将用户想要的路点从位置控制器发送到同伴计算机/回避模块。
+#topic vehicle_trajectory_waypoint用于将调整后的路点从同伴计算机/避让模块发送到位置控制器。
+
+
+uint64 timestamp		# time since system start (microseconds)
+
+uint8 MAV_TRAJECTORY_REPRESENTATION_WAYPOINTS = 0
+
+uint8 type    # Type from MAV_TRAJECTORY_REPRESENTATION enum.定义轨迹表示的类型
+
+uint8 POINT_0 = 0  #五个轨迹点的编号
+uint8 POINT_1 = 1
+uint8 POINT_2 = 2
+uint8 POINT_3 = 3
+uint8 POINT_4 = 4
+
+uint8 NUMBER_POINTS = 5  #表示轨迹中的点数
+
+TrajectoryWaypoint[5] waypoints  #包含 5 个轨迹点的数组
+
+# TOPICS vehicle_trajectory_waypoint vehicle_trajectory_waypoint_desired

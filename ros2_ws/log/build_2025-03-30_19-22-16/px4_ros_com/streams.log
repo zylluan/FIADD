@@ -1,0 +1,50 @@
+[0.024s] Invoking command in '/home/a/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2
+[0.097s] [ 11%] Built target offboard_control
+[0.099s] [ 22%] Built target frame_transforms
+[0.127s] [ 33%] Built target my_uav_node
+[0.136s] [ 44%] Built target sensor_combined_listener
+[0.161s] [ 55%] Built target vehicle_gps_position_listener
+[0.171s] [ 66%] Built target debug_vect_advertiser
+[0.185s] [35m[1mScanning dependencies of target position[0m
+[0.194s] [ 77%] Built target offboard_position_control
+[0.216s] [ 83%] [32mBuilding CXX object CMakeFiles/position.dir/src/examples/offboard/position.cpp.o[0m
+[0.226s] [ 94%] Built target vehicle_attitude_listener
+[2.153s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[2.153s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:17:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32[m[K’ was not declared in this scope; did you mean ‘[01m[Kfloat_t[m[K’?
+[2.153s]    17 |         this->declare_parameter<[01;31m[Kfloat32[m[K>("target_yaw", -3.14);
+[2.153s]       |                                 [01;31m[K^~~~~~~[m[K
+[2.153s]       |                                 [32m[Kfloat_t[m[K
+[2.154s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:17:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOffboardControl::declare_parameter<<expression error> >(const char [11], double)[m[K’
+[2.154s]    17 |         this->declare_parameter<float32>("target_yaw", -3.14[01;31m[K)[m[K;
+[2.154s]       |                                                             [01;31m[K^[m[K
+[2.154s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:1329[m[K,
+[2.154s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.154s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[2.154s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.154s]                  from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:1[m[K:
+[2.154s] [01m[K/opt/ros/galactic/include/rclcpp/node_impl.hpp:196:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[2.154s]   196 | [01;36m[KNode[m[K::declare_parameter(
+[2.154s]       | [01;36m[K^~~~[m[K
+[2.154s] [01m[K/opt/ros/galactic/include/rclcpp/node_impl.hpp:196:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.154s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:17:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.154s]    17 |         this->declare_parameter<float32>("target_yaw", -3.14[01;31m[K)[m[K;
+[2.154s]       |                                                             [01;31m[K^[m[K
+[2.154s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.155s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[2.155s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.155s]                  from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:1[m[K:
+[2.155s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:460:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[2.155s]   460 |   [01;36m[Kdeclare_parameter[m[K(
+[2.155s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.155s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:460:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.155s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:17:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.155s]    17 |         this->declare_parameter<float32>("target_yaw", -3.14[01;31m[K)[m[K;
+[2.155s]       |                                                             [01;31m[K^[m[K
+[2.155s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/position.cpp:23:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kyaw[m[K’
+[2.155s]    23 |         float32[01;31m[K [m[K[32m[Kyaw[m[K = this->get_parameter("target_yaw").as_float32();
+[2.155s]       |                [01;31m[K^[m[K[32m[K~~~[m[K
+[2.155s]       |                [32m[K;[m[K
+[2.589s] make[2]: *** [CMakeFiles/position.dir/build.make:63：CMakeFiles/position.dir/src/examples/offboard/position.cpp.o] 错误 1
+[2.589s] make[1]: *** [CMakeFiles/Makefile2:337：CMakeFiles/position.dir/all] 错误 2
+[2.589s] make: *** [Makefile:141：all] 错误 2
+[2.595s] Invoked command in '/home/a/ros2_ws/build/px4_ros_com' returned '2': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2

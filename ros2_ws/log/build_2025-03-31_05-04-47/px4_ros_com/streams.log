@@ -1,0 +1,81 @@
+[0.020s] Invoking command in '/home/a/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2
+[0.086s] [  7%] Built target my_uav_node
+[0.094s] [ 14%] Built target offboard_control_mode
+[0.099s] [35m[1mScanning dependencies of target commander[0m
+[0.133s] [ 21%] Built target frame_transforms
+[0.141s] [ 25%] [32mBuilding CXX object CMakeFiles/commander.dir/src/examples/offboard/commander.cpp.o[0m
+[0.167s] [ 32%] Built target offboard_control
+[0.204s] [ 39%] Built target arm
+[0.240s] [ 46%] Built target sensor_combined_listener
+[0.277s] [ 53%] Built target vehicle_gps_position_listener
+[0.313s] [ 60%] Built target debug_vect_advertiser
+[0.352s] [ 67%] Built target trajectory_setpoint
+[0.394s] [ 75%] Built target vel_yaw
+[0.432s] [ 82%] Built target vehicle_attitude_listener
+[0.470s] [ 89%] Built target rates_setpoint
+[0.521s] [ 96%] Built target offboard_position_control
+[2.363s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:[m[K In member function ‘[01m[Kvoid commander::send_vehicle_command(uint32_t, float, float, float, float, double, double, float)[m[K’:
+[2.363s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:168:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[2.363s]   168 |  vehicle_command_publisher_->publish([01;31m[Kmsg[m[K);
+[2.363s]       |                                      [01;31m[K^~~[m[K
+[2.363s] [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:168:38:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.363s] In file included from [01m[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:20[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.363s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.363s]                  from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:38[m[K:
+[2.364s] [01m[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[2.364s]    26 | namespace [01;36m[Kmsg[m[K
+[2.364s]       |           [01;36m[K^~~[m[K
+[2.364s] In file included from [01m[K/opt/ros/galactic/include/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/qos_overriding_options.hpp:28[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/subscription_options.hpp:29[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/subscription.hpp:45[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:25[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.364s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.364s]                  from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:38[m[K:
+[2.364s] [01m[K/opt/ros/galactic/include/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[2.364s]    26 | namespace [01;36m[Kmsg[m[K
+[2.364s]       |           [01;36m[K^~~[m[K
+[2.364s] In file included from [01m[K/opt/ros/galactic/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/subscription.hpp:50[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:25[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.365s]                  from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:38[m[K:
+[2.365s] [01m[K/opt/ros/galactic/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[2.365s]    26 | namespace [01;36m[Kmsg[m[K
+[2.365s]       |           [01;36m[K^~~[m[K
+[2.365s] In file included from [01m[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_command.hpp:7[m[K,
+[2.365s]                  from [01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:39[m[K:
+[2.365s] [01m[K/home/a/ros2_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpx4_msgs::msg[m[K’
+[2.366s]    26 | namespace [01;36m[Kmsg[m[K
+[2.366s]       |           [01;36m[K^~~[m[K
+[4.876s] make[2]: *** [CMakeFiles/commander.dir/build.make:63：CMakeFiles/commander.dir/src/examples/offboard/commander.cpp.o] 错误 1
+[4.881s] make[1]: *** [CMakeFiles/Makefile2:158：CMakeFiles/commander.dir/all] 错误 2
+[4.881s] make: *** [Makefile:141：all] 错误 2
+[4.881s] Invoked command in '/home/a/ros2_ws/build/px4_ros_com' returned '2': CMAKE_PREFIX_PATH=/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic LD_LIBRARY_PATH=/home/a/ros2_ws/install/px4_msgs/lib:/home/a/ros2_ws/install/px4_ros_com/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_ros_com -- -j2 -l2

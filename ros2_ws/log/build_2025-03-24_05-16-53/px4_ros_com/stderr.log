@@ -1,0 +1,4 @@
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_position_control.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoints()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_position_control.cpp:205:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kwaypoint_index_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  205 |  [01;35m[Kif[m[K (waypoint_index_ < waypoints_.size()) {
+      |  [01;35m[K^~[m[K

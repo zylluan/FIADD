@@ -1,0 +1,13 @@
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:151:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ has not been declared
+  151 | void [01;31m[KPoint[m[K::publish_trajectory_setpoint2(float x,float y,float z)
+      |      [01;31m[K^~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In function ‘[01m[Kvoid publish_trajectory_setpoint2(float, float, float)[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:157:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  157 |  msg.timestamp = [01;31m[Kthis[m[K->get_clock()->now().nanoseconds() / 1000;
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:158:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_setpoint_publisher_[m[K’ was not declared in this scope
+  158 |  [01;31m[Ktrajectory_setpoint_publisher_[m[K->publish(msg);
+      |  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/offboard_control.dir/build.make:63：CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:569：CMakeFiles/offboard_control.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

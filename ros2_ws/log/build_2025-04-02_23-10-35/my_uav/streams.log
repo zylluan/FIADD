@@ -1,0 +1,54 @@
+[0.036s] Invoking command in '/home/a/ros2_ws/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/ros2_ws/src/my_uav -DCMAKE_INSTALL_PREFIX=/home/a/ros2_ws/install/my_uav
+[0.062s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.098s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.232s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.347s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.409s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.655s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.660s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.693s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.915s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.077s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.078s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.078s] -- Configured cppcheck include dirs: 
+[1.079s] -- Configured cppcheck exclude dirs and/or files: 
+[1.080s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.080s] -- Configured cpplint exclude dirs and/or files: 
+[1.081s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.082s] -- Added test 'lint_cmake' to check CMake code style
+[1.082s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.084s] -- Added test 'uncrustify' to check C / C++ code style
+[1.084s] -- Configured uncrustify additional arguments: 
+[1.084s] -- Added test 'xmllint' to check XML markup files
+[1.089s] -- Configuring done
+[1.111s] -- Generating done
+[1.117s] -- Build files have been written to: /home/a/ros2_ws/build/my_uav
+[1.125s] Invoked command in '/home/a/ros2_ws/build/my_uav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/ros2_ws/src/my_uav -DCMAKE_INSTALL_PREFIX=/home/a/ros2_ws/install/my_uav
+[1.130s] Invoking command in '/home/a/ros2_ws/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/ros2_ws/build/my_uav -- -j2 -l2
+[1.248s] [100%] Built target uav_control_node
+[1.260s] Invoked command in '/home/a/ros2_ws/build/my_uav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/ros2_ws/build/my_uav -- -j2 -l2
+[1.278s] Invoking command in '/home/a/ros2_ws/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/ros2_ws/build/my_uav
+[1.286s] -- Install configuration: "RELWITHDEBINFO"
+[1.287s] -- Execute custom install script
+[1.288s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/launch/gz_launch.py
+[1.290s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/worlds/empty_world.world
+[1.291s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/lib/my_uav/uav_control_node
+[1.291s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/ament_index/resource_index/package_run_dependencies/my_uav
+[1.292s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/ament_index/resource_index/parent_prefix_path/my_uav
+[1.293s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/environment/ament_prefix_path.sh
+[1.294s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/environment/ament_prefix_path.dsv
+[1.294s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/environment/path.sh
+[1.295s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/environment/path.dsv
+[1.295s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/local_setup.bash
+[1.296s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/local_setup.sh
+[1.298s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/local_setup.zsh
+[1.298s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/local_setup.dsv
+[1.300s] -- Symlinking: /home/a/ros2_ws/install/my_uav/share/my_uav/package.dsv
+[1.315s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/ament_index/resource_index/packages/my_uav
+[1.316s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/cmake/my_uavConfig.cmake
+[1.316s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/cmake/my_uavConfig-version.cmake
+[1.318s] -- Up-to-date symlink: /home/a/ros2_ws/install/my_uav/share/my_uav/package.xml
+[1.320s] Invoked command in '/home/a/ros2_ws/build/my_uav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/ros2_ws/build/my_uav

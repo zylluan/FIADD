@@ -1,0 +1,13 @@
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:31:2:[m[K [01;31m[Kerror: [m[Kuninitialized const member in ‘[01m[Kconst int[m[K’ [[01;31m[K-fpermissive[m[K]
+   31 |  [01;31m[KOffboardControl[m[K() : Node("offboard_control")
+      |  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:79:12:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int OffboardControl::uav_id[m[K’ should be initialized
+   79 |  const int [01;36m[Kuav_id[m[K;
+      |            [01;36m[K^~~~~~[m[K
+[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:33:10:[m[K [01;31m[Kerror: [m[Kassignment of read-only member ‘[01m[KOffboardControl::uav_id[m[K’
+   33 |   [01;31m[Kuav_id = std::getenv("Uav_id")[m[K; // 获取环境变量 PATH
+      |   [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/offboard_control.dir/build.make:63：CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:266：CMakeFiles/offboard_control.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
