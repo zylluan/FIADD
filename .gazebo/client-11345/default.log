@@ -1,0 +1,14 @@
+Gazebo multi-robot simulator, version 11.15.1
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1760449685 270839733) [Msg] Waiting for master.
+(1760449685 278107243) [Msg] Connected to gazebo master @ http://10.0.0.4:11345
+(1760449685 278174492) [Msg] Publicized address: 10.0.0.4
+(1760449685 278516164) Loaded .ini file from: "/home/a/.gazebo/gui.ini"
+(1760449685 759233040) [Wrn] [GuiIface.cc:114] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+(1760449686 298043201) [Wrn] [ModelDatabase.cc:213] Unable to connect to model database using [http://models.gazebosim.org//database.config]. Only locally installed models will be available.
+(1760449687 677289852) No spacenav daemon found. Spacenav functionality is disabled
+(1760449887 482317112) [Wrn] [Publisher.cc:135] Queue limit reached for topic /gazebo/default/user_camera/pose, deleting message. This warning is printed only once.

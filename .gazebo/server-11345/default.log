@@ -1,0 +1,29 @@
+Gazebo multi-robot simulator, version 11.15.1
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1760449680 374602451) [Msg] Waiting for master.
+(1760449680 385755431) [Msg] Connected to gazebo master @ http://10.0.0.4:11345
+(1760449680 386337619) [Msg] Publicized address: 10.0.0.4
+(1760449681 13617690) [Msg] Loading world file [/home/a/PX4-Autopilot/Tools/simulation/gazebo-classic/../../../Tools/simulation/gazebo-classic/sitl_gazebo-classic/worlds/safe_landing.world]
+(1760449681 145922906) [Err] [PhysicsEngine.cc:255] SetParam(gravity) std::any_cast error: bad any_cast
+(1760449681 146474496) [Wrn] [PresetManager.cc:82] Couldn't set parameter [gravity] in physics engine
+(1760449681 146952563) [Err] [PhysicsEngine.cc:255] SetParam(magnetic_field) std::any_cast error: bad any_cast
+(1760449681 147482523) [Wrn] [PresetManager.cc:82] Couldn't set parameter [magnetic_field] in physics engine
+(1760449681 148443747) Init world[default]
+(1760449708 177266191) [Wrn] [gazebo_gps_plugin.cpp:77] [gazebo_gps_plugin]: p450_2Dlidar_depth_1::gps using gps topic "gps"
+(1760449708 179564852) [Wrn] [gazebo_gps_plugin.cpp:202] [gazebo_gps_plugin] Using default update rate of 5hz 
+(1760449708 518072255) applying Gaussian noise model with mean 0, stddev 0, bias 0
+(1760449708 555278171) [Wrn] [msgs.cc:1844] Conversion of sensor type[multicamera] not supported.
+(1760449708 807022880) [Wrn] [msgs.cc:1844] Conversion of sensor type[multicamera] not supported.
+(1760449708 811845502) applying Gaussian noise model with mean 0, stddev 0.007, bias 0
+(1760449708 813247917) applying Gaussian noise model with mean 0, stddev 0.007, bias 0
+(1760449708 814017969) applying Gaussian noise model with mean 0, stddev 0.001, bias 0
+(1760449709 684440960) [Msg] Connecting to PX4 SITL using TCP
+(1760449709 684742480) [Msg] Lockstep is enabled
+(1760449709 684778647) [Msg] Speed factor set to: 1
+(1760449709 689615088) [Wrn] [gazebo_mavlink_interface.cpp:152] No identifier on joint. Using 0 as default sensor ID
+(1760449709 690814851) [Wrn] [gazebo_mavlink_interface.cpp:152] No identifier on joint. Using 0 as default sensor ID
+(1760449709 691447910) [Msg] Using MAVLink protocol v2.0
