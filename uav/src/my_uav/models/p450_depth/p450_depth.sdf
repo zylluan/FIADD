@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<sdf version='1.6'>
+  <model name='p450_D435i'>
+    <include>
+      <uri>model://p450</uri>
+    </include>
+    <include>
+      <uri>model://depth</uri>
+      <pose>0.2 0 -0.1 0 0 0</pose>
+    </include>
+    <joint name="depth_joint" type="fixed">
+      <child>depth::depth_link</child>
+      <parent>p450::base_link</parent>
+    </joint>
+  </model>
+</sdf>

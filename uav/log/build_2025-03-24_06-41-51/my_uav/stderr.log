@@ -1,0 +1,23 @@
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:20[m[K:
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:[m[K In member function ‘[01m[Kvoid InternvlNode::send_to_ai()[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:110:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+  110 |    RCLCPP_ERROR(this->get_logger(), [01;35m[K"请求失败，状态码: %d, 错误信息: %s"[m[K, [32m[Kresponse.status_code[m[K, response.text.c_str());
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                [32m[K|[m[K
+      |                                                                                                [32m[Klong int[m[K
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:110:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  110 |    RCLCPP_ERROR(this->get_logger(), "请求失败，状态码: [01;36m[K%d[m[K, 错误信息: %s", response.status_code, response.text.c_str());
+      |                                                                [01;36m[K~^[m[K
+      |                                                                 [01;36m[K|[m[K
+      |                                                                 [01;36m[Kint[m[K
+      |                                                                [32m[K%ld[m[K

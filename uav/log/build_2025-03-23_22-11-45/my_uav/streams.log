@@ -1,0 +1,21 @@
+[0.017s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/uav/src/my_uav -DCMAKE_INSTALL_PREFIX=/home/a/uav/install/my_uav
+[0.034s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.106s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.182s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.353s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.354s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.369s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.482s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.573s] CMake Error at CMakeLists.txt:69 (target_link_libraries):
+[0.573s]   Cannot specify link libraries for target "my_uav" which is not built by
+[0.573s]   this project.
+[0.573s] 
+[0.573s] 
+[0.574s] -- Configuring incomplete, errors occurred!
+[0.574s] See also "/home/a/uav/build/my_uav/CMakeFiles/CMakeOutput.log".
+[0.574s] See also "/home/a/uav/build/my_uav/CMakeFiles/CMakeError.log".
+[0.582s] Invoked command in '/home/a/uav/build/my_uav' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/uav/src/my_uav -DCMAKE_INSTALL_PREFIX=/home/a/uav/install/my_uav

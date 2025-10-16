@@ -1,0 +1,11 @@
+[0.018s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.081s] [  5%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[0.086s] [ 15%] Built target uav_control_node
+[0.122s] [ 25%] Built target internlm_m_node
+[0.164s] [ 35%] Built target internvl
+[0.204s] [ 45%] Built target internlm_m_listener
+[0.243s] [ 55%] Built target internvl_listener
+[0.257s] [35m[1mScanning dependencies of target gps_sub[0m
+[0.293s] [ 60%] [32mBuilding CXX object CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o[0m
+[0.485s] [01m[K/home/a/uav/src/my_uav/src/gps_sub.cpp:62:16:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+[6.248s] Invoked command in '/home/a/uav/build/my_uav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2

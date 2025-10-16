@@ -1,0 +1,90 @@
+[0.023s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.125s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.157s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.259s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.335s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.395s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.401s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.612s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.616s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.639s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.790s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.899s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.903s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.903s] -- Configured cppcheck include dirs: 
+[0.903s] -- Configured cppcheck exclude dirs and/or files: 
+[0.905s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.905s] -- Configured cpplint exclude dirs and/or files: 
+[0.906s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.906s] -- Added test 'lint_cmake' to check CMake code style
+[0.907s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.909s] -- Added test 'uncrustify' to check C / C++ code style
+[0.909s] -- Configured uncrustify additional arguments: 
+[0.910s] -- Added test 'xmllint' to check XML markup files
+[0.913s] -- Configuring done
+[0.927s] -- Generating done
+[0.932s] -- Build files have been written to: /home/a/uav/build/my_uav
+[0.989s] [100%] Built target uav_control_node
+[1.003s] Invoked command in '/home/a/uav/build/my_uav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[1.017s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/uav/build/my_uav
+[1.027s] -- Install configuration: ""
+[1.027s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch
+[1.028s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/sitl.launch
+[1.028s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/p450.py
+[1.028s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/gz_launch.py
+[1.028s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models
+[1.028s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth
+[1.028s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/model.config
+[1.028s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth.sdf
+[1.028s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450
+[1.028s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/model.config
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_ccw.stl
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450.stl
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_cw.stl
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx.sdf
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/model.config
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/p450_hokuyo_2Dlidar.sdf
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/model.config
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth/model.config
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth/depth.sdf
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials/textures
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials/textures/realsense_diffuse.png
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/model.config
+[1.029s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/D435i.sdf
+[1.030s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes
+[1.030s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes/realsense_d435.stl
+[1.030s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes/D435i.dae
+[1.030s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth
+[1.030s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth/model.config
+[1.030s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth/p450_depth.sdf
+[1.030s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds
+[1.030s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/leida.world
+[1.030s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/my.world
+[1.031s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/cam.world
+[1.031s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/empty_world.world
+[1.031s] -- Installing: /home/a/uav/install/my_uav/lib/my_uav/my_python_node.py
+[1.036s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/uav_control_node
+[1.036s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/package_run_dependencies/my_uav
+[1.036s] -- Installing: /home/a/uav/install/my_uav/share/ament_index/resource_index/parent_prefix_path/my_uav
+[1.037s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.sh
+[1.037s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.dsv
+[1.037s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.sh
+[1.038s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/environment/path.dsv
+[1.038s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.bash
+[1.038s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.sh
+[1.038s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.zsh
+[1.038s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/local_setup.dsv
+[1.039s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/package.dsv
+[1.040s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/packages/my_uav
+[1.040s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig.cmake
+[1.040s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig-version.cmake
+[1.040s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/package.xml
+[1.044s] Invoked command in '/home/a/uav/build/my_uav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/uav/build/my_uav

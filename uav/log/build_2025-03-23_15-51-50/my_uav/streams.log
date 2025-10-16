@@ -1,0 +1,12 @@
+[0.015s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/uav/src/my_uav -DCMAKE_INSTALL_PREFIX=/home/a/uav/install/my_uav
+[0.032s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.132s] CMake Error at CMakeLists.txt:26 (target_link_libraries):
+[0.132s]   Cannot specify link libraries for target "my_uav" which is not built by
+[0.133s]   this project.
+[0.133s] 
+[0.134s] 
+[0.134s] -- Configuring incomplete, errors occurred!
+[0.135s] See also "/home/a/uav/build/my_uav/CMakeFiles/CMakeOutput.log".
+[0.135s] See also "/home/a/uav/build/my_uav/CMakeFiles/CMakeError.log".
+[0.140s] Invoked command in '/home/a/uav/build/my_uav' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/uav/src/my_uav -DCMAKE_INSTALL_PREFIX=/home/a/uav/install/my_uav

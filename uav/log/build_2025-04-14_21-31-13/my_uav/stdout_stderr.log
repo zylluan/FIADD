@@ -1,0 +1,18 @@
+[  4%] [32mBuilding CXX object CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o[0m
+[ 13%] Built target image_sub
+[ 22%] Built target internlm_m_node
+[ 31%] Built target internvl
+[ 40%] Built target internlm_m_listener
+[ 50%] Built target internvl_p
+[ 59%] Built target internvl_listener
+[ 68%] Built target gps_sub
+[ 77%] Built target ray_sub
+[ 86%] Built target camera_listener
+[ 95%] Built target ray_listener
+[01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:[m[K In constructor ‘[01m[KUAVControlNode::UAVControlNode()[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:53:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing json = using json = class nlohmann::basic_json<>[m[K’ {aka ‘[01m[Kclass nlohmann::basic_json<>[m[K’} has no member named ‘[01m[Kc_str[m[K’
+   53 |   std::string command_string = parse_model_reply(request_data.[01;31m[Kc_str[m[K());
+      |                                                               [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/uav_control_node.dir/build.make:63：CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:152：CMakeFiles/uav_control_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

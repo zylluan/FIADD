@@ -1,0 +1,1 @@
+/home/a/uav/src/my_uav/scripts/my_python_node.py

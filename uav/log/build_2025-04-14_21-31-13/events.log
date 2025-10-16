@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (my_uav) JobQueued: {'identifier': 'my_uav', 'dependencies': OrderedDict()}
+[0.000198] (my_uav) JobStarted: {'identifier': 'my_uav'}
+[0.006646] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'cmake'}
+[0.008080] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'build'}
+[0.008188] (my_uav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/uav/build/my_uav', '--', '-j2', '-l2'], 'cwd': '/home/a/uav/build/my_uav', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'a'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/a/uav/build/my_uav'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.070022] (my_uav) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o\x1b[0m\n'}
+[0.073384] (my_uav) StdoutLine: {'line': b'[ 13%] Built target image_sub\n'}
+[0.098570] (my_uav) StdoutLine: {'line': b'[ 22%] Built target internlm_m_node\n'}
+[0.099675] (-) TimerEvent: {}
+[0.139707] (my_uav) StdoutLine: {'line': b'[ 31%] Built target internvl\n'}
+[0.171434] (my_uav) StdoutLine: {'line': b'[ 40%] Built target internlm_m_listener\n'}
+[0.200144] (-) TimerEvent: {}
+[0.203864] (my_uav) StdoutLine: {'line': b'[ 50%] Built target internvl_p\n'}
+[0.245559] (my_uav) StdoutLine: {'line': b'[ 59%] Built target internvl_listener\n'}
+[0.278423] (my_uav) StdoutLine: {'line': b'[ 68%] Built target gps_sub\n'}
+[0.301280] (-) TimerEvent: {}
+[0.310690] (my_uav) StdoutLine: {'line': b'[ 77%] Built target ray_sub\n'}
+[0.349342] (my_uav) StdoutLine: {'line': b'[ 86%] Built target camera_listener\n'}
+[0.380581] (my_uav) StdoutLine: {'line': b'[ 95%] Built target ray_listener\n'}
+[0.402363] (-) TimerEvent: {}
+[0.502826] (-) TimerEvent: {}
+[0.604494] (-) TimerEvent: {}
+[0.704927] (-) TimerEvent: {}
+[0.805423] (-) TimerEvent: {}
+[0.905849] (-) TimerEvent: {}
+[1.006910] (-) TimerEvent: {}
+[1.108179] (-) TimerEvent: {}
+[1.208589] (-) TimerEvent: {}
+[1.309702] (-) TimerEvent: {}
+[1.410513] (-) TimerEvent: {}
+[1.511145] (-) TimerEvent: {}
+[1.612301] (-) TimerEvent: {}
+[1.713217] (-) TimerEvent: {}
+[1.814162] (-) TimerEvent: {}
+[1.914874] (-) TimerEvent: {}
+[1.956626] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KUAVControlNode::UAVControlNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.956834] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:53:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing json = using json = class nlohmann::basic_json<>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass nlohmann::basic_json<>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.956882] (my_uav) StderrLine: {'line': b'   53 |   std::string command_string = parse_model_reply(request_data.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K());\n'}
+[1.956922] (my_uav) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.015800] (-) TimerEvent: {}
+[2.116831] (-) TimerEvent: {}
+[2.217388] (-) TimerEvent: {}
+[2.318323] (-) TimerEvent: {}
+[2.419481] (-) TimerEvent: {}
+[2.520104] (-) TimerEvent: {}
+[2.621047] (-) TimerEvent: {}
+[2.721563] (-) TimerEvent: {}
+[2.822041] (-) TimerEvent: {}
+[2.923488] (-) TimerEvent: {}
+[2.989624] (my_uav) StderrLine: {'line': b'make[2]: *** [CMakeFiles/uav_control_node.dir/build.make:63\xef\xbc\x9aCMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.989785] (my_uav) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:152\xef\xbc\x9aCMakeFiles/uav_control_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.989872] (my_uav) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.992204] (my_uav) CommandEnded: {'returncode': 2}
+[3.003158] (my_uav) JobEnded: {'identifier': 'my_uav', 'rc': 2}
+[3.004289] (-) EventReactorShutdown: {}

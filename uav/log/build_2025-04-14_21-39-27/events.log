@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000826] (my_uav) JobQueued: {'identifier': 'my_uav', 'dependencies': OrderedDict()}
+[0.000876] (my_uav) JobStarted: {'identifier': 'my_uav'}
+[0.008014] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'cmake'}
+[0.009359] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'build'}
+[0.009434] (my_uav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/uav/build/my_uav', '--', '-j2', '-l2'], 'cwd': '/home/a/uav/build/my_uav', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'a'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/a/uav/build/my_uav'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.074861] (my_uav) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o\x1b[0m\n'}
+[0.088443] (my_uav) StdoutLine: {'line': b'[ 13%] Built target image_sub\n'}
+[0.099471] (-) TimerEvent: {}
+[0.124945] (my_uav) StdoutLine: {'line': b'[ 22%] Built target internlm_m_node\n'}
+[0.163481] (my_uav) StdoutLine: {'line': b'[ 31%] Built target internvl\n'}
+[0.195144] (my_uav) StdoutLine: {'line': b'[ 40%] Built target internlm_m_listener\n'}
+[0.200412] (-) TimerEvent: {}
+[0.232815] (my_uav) StdoutLine: {'line': b'[ 50%] Built target internvl_p\n'}
+[0.294049] (my_uav) StdoutLine: {'line': b'[ 59%] Built target internvl_listener\n'}
+[0.301462] (-) TimerEvent: {}
+[0.338827] (my_uav) StdoutLine: {'line': b'[ 68%] Built target gps_sub\n'}
+[0.371562] (my_uav) StdoutLine: {'line': b'[ 77%] Built target ray_sub\n'}
+[0.395184] (my_uav) StdoutLine: {'line': b'[ 86%] Built target camera_listener\n'}
+[0.402530] (-) TimerEvent: {}
+[0.421497] (my_uav) StdoutLine: {'line': b'[ 95%] Built target ray_listener\n'}
+[0.503259] (-) TimerEvent: {}
+[0.604216] (-) TimerEvent: {}
+[0.705170] (-) TimerEvent: {}
+[0.806048] (-) TimerEvent: {}
+[0.908005] (-) TimerEvent: {}
+[1.008985] (-) TimerEvent: {}
+[1.110095] (-) TimerEvent: {}
+[1.211192] (-) TimerEvent: {}
+[1.312071] (-) TimerEvent: {}
+[1.413211] (-) TimerEvent: {}
+[1.513749] (-) TimerEvent: {}
+[1.614632] (-) TimerEvent: {}
+[1.715757] (-) TimerEvent: {}
+[1.816199] (-) TimerEvent: {}
+[1.917178] (-) TimerEvent: {}
+[2.018152] (-) TimerEvent: {}
+[2.119120] (-) TimerEvent: {}
+[2.220098] (-) TimerEvent: {}
+[2.321503] (-) TimerEvent: {}
+[2.422173] (-) TimerEvent: {}
+[2.522774] (-) TimerEvent: {}
+[2.623748] (-) TimerEvent: {}
+[2.724739] (-) TimerEvent: {}
+[2.826026] (-) TimerEvent: {}
+[2.927018] (-) TimerEvent: {}
+[3.028141] (-) TimerEvent: {}
+[3.129179] (-) TimerEvent: {}
+[3.229989] (-) TimerEvent: {}
+[3.330971] (-) TimerEvent: {}
+[3.431858] (-) TimerEvent: {}
+[3.532156] (-) TimerEvent: {}
+[3.633279] (-) TimerEvent: {}
+[3.734343] (-) TimerEvent: {}
+[3.834869] (-) TimerEvent: {}
+[3.935983] (-) TimerEvent: {}
+[4.036896] (-) TimerEvent: {}
+[4.137992] (-) TimerEvent: {}
+[4.238901] (-) TimerEvent: {}
+[4.339852] (-) TimerEvent: {}
+[4.440883] (-) TimerEvent: {}
+[4.541374] (-) TimerEvent: {}
+[4.641924] (-) TimerEvent: {}
+[4.742530] (-) TimerEvent: {}
+[4.843290] (-) TimerEvent: {}
+[4.943964] (-) TimerEvent: {}
+[5.044353] (-) TimerEvent: {}
+[5.111592] (my_uav) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable uav_control_node\x1b[0m\n'}
+[5.145273] (-) TimerEvent: {}
+[5.246313] (-) TimerEvent: {}
+[5.348038] (-) TimerEvent: {}
+[5.403956] (my_uav) StdoutLine: {'line': b'[100%] Built target uav_control_node\n'}
+[5.439972] (my_uav) CommandEnded: {'returncode': 0}
+[5.443504] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'install'}
+[5.448378] (-) TimerEvent: {}
+[5.461307] (my_uav) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/a/uav/build/my_uav'], 'cwd': '/home/a/uav/build/my_uav', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'a'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/a/uav/build/my_uav'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[5.478625] (my_uav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.479123] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch\n'}
+[5.481791] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/sitl.launch\n'}
+[5.482690] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/p450.py\n'}
+[5.483744] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/gz_launch.py\n'}
+[5.483909] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/cam_sub.launch.py\n'}
+[5.484000] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models\n'}
+[5.484092] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth\n'}
+[5.484245] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_3.sdf.last_generated\n'}
+[5.484332] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_2.sdf.last_generated\n'}
+[5.484408] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_1.sdf.last_generated\n'}
+[5.484489] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_0.sdf\n'}
+[5.484579] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_0.sdf.last_generated\n'}
+[5.484675] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_1.sdf\n'}
+[5.484760] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/model.config\n'}
+[5.484853] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth.sdf\n'}
+[5.484939] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_3.sdf\n'}
+[5.485025] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_-m.sdf\n'}
+[5.485118] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_2.sdf\n'}
+[5.485246] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_-m.sdf.last_generated\n'}
+[5.485349] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450\n'}
+[5.485443] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450_1.sdf\n'}
+[5.485535] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450_2.sdf.last_generated\n'}
+[5.485627] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf.jinja\n'}
+[5.485711] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450_1.sdf.last_generated\n'}
+[5.485791] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/model.config\n'}
+[5.485877] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450_2.sdf\n'}
+[5.485967] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes\n'}
+[5.486050] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_ccw.stl\n'}
+[5.486136] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450.stl\n'}
+[5.486620] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_cw.stl\n'}
+[5.486729] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf\n'}
+[5.486824] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx\n'}
+[5.486912] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx.sdf\n'}
+[5.486997] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_2.sdf.last_generated\n'}
+[5.487205] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/model.config\n'}
+[5.487329] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_2.sdf\n'}
+[5.487474] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_1.sdf\n'}
+[5.487576] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_1.sdf.last_generated\n'}
+[5.487766] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar\n'}
+[5.487934] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/p450_hokuyo_2Dlidar.sdf\n'}
+[5.488025] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/model.config\n'}
+[5.488114] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth\n'}
+[5.488232] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth/model.config\n'}
+[5.488402] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth/depth.sdf\n'}
+[5.488502] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i\n'}
+[5.488598] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials\n'}
+[5.488693] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials/textures\n'}
+[5.488781] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials/textures/realsense_diffuse.png\n'}
+[5.488987] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/model.config\n'}
+[5.489086] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/D435i.sdf\n'}
+[5.489164] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes\n'}
+[5.489274] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes/realsense_d435.stl\n'}
+[5.489352] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes/D435i.dae\n'}
+[5.489556] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth\n'}
+[5.489741] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth/model.config\n'}
+[5.489832] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth/p450_depth.sdf\n'}
+[5.489927] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds\n'}
+[5.490050] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/leida.world\n'}
+[5.490209] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/my.world\n'}
+[5.490342] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/baylands.world\n'}
+[5.490506] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/safe_landing.world\n'}
+[5.490602] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/yosemite.world\n'}
+[5.490768] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/mcmillan_airfield.world\n'}
+[5.490852] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/cam.world\n'}
+[5.490938] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/sonoma_raceway.world\n'}
+[5.491021] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/empty_world.world\n'}
+[5.491103] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/my_python_node.py\n'}
+[5.491278] (my_uav) StdoutLine: {'line': b'-- Installing: /home/a/uav/install/my_uav/lib/my_uav/uav_control_node\n'}
+[5.491360] (my_uav) StdoutLine: {'line': b'-- Set runtime path of "/home/a/uav/install/my_uav/lib/my_uav/uav_control_node" to ""\n'}
+[5.491445] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internlm_m_node\n'}
+[5.491526] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internvl\n'}
+[5.491651] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internlm_m_listener\n'}
+[5.491783] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internvl_listener\n'}
+[5.491865] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internvl_p\n'}
+[5.491974] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/image_sub\n'}
+[5.492214] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/gps_sub\n'}
+[5.492401] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/ray_sub\n'}
+[5.492702] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/camera_listener\n'}
+[5.492965] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/ray_listener\n'}
+[5.493088] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/package_run_dependencies/my_uav\n'}
+[5.493192] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/parent_prefix_path/my_uav\n'}
+[5.493383] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.sh\n'}
+[5.493606] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.dsv\n'}
+[5.493703] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.sh\n'}
+[5.493785] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.dsv\n'}
+[5.493979] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.bash\n'}
+[5.494086] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.sh\n'}
+[5.494167] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.zsh\n'}
+[5.494278] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.dsv\n'}
+[5.494356] (my_uav) StdoutLine: {'line': b'-- Installing: /home/a/uav/install/my_uav/share/my_uav/package.dsv\n'}
+[5.494446] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/packages/my_uav\n'}
+[5.494535] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig.cmake\n'}
+[5.494610] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig-version.cmake\n'}
+[5.494692] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/package.xml\n'}
+[5.496293] (my_uav) CommandEnded: {'returncode': 0}
+[5.517869] (my_uav) JobEnded: {'identifier': 'my_uav', 'rc': 0}
+[5.518953] (-) EventReactorShutdown: {}

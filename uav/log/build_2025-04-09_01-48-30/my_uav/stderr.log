@@ -1,0 +1,6 @@
+[01m[K/home/a/uav/src/my_uav/src/internvl_p.cpp:136:2:[m[K [01;31m[Kerror: [m[K‘[01m[KstringStream[m[K’ does not name a type
+  136 |  [01;31m[KstringStream[m[K << R"(Your output should be in the following format:)";
+      |  [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/internvl_p.dir/build.make:63：CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:287：CMakeFiles/internvl_p.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

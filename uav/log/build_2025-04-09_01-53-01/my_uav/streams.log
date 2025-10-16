@@ -1,0 +1,21 @@
+[0.019s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.088s] [ 95%] Built target uav_control_node
+[0.091s] [ 95%] Built target image_sub
+[0.127s] [ 95%] Built target internlm_m_node
+[0.128s] [ 95%] Built target internvl
+[0.140s] [35m[1mScanning dependencies of target internvl_p[0m
+[0.162s] [ 95%] Built target internlm_m_listener
+[0.179s] [ 95%] [32mBuilding CXX object CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o[0m
+[0.201s] [ 95%] Built target internvl_listener
+[0.235s] [ 95%] Built target gps_sub
+[0.264s] [ 95%] Built target ray_sub
+[0.291s] [ 95%] Built target camera_listener
+[0.319s] [ 95%] Built target ray_listener
+[3.232s] [01m[K/home/a/uav/src/my_uav/src/internvl_p.cpp:164:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring33[m[K’ was not declared in this scope; did you mean ‘[01m[Kstring3[m[K’?
+[3.232s]   164 |   std::string prompt=string1+string2+[01;31m[Kstring33[m[K;
+[3.232s]       |                                      [01;31m[K^~~~~~~~[m[K
+[3.232s]       |                                      [32m[Kstring3[m[K
+[8.289s] make[2]: *** [CMakeFiles/internvl_p.dir/build.make:63：CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o] 错误 1
+[8.289s] make[1]: *** [CMakeFiles/Makefile2:287：CMakeFiles/internvl_p.dir/all] 错误 2
+[8.289s] make: *** [Makefile:141：all] 错误 2
+[8.295s] Invoked command in '/home/a/uav/build/my_uav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2

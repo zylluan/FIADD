@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/internlm_m_node.dir/src/internlm_m_node.cpp.o[0m
+[ 75%] Built target uav_control_node
+[01m[K/home/a/uav/src/my_uav/src/internlm_m_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcpr/cpr.h: 没有那个文件或目录
+    4 | #include [01;31m[K<cpr/cpr.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/internlm_m_node.dir/build.make:63：CMakeFiles/internlm_m_node.dir/src/internlm_m_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/internlm_m_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

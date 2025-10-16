@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.060s] [35m[1mScanning dependencies of target image_sub[0m
+[0.075s] [ 10%] Built target uav_control_node
+[0.094s] [ 15%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[0.107s] [ 25%] Built target internlm_m_node
+[0.143s] [ 35%] Built target internvl
+[0.182s] [ 45%] Built target internlm_m_listener
+[0.220s] [ 55%] Built target internvl_listener
+[0.257s] [ 60%] [32mBuilding CXX object CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o[0m
+[0.445s] In file included from [01m[K/home/a/uav/src/my_uav/src/gps_sub.cpp:29[m[K:
+[0.445s] [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:43:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core/core.hpp: 没有那个文件或目录
+[0.445s]    43 | #include [01;31m[K<opencv2/core/core.hpp>[m[K
+[0.445s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.445s] compilation terminated.
+[0.449s] make[2]: *** [CMakeFiles/gps_sub.dir/build.make:63：CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o] 错误 1
+[0.449s] make[1]: *** [CMakeFiles/Makefile2:312：CMakeFiles/gps_sub.dir/all] 错误 2
+[0.449s] make[1]: *** 正在等待未完成的任务....
+[3.291s] [01m[K/home/a/uav/src/my_uav/src/image_sub.cpp:[m[K In constructor ‘[01m[Kimage_sub::image_sub()[m[K’:
+[3.291s] [01m[K/home/a/uav/src/my_uav/src/image_sub.cpp:40:118:[m[K [01;31m[Kerror: [m[K‘[01m[KInternvlNode[m[K’ has not been declared
+[3.291s]    40 | sg::Image>("/ired/ired_cam/ired1/image_raw", qos, std::bind(&[01;31m[KInternvlNode[m[K::image_callback, this, std::placeholders::_1));
+[3.292s]       |                                                              [01;31m[K^~~~~~~~~~~~[m[K
+[3.292s] 
+[5.191s] make[2]: *** [CMakeFiles/image_sub.dir/build.make:63：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+[5.191s] make[1]: *** [CMakeFiles/Makefile2:96：CMakeFiles/image_sub.dir/all] 错误 2
+[5.191s] make: *** [Makefile:141：all] 错误 2
+[5.197s] Invoked command in '/home/a/uav/build/my_uav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2

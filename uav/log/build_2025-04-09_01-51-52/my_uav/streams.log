@@ -1,0 +1,48 @@
+[0.015s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.042s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.118s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.171s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.204s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.349s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.351s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.367s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.483s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.597s] -- Found px4_msgs: 2.0.1 (/home/a/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.622s] -- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)
+[0.645s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.647s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.648s] -- Configured cppcheck include dirs: 
+[0.648s] -- Configured cppcheck exclude dirs and/or files: 
+[0.650s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.650s] -- Configured cpplint exclude dirs and/or files: 
+[0.650s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.651s] -- Added test 'lint_cmake' to check CMake code style
+[0.652s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.655s] -- Added test 'uncrustify' to check C / C++ code style
+[0.655s] -- Configured uncrustify additional arguments: 
+[0.655s] -- Added test 'xmllint' to check XML markup files
+[0.657s] -- Configuring done
+[0.734s] -- Generating done
+[0.784s] -- Build files have been written to: /home/a/uav/build/my_uav
+[0.824s] [ 95%] Built target uav_control_node
+[0.829s] [ 95%] Built target image_sub
+[0.857s] [ 95%] Built target internlm_m_node
+[0.857s] [ 95%] Built target internvl
+[0.870s] [35m[1mScanning dependencies of target internvl_p[0m
+[0.891s] [ 95%] Built target internlm_m_listener
+[0.912s] [ 95%] [32mBuilding CXX object CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o[0m
+[0.927s] [ 95%] Built target internvl_listener
+[0.968s] [ 95%] Built target gps_sub
+[0.996s] [ 95%] Built target ray_sub
+[1.022s] [ 95%] Built target camera_listener
+[1.051s] [ 95%] Built target ray_listener
+[3.796s] [01m[K/home/a/uav/src/my_uav/src/internvl_p.cpp:136:2:[m[K [01;31m[Kerror: [m[K‘[01m[KstringStream[m[K’ does not name a type
+[3.796s]   136 |  [01;31m[KstringStream[m[K << R"(
+[3.796s]       |  [01;31m[K^~~~~~~~~~~~[m[K
+[8.727s] make[2]: *** [CMakeFiles/internvl_p.dir/build.make:63：CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o] 错误 1
+[8.727s] make[1]: *** [CMakeFiles/Makefile2:287：CMakeFiles/internvl_p.dir/all] 错误 2
+[8.728s] make: *** [Makefile:141：all] 错误 2
+[8.733s] Invoked command in '/home/a/uav/build/my_uav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2

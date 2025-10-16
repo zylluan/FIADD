@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/uav/src/my_uav -DCMAKE_INSTALL_PREFIX=/home/a/uav/install/my_uav
+[0.178s] -- The C compiler identification is GNU 9.4.0
+[0.253s] -- The CXX compiler identification is GNU 9.4.0
+[0.260s] -- Check for working C compiler: /usr/bin/cc
+[0.350s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.351s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.429s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.432s] -- Check for working CXX compiler: /usr/bin/c++
+[0.506s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.506s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.590s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.593s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.612s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.612s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.759s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[0.760s] CMake Error at CMakeLists.txt:26 (target_link_libraries):
+[0.760s]   Cannot specify link libraries for target "my_uav" which is not built by
+[0.761s]   this project.
+[0.761s] 
+[0.761s] 
+[0.762s] -- Configuring incomplete, errors occurred!
+[0.762s] See also "/home/a/uav/build/my_uav/CMakeFiles/CMakeOutput.log".
+[0.762s] See also "/home/a/uav/build/my_uav/CMakeFiles/CMakeError.log".
+[0.770s] Invoked command in '/home/a/uav/build/my_uav' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/uav/src/my_uav -DCMAKE_INSTALL_PREFIX=/home/a/uav/install/my_uav

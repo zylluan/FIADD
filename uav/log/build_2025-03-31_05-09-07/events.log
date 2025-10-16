@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.000859] (my_uav) JobQueued: {'identifier': 'my_uav', 'dependencies': OrderedDict()}
+[0.000912] (my_uav) JobStarted: {'identifier': 'my_uav'}
+[0.010074] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'cmake'}
+[0.011082] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'build'}
+[0.012516] (my_uav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/uav/build/my_uav', '--', '-j2', '-l2'], 'cwd': '/home/a/uav/build/my_uav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'a'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1533'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/ros2_ws/install/px4_ros_com/lib:/home/a/ros2_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('HOME', '/home/a'), ('OLDPWD', '/home/a/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1437'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d2a1fc6477ce5af2b8621c2467e91d98'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/a/uav/install:/home/a/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:50177'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/a/uav/src/my_uav/models:/home/a/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/a-vm:@/tmp/.ICE-unix/1568,unix/a-vm:/tmp/.ICE-unix/1568'), ('INVOCATION_ID', '9ce1b87286544096a0794ab036aab863'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4370553c_2017_4e33_a4bb_82437622f292'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/uav/install/my_uav:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/uav/build/my_uav'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d2a1fc6477ce5af2b8621c2467e91d98'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OGRE_RENDERER', 'OGRE1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/a/uav/install/my_uav:/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic')]), 'shell': False}
+[0.044840] (my_uav) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.063565] (my_uav) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100656] (-) TimerEvent: {}
+[0.118033] (my_uav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.169355] (my_uav) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.199381] (my_uav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.201642] (-) TimerEvent: {}
+[0.202554] (my_uav) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.301881] (-) TimerEvent: {}
+[0.303954] (my_uav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.345518] (my_uav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.346824] (my_uav) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.360910] (my_uav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.402818] (-) TimerEvent: {}
+[0.477741] (my_uav) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[0.503812] (-) TimerEvent: {}
+[0.589172] (my_uav) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/a/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[0.604914] (-) TimerEvent: {}
+[0.612852] (my_uav) StdoutLine: {'line': b'-- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)\n'}
+[0.635072] (my_uav) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.636793] (my_uav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.637069] (my_uav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.637125] (my_uav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.639089] (my_uav) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.639203] (my_uav) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.639303] (my_uav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.639953] (my_uav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.640315] (my_uav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.641947] (my_uav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.642048] (my_uav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.642260] (my_uav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.644396] (my_uav) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.705857] (-) TimerEvent: {}
+[0.708736] (my_uav) StdoutLine: {'line': b'-- Generating done\n'}
+[0.746540] (my_uav) StdoutLine: {'line': b'-- Build files have been written to: /home/a/uav/build/my_uav\n'}
+[0.786463] (my_uav) StdoutLine: {'line': b'[ 10%] Built target uav_control_node\n'}
+[0.794558] (my_uav) StdoutLine: {'line': b'[ 20%] Built target image_sub\n'}
+[0.806690] (-) TimerEvent: {}
+[0.816431] (my_uav) StdoutLine: {'line': b'[ 30%] Built target internlm_m_node\n'}
+[0.825638] (my_uav) StdoutLine: {'line': b'[ 40%] Built target internvl\n'}
+[0.851937] (my_uav) StdoutLine: {'line': b'[ 50%] Built target internlm_m_listener\n'}
+[0.864438] (my_uav) StdoutLine: {'line': b'[ 60%] Built target internvl_listener\n'}
+[0.868261] (my_uav) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gps_sub\x1b[0m\n'}
+[0.900060] (my_uav) StdoutLine: {'line': b'[ 70%] Built target ray_sub\n'}
+[0.907208] (-) TimerEvent: {}
+[0.910883] (my_uav) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o\x1b[0m\n'}
+[0.926561] (my_uav) StdoutLine: {'line': b'[ 85%] Built target camera_listener\n'}
+[0.954590] (my_uav) StdoutLine: {'line': b'[ 95%] Built target ray_listener\n'}
+[1.008031] (-) TimerEvent: {}
+[1.108616] (-) TimerEvent: {}
+[1.209575] (-) TimerEvent: {}
+[1.310589] (-) TimerEvent: {}
+[1.411560] (-) TimerEvent: {}
+[1.512570] (-) TimerEvent: {}
+[1.613583] (-) TimerEvent: {}
+[1.714604] (-) TimerEvent: {}
+[1.815301] (-) TimerEvent: {}
+[1.916428] (-) TimerEvent: {}
+[2.017345] (-) TimerEvent: {}
+[2.118362] (-) TimerEvent: {}
+[2.219020] (-) TimerEvent: {}
+[2.319438] (-) TimerEvent: {}
+[2.420478] (-) TimerEvent: {}
+[2.521387] (-) TimerEvent: {}
+[2.622374] (-) TimerEvent: {}
+[2.723491] (-) TimerEvent: {}
+[2.824552] (-) TimerEvent: {}
+[2.925445] (-) TimerEvent: {}
+[3.026804] (-) TimerEvent: {}
+[3.127748] (-) TimerEvent: {}
+[3.228728] (-) TimerEvent: {}
+[3.329675] (-) TimerEvent: {}
+[3.430782] (-) TimerEvent: {}
+[3.531753] (-) TimerEvent: {}
+[3.632663] (-) TimerEvent: {}
+[3.733803] (-) TimerEvent: {}
+[3.834407] (-) TimerEvent: {}
+[3.935546] (-) TimerEvent: {}
+[4.035967] (-) TimerEvent: {}
+[4.136535] (-) TimerEvent: {}
+[4.237610] (-) TimerEvent: {}
+[4.338685] (-) TimerEvent: {}
+[4.439552] (-) TimerEvent: {}
+[4.540648] (-) TimerEvent: {}
+[4.641564] (-) TimerEvent: {}
+[4.742641] (-) TimerEvent: {}
+[4.843604] (-) TimerEvent: {}
+[4.944093] (-) TimerEvent: {}
+[5.045035] (-) TimerEvent: {}
+[5.146108] (-) TimerEvent: {}
+[5.247119] (-) TimerEvent: {}
+[5.348126] (-) TimerEvent: {}
+[5.448730] (-) TimerEvent: {}
+[5.550081] (-) TimerEvent: {}
+[5.651037] (-) TimerEvent: {}
+[5.752735] (-) TimerEvent: {}
+[5.853809] (-) TimerEvent: {}
+[5.955307] (-) TimerEvent: {}
+[6.056197] (-) TimerEvent: {}
+[6.157274] (-) TimerEvent: {}
+[6.257969] (-) TimerEvent: {}
+[6.359277] (-) TimerEvent: {}
+[6.460289] (-) TimerEvent: {}
+[6.561219] (-) TimerEvent: {}
+[6.662251] (-) TimerEvent: {}
+[6.763250] (-) TimerEvent: {}
+[6.863891] (-) TimerEvent: {}
+[6.964530] (-) TimerEvent: {}
+[7.065596] (-) TimerEvent: {}
+[7.166570] (-) TimerEvent: {}
+[7.267515] (-) TimerEvent: {}
+[7.368536] (-) TimerEvent: {}
+[7.469114] (-) TimerEvent: {}
+[7.569524] (-) TimerEvent: {}
+[7.670543] (-) TimerEvent: {}
+[7.771521] (-) TimerEvent: {}
+[7.872144] (-) TimerEvent: {}
+[7.972740] (-) TimerEvent: {}
+[8.073727] (-) TimerEvent: {}
+[8.174654] (-) TimerEvent: {}
+[8.275768] (-) TimerEvent: {}
+[8.376765] (-) TimerEvent: {}
+[8.477897] (-) TimerEvent: {}
+[8.578850] (-) TimerEvent: {}
+[8.679866] (-) TimerEvent: {}
+[8.780827] (-) TimerEvent: {}
+[8.881497] (-) TimerEvent: {}
+[8.982095] (-) TimerEvent: {}
+[9.083074] (-) TimerEvent: {}
+[9.184124] (-) TimerEvent: {}
+[9.285127] (-) TimerEvent: {}
+[9.386110] (-) TimerEvent: {}
+[9.487224] (-) TimerEvent: {}
+[9.588300] (-) TimerEvent: {}
+[9.689153] (-) TimerEvent: {}
+[9.789914] (-) TimerEvent: {}
+[9.890380] (-) TimerEvent: {}
+[9.991200] (-) TimerEvent: {}
+[10.092202] (-) TimerEvent: {}
+[10.193251] (-) TimerEvent: {}
+[10.294269] (-) TimerEvent: {}
+[10.395212] (-) TimerEvent: {}
+[10.496116] (-) TimerEvent: {}
+[10.517008] (my_uav) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gps_sub\x1b[0m\n'}
+[10.597069] (-) TimerEvent: {}
+[10.698197] (-) TimerEvent: {}
+[10.799169] (-) TimerEvent: {}
+[10.899692] (-) TimerEvent: {}
+[11.000652] (-) TimerEvent: {}
+[11.101577] (-) TimerEvent: {}
+[11.202738] (-) TimerEvent: {}
+[11.253593] (my_uav) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o: in function `rclcpp::create_subscription_factory<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, std::_Bind<void (gps_sub::*(gps_sub*, std::_Placeholder<1>))(std::shared_ptr<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> > >)>, std::allocator<void>, px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, rclcpp::Subscription<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, std::allocator<void> > >(std::_Bind<void (gps_sub::*(gps_sub*, std::_Placeholder<1>))(std::shared_ptr<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> > >)>&&, rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> > const&, rclcpp::message_memory_strategy::MessageMemoryStrategy<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, std::allocator<void> >::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> > > >)::{lambda(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&)#1}::operator()(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&) const':\n"}
+[11.253799] (my_uav) StderrLine: {'line': b"gps_sub.cpp:(.text._ZZN6rclcpp27create_subscription_factoryIN8px4_msgs3msg19VehicleGpsPosition_ISaIvEEESt5_BindIFM7gps_subFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_[_ZZN6rclcpp27create_subscription_factoryIN8px4_msgs3msg19VehicleGpsPosition_ISaIvEEESt5_BindIFM7gps_subFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_]+0x5c): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> > >()'\n"}
+[11.253859] (my_uav) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[11.255725] (my_uav) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gps_sub.dir/build.make:151\xef\xbc\x9agps_sub] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[11.255905] (my_uav) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:312\xef\xbc\x9aCMakeFiles/gps_sub.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[11.255988] (my_uav) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[11.257887] (my_uav) CommandEnded: {'returncode': 2}
+[11.269839] (my_uav) JobEnded: {'identifier': 'my_uav', 'rc': 2}
+[11.281361] (-) EventReactorShutdown: {}

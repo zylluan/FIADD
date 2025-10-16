@@ -1,0 +1,21 @@
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/a/uav/src/my_uav/src/ray_listener.cpp:26[m[K:
+[01m[K/home/a/uav/src/my_uav/src/ray_listener.cpp:[m[K In member function ‘[01m[Kvoid LaserScanListener::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr)[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/ray_listener.cpp:88:35:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K-Wformat=[m[K]
+   88 |   RCLCPP_INFO(this->get_logger(), [01;35m[K"Received LaserScan: angle_min = %f, angle_increment = %f, range[0] = %f,range[1] = %f"[m[K,
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/uav/src/my_uav/src/ray_listener.cpp:88:120:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   88 | le_min = %f, angle_increment = %f, range[0] = %f,range[1] = [01;36m[K%f[m[K",
+      |                                                             [01;36m[K~^[m[K
+      |                                                              [01;36m[K|[m[K
+      |                                                              [01;36m[Kdouble[m[K
+

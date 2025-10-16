@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (my_uav) JobQueued: {'identifier': 'my_uav', 'dependencies': OrderedDict()}
+[0.000483] (my_uav) JobStarted: {'identifier': 'my_uav'}
+[0.010329] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'cmake'}
+[0.017048] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'build'}
+[0.017291] (my_uav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/uav/build/my_uav', '--', '-j2', '-l2'], 'cwd': '/home/a/uav/build/my_uav', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'a'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1539'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/ros2_ws/install/px4_ros_com/lib:/home/a/ros2_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('HOME', '/home/a'), ('OLDPWD', '/home/a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1438'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/a/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:50024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/a/uav/src/my_uav/models:/home/a/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/a-vm:@/tmp/.ICE-unix/1574,unix/a-vm:/tmp/.ICE-unix/1574'), ('INVOCATION_ID', '3b5c4787dc2948109713afe6696dde1a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b62c5e48_029e_41a8_a818_3e4fc19e7d58'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/uav/build/my_uav'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OGRE_RENDERER', 'OGRE1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic')]), 'shell': False}
+[0.098378] (my_uav) StdoutLine: {'line': b'[ 10%] Built target uav_control_node\n'}
+[0.099359] (-) TimerEvent: {}
+[0.116923] (my_uav) StdoutLine: {'line': b'[ 20%] Built target image_sub\n'}
+[0.136370] (my_uav) StdoutLine: {'line': b'[ 30%] Built target internlm_m_node\n'}
+[0.153945] (my_uav) StdoutLine: {'line': b'[ 40%] Built target internvl\n'}
+[0.157889] (my_uav) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target internlm_m_listener\x1b[0m\n'}
+[0.172653] (my_uav) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target internvl_listener\x1b[0m\n'}
+[0.194665] (my_uav) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/internlm_m_listener.dir/src/internlm_m_listener.cpp.o\x1b[0m\n'}
+[0.199917] (-) TimerEvent: {}
+[0.212759] (my_uav) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/internvl_listener.dir/src/internvl_listener.cpp.o\x1b[0m\n'}
+[0.300381] (-) TimerEvent: {}
+[0.400917] (-) TimerEvent: {}
+[0.502010] (-) TimerEvent: {}
+[0.603005] (-) TimerEvent: {}
+[0.703708] (-) TimerEvent: {}
+[0.804923] (-) TimerEvent: {}
+[0.905961] (-) TimerEvent: {}
+[1.006755] (-) TimerEvent: {}
+[1.107568] (-) TimerEvent: {}
+[1.208146] (-) TimerEvent: {}
+[1.309351] (-) TimerEvent: {}
+[1.410272] (-) TimerEvent: {}
+[1.511161] (-) TimerEvent: {}
+[1.612339] (-) TimerEvent: {}
+[1.713343] (-) TimerEvent: {}
+[1.814463] (-) TimerEvent: {}
+[1.915327] (-) TimerEvent: {}
+[2.015909] (-) TimerEvent: {}
+[2.116920] (-) TimerEvent: {}
+[2.217950] (-) TimerEvent: {}
+[2.318734] (-) TimerEvent: {}
+[2.419349] (-) TimerEvent: {}
+[2.519962] (-) TimerEvent: {}
+[2.620973] (-) TimerEvent: {}
+[2.721951] (-) TimerEvent: {}
+[2.822967] (-) TimerEvent: {}
+[2.923978] (-) TimerEvent: {}
+[3.014063] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/internlm_m_listener.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kinternlm_m_node::internlm_m_node()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.014272] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/internlm_m_listener.cpp:37:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Kvoid exit(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.014338] (my_uav) StderrLine: {'line': b'   37 |    exit(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;  // \xe7\xa8\x8b\xe5\xba\x8f\xe9\x80\x80\xe5\x87\xba\n'}
+[3.014389] (my_uav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.014681] (my_uav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cstdlib:75\x1b[m\x1b[K,\n'}
+[3.014773] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ext/string_conversions.h:41\x1b[m\x1b[K,\n'}
+[3.014831] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6496\x1b[m\x1b[K,\n'}
+[3.014881] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[3.014973] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[3.015023] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[3.015070] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ios:42\x1b[m\x1b[K,\n'}
+[3.015123] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ostream:38\x1b[m\x1b[K,\n'}
+[3.015169] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[3.015217] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/uav/src/my_uav/src/internlm_m_listener.cpp:4\x1b[m\x1b[K:\n'}
+[3.015263] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdlib.h:617:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.015309] (my_uav) StderrLine: {'line': b'  617 | extern void \x1b[01;36m\x1b[Kexit\x1b[m\x1b[K (int __status) __THROW __attribute__ ((__noreturn__));\n'}
+[3.015361] (my_uav) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.024654] (-) TimerEvent: {}
+[3.125596] (-) TimerEvent: {}
+[3.226426] (-) TimerEvent: {}
+[3.329115] (-) TimerEvent: {}
+[3.429913] (-) TimerEvent: {}
+[3.531253] (-) TimerEvent: {}
+[3.632322] (-) TimerEvent: {}
+[3.733110] (-) TimerEvent: {}
+[3.834189] (-) TimerEvent: {}
+[3.935140] (-) TimerEvent: {}
+[4.035933] (-) TimerEvent: {}
+[4.139255] (-) TimerEvent: {}
+[4.242593] (-) TimerEvent: {}
+[4.344188] (-) TimerEvent: {}
+[4.445663] (-) TimerEvent: {}
+[4.555467] (-) TimerEvent: {}
+[4.656752] (-) TimerEvent: {}
+[4.762158] (-) TimerEvent: {}
+[4.863138] (-) TimerEvent: {}
+[4.964554] (-) TimerEvent: {}
+[5.066229] (-) TimerEvent: {}
+[5.142387] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KInternvlNode::InternvlNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.142590] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:48:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Kvoid exit(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.142668] (my_uav) StderrLine: {'line': b'   48 |    exit(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;  // \xe7\xa8\x8b\xe5\xba\x8f\xe9\x80\x80\xe5\x87\xba\n'}
+[5.142726] (my_uav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.143052] (my_uav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cstdlib:75\x1b[m\x1b[K,\n'}
+[5.143178] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ext/string_conversions.h:41\x1b[m\x1b[K,\n'}
+[5.143231] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6496\x1b[m\x1b[K,\n'}
+[5.143282] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[5.143333] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[5.143382] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[5.143429] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ios:42\x1b[m\x1b[K,\n'}
+[5.143478] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ostream:38\x1b[m\x1b[K,\n'}
+[5.143527] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[5.143576] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:8\x1b[m\x1b[K:\n'}
+[5.143636] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdlib.h:617:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.143685] (my_uav) StderrLine: {'line': b'  617 | extern void \x1b[01;36m\x1b[Kexit\x1b[m\x1b[K (int __status) __THROW __attribute__ ((__noreturn__));\n'}
+[5.143736] (my_uav) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.167169] (-) TimerEvent: {}
+[5.268163] (-) TimerEvent: {}
+[5.368719] (-) TimerEvent: {}
+[5.469499] (-) TimerEvent: {}
+[5.571058] (-) TimerEvent: {}
+[5.672028] (-) TimerEvent: {}
+[5.773154] (-) TimerEvent: {}
+[5.874034] (-) TimerEvent: {}
+[5.974724] (-) TimerEvent: {}
+[6.075633] (-) TimerEvent: {}
+[6.176089] (-) TimerEvent: {}
+[6.277255] (-) TimerEvent: {}
+[6.377831] (-) TimerEvent: {}
+[6.478886] (-) TimerEvent: {}
+[6.579809] (-) TimerEvent: {}
+[6.680885] (-) TimerEvent: {}
+[6.782158] (-) TimerEvent: {}
+[6.882937] (-) TimerEvent: {}
+[6.984201] (-) TimerEvent: {}
+[7.085465] (-) TimerEvent: {}
+[7.186389] (-) TimerEvent: {}
+[7.287914] (-) TimerEvent: {}
+[7.389002] (-) TimerEvent: {}
+[7.489976] (-) TimerEvent: {}
+[7.590990] (-) TimerEvent: {}
+[7.691575] (-) TimerEvent: {}
+[7.714681] (my_uav) StderrLine: {'line': b'make[2]: *** [CMakeFiles/internlm_m_listener.dir/build.make:63\xef\xbc\x9aCMakeFiles/internlm_m_listener.dir/src/internlm_m_listener.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.715186] (my_uav) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:258\xef\xbc\x9aCMakeFiles/internlm_m_listener.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.715285] (my_uav) StderrLine: {'line': b'make[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[7.792570] (-) TimerEvent: {}
+[7.892972] (-) TimerEvent: {}
+[7.993635] (-) TimerEvent: {}
+[8.094333] (-) TimerEvent: {}
+[8.195344] (-) TimerEvent: {}
+[8.296006] (-) TimerEvent: {}
+[8.396632] (-) TimerEvent: {}
+[8.497654] (-) TimerEvent: {}
+[8.598650] (-) TimerEvent: {}
+[8.699711] (-) TimerEvent: {}
+[8.800729] (-) TimerEvent: {}
+[8.901732] (-) TimerEvent: {}
+[9.002716] (-) TimerEvent: {}
+[9.103348] (-) TimerEvent: {}
+[9.204353] (-) TimerEvent: {}
+[9.305133] (-) TimerEvent: {}
+[9.405712] (-) TimerEvent: {}
+[9.506655] (-) TimerEvent: {}
+[9.607225] (-) TimerEvent: {}
+[9.708434] (-) TimerEvent: {}
+[9.809542] (-) TimerEvent: {}
+[9.910508] (-) TimerEvent: {}
+[10.011452] (-) TimerEvent: {}
+[10.111809] (-) TimerEvent: {}
+[10.213048] (-) TimerEvent: {}
+[10.313771] (-) TimerEvent: {}
+[10.414497] (-) TimerEvent: {}
+[10.515536] (-) TimerEvent: {}
+[10.616466] (-) TimerEvent: {}
+[10.717478] (-) TimerEvent: {}
+[10.818505] (-) TimerEvent: {}
+[10.877900] (my_uav) StderrLine: {'line': b'make[2]: *** [CMakeFiles/internvl_listener.dir/build.make:63\xef\xbc\x9aCMakeFiles/internvl_listener.dir/src/internvl_listener.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[10.878133] (my_uav) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:285\xef\xbc\x9aCMakeFiles/internvl_listener.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.878192] (my_uav) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.880570] (my_uav) CommandEnded: {'returncode': 2}
+[10.900725] (my_uav) JobEnded: {'identifier': 'my_uav', 'rc': 2}
+[10.913086] (-) EventReactorShutdown: {}

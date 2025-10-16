@@ -1,0 +1,38 @@
+[0.014s] Invoking command in '/home/a/uav/build/my_uav': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.075s] [  4%] [32mBuilding CXX object CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o[0m
+[0.085s] [ 13%] Built target image_sub
+[0.119s] [ 22%] Built target internlm_m_node
+[0.155s] [ 31%] Built target internvl
+[0.198s] [ 40%] Built target internlm_m_listener
+[0.244s] [ 50%] Built target internvl_p
+[0.292s] [ 59%] Built target internvl_listener
+[0.339s] [ 68%] Built target gps_sub
+[0.370s] [ 77%] Built target ray_sub
+[0.407s] [ 86%] Built target camera_listener
+[0.443s] [ 95%] Built target ray_listener
+[2.454s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:[m[K In constructor ‘[01m[KUAVControlNode::UAVControlNode()[m[K’:
+[2.454s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:16:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjson[m[K’ was not declared in this scope
+[2.454s]    16 |   [01;31m[Kjson[m[K request_data = {
+[2.454s]       |   [01;31m[K^~~~[m[K
+[2.454s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:16:3:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.454s] In file included from [01m[K/usr/include/nlohmann/detail/meta/type_traits.hpp:12[m[K,
+[2.454s]                  from [01m[K/usr/include/nlohmann/detail/conversions/from_json.hpp:19[m[K,
+[2.454s]                  from [01m[K/usr/include/nlohmann/adl_serializer.hpp:5[m[K,
+[2.454s]                  from [01m[K/usr/include/nlohmann/json.hpp:51[m[K,
+[2.455s]                  from [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:9[m[K:
+[2.455s] [01m[K/usr/include/nlohmann/json_fwd.hpp:61:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Knlohmann::json[m[K’
+[2.455s]    61 | using [01;36m[Kjson[m[K = basic_json<>;
+[2.455s]       |       [01;36m[K^~~~[m[K
+[2.455s] In file included from [01m[K/usr/include/nlohmann/detail/input/binary_reader.hpp:17[m[K,
+[2.455s]                  from [01m[K/usr/include/nlohmann/json.hpp:55[m[K,
+[2.455s]                  from [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:9[m[K:
+[2.455s] [01m[K/usr/include/nlohmann/detail/input/input_adapters.hpp:24:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Knlohmann::detail::input_format_t::json[m[K’
+[2.455s]    24 | enum class input_format_t { [01;36m[Kjson[m[K, cbor, msgpack, ubjson, bson };
+[2.455s]       |                             [01;36m[K^~~~[m[K
+[2.459s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:52:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest_data[m[K’ was not declared in this scope
+[2.459s]    52 |   std::string command_string = parse_model_reply([01;31m[Krequest_data[m[K);
+[2.459s]       |                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.446s] make[2]: *** [CMakeFiles/uav_control_node.dir/build.make:63：CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o] 错误 1
+[3.446s] make[1]: *** [CMakeFiles/Makefile2:152：CMakeFiles/uav_control_node.dir/all] 错误 2
+[3.446s] make: *** [Makefile:141：all] 错误 2
+[3.447s] Invoked command in '/home/a/uav/build/my_uav' returned '2': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2

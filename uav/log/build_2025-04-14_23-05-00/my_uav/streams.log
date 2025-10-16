@@ -1,0 +1,117 @@
+[0.015s] Invoking command in '/home/a/uav/build/my_uav': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.071s] [  4%] [32mBuilding CXX object CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o[0m
+[0.078s] [ 13%] Built target image_sub
+[0.121s] [ 22%] Built target internlm_m_node
+[0.157s] [ 31%] Built target internvl
+[0.190s] [ 40%] Built target internlm_m_listener
+[0.226s] [ 50%] Built target internvl_p
+[0.263s] [ 59%] Built target internvl_listener
+[0.301s] [ 68%] Built target gps_sub
+[0.331s] [ 77%] Built target ray_sub
+[0.355s] [ 86%] Built target camera_listener
+[0.380s] [ 95%] Built target ray_listener
+[1.980s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:[m[K In constructor ‘[01m[KUAVControlNode::UAVControlNode()[m[K’:
+[1.980s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:20:30:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’} to an rvalue of type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[1.980s]    20 |      std::string& filename = [01;31m[K"/home/a/uav/logs/conversation_history.txt"[m[K;
+[1.980s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.981s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.981s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.981s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.981s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.981s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.981s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.981s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:154[m[K,
+[1.981s]                  from [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:1[m[K:
+[1.981s] [01m[K/usr/include/c++/9/bits/basic_string.h:529:7:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = std::allocator<char>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.981s]   529 |       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+[1.981s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.981s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:29:36:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[1.981s]    29 |   timer_ = this->create_wall_timer([01;31m[K50s[m[K, std::bind(&UAVControlNode::test, this));
+[1.981s]       |                                    [01;31m[K^~~[m[K
+[1.987s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:[m[K In member function ‘[01m[Kvoid UAVControlNode::test()[m[K’:
+[1.987s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:45:27:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’} to an rvalue of type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[1.987s]    45 |   std::string& filename = [01;31m[K"/home/a/uav/logs/conversation_history.txt"[m[K;
+[1.987s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.988s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.988s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.988s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.988s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.988s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.988s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.988s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:154[m[K,
+[1.988s]                  from [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:1[m[K:
+[1.988s] [01m[K/usr/include/c++/9/bits/basic_string.h:529:7:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = std::allocator<char>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.988s]   529 |       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+[1.988s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[2.062s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:95:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[2.062s]    95 |   file << "👉️[user]  " << [01;31m[Kmsg[m[K.dump(4) << "\n\n";
+[2.062s]       |                                [01;31m[K^~~[m[K
+[2.062s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:95:32:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.063s] In file included from [01m[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:20[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.063s]                  from [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:1[m[K:
+[2.063s] [01m[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[2.063s]    26 | namespace [01;36m[Kmsg[m[K
+[2.063s]       |           [01;36m[K^~~[m[K
+[2.063s] In file included from [01m[K/opt/ros/galactic/include/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/qos_overriding_options.hpp:28[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/subscription_options.hpp:29[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/subscription.hpp:45[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:25[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.063s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.064s]                  from [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:1[m[K:
+[2.064s] [01m[K/opt/ros/galactic/include/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[2.064s]    26 | namespace [01;36m[Kmsg[m[K
+[2.064s]       |           [01;36m[K^~~[m[K
+[2.064s] In file included from [01m[K/opt/ros/galactic/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/subscription.hpp:50[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:25[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.064s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.065s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.065s]                  from [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:1[m[K:
+[2.065s] [01m[K/opt/ros/galactic/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[2.065s]    26 | namespace [01;36m[Kmsg[m[K
+[2.065s]       |           [01;36m[K^~~[m[K
+[2.065s] In file included from [01m[K/opt/ros/galactic/include/geometry_msgs/msg/detail/twist__struct.hpp:20[m[K,
+[2.065s]                  from [01m[K/opt/ros/galactic/include/geometry_msgs/msg/twist.hpp:7[m[K,
+[2.065s]                  from [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:2[m[K:
+[2.065s] [01m[K/opt/ros/galactic/include/geometry_msgs/msg/detail/vector3__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[2.065s]    26 | namespace [01;36m[Kmsg[m[K
+[2.065s]       |           [01;36m[K^~~[m[K
+[2.065s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:96:37:[m[K [01;31m[Kerror: [m[K‘[01m[Km[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[2.065s]    96 |   file << "👉️[assistant]  " << [01;31m[Km[m[K << "\n\n";
+[2.065s]       |                                     [01;31m[K^[m[K
+[2.065s]       |                                     [32m[Ktm[m[K
+[2.066s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:107:10:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+[2.066s]   107 |   return [01;31m[K0[m[K;
+[2.066s]       |          [01;31m[K^[m[K
+[3.109s] make[2]: *** [CMakeFiles/uav_control_node.dir/build.make:63：CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o] 错误 1
+[3.109s] make[1]: *** [CMakeFiles/Makefile2:152：CMakeFiles/uav_control_node.dir/all] 错误 2
+[3.110s] make: *** [Makefile:141：all] 错误 2
+[3.113s] Invoked command in '/home/a/uav/build/my_uav' returned '2': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2

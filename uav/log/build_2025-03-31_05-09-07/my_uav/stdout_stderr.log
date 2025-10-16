@@ -1,0 +1,46 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found px4_msgs: 2.0.1 (/home/a/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+-- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/a/uav/build/my_uav
+[ 10%] Built target uav_control_node
+[ 20%] Built target image_sub
+[ 30%] Built target internlm_m_node
+[ 40%] Built target internvl
+[ 50%] Built target internlm_m_listener
+[ 60%] Built target internvl_listener
+[35m[1mScanning dependencies of target gps_sub[0m
+[ 70%] Built target ray_sub
+[ 75%] [32mBuilding CXX object CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o[0m
+[ 85%] Built target camera_listener
+[ 95%] Built target ray_listener
+[100%] [32m[1mLinking CXX executable gps_sub[0m
+/usr/bin/ld: CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o: in function `rclcpp::create_subscription_factory<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, std::_Bind<void (gps_sub::*(gps_sub*, std::_Placeholder<1>))(std::shared_ptr<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> > >)>, std::allocator<void>, px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, rclcpp::Subscription<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, std::allocator<void> > >(std::_Bind<void (gps_sub::*(gps_sub*, std::_Placeholder<1>))(std::shared_ptr<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> > >)>&&, rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> > const&, rclcpp::message_memory_strategy::MessageMemoryStrategy<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> >, std::allocator<void> >::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> > > >)::{lambda(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&)#1}::operator()(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&) const':
+gps_sub.cpp:(.text._ZZN6rclcpp27create_subscription_factoryIN8px4_msgs3msg19VehicleGpsPosition_ISaIvEEESt5_BindIFM7gps_subFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_[_ZZN6rclcpp27create_subscription_factoryIN8px4_msgs3msg19VehicleGpsPosition_ISaIvEEESt5_BindIFM7gps_subFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_]+0x5c): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<px4_msgs::msg::VehicleGpsPosition_<std::allocator<void> > >()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/gps_sub.dir/build.make:151：gps_sub] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:312：CMakeFiles/gps_sub.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

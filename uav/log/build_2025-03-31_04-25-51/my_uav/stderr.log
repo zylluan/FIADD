@@ -1,0 +1,15 @@
+[01m[K/home/a/uav/src/my_uav/src/gps_sub.cpp:[m[K In constructor ‘[01m[Kgps_sub::gps_sub()[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/gps_sub.cpp:41:127:[m[K [01;31m[Kerror: [m[K‘[01m[KInternvlNode[m[K’ has not been declared
+   41 |   sensor_sub_ = this->create_subscription<px4_msgs::msg::VehicleGpsPosition>("/fmu/out/vehicle_gps_position", qos, std::bind(&[01;31m[KInternvlNode[m[K::sensor_callback, this, std::placeholders::_1));
+      |                                                                                                                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/a/uav/src/my_uav/src/image_sub.cpp:[m[K In constructor ‘[01m[Kimage_sub::image_sub()[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/image_sub.cpp:40:118:[m[K [01;31m[Kerror: [m[K‘[01m[KInternvlNode[m[K’ has not been declared
+   40 | sg::Image>("/ired/ired_cam/ired1/image_raw", qos, std::bind(&[01;31m[KInternvlNode[m[K::image_callback, this, std::placeholders::_1));
+      |                                                              [01;31m[K^~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/gps_sub.dir/build.make:63：CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:312：CMakeFiles/gps_sub.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/image_sub.dir/build.make:63：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:96：CMakeFiles/image_sub.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

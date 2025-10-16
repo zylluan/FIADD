@@ -1,0 +1,21 @@
+[ 10%] Built target uav_control_node
+[ 20%] Built target image_sub
+[ 30%] Built target internlm_m_node
+[ 40%] Built target internvl
+[ 50%] Built target internlm_m_listener
+[ 60%] Built target internvl_listener
+[ 70%] Built target gps_sub
+[ 80%] Built target ray_sub
+[ 90%] Built target ray_listener
+[100%] Built target camera_listener
+-- Install configuration: ""
+-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch
+-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/sitl.launch
+-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/p450.py
+-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/gz_launch.py
+CMake Error at cmake_install.cmake:41 (file):
+  file INSTALL cannot set permissions on
+  "/home/a/uav/install/my_uav/share/my_uav/launch/gz_launch.py": Operation
+  not permitted.
+
+

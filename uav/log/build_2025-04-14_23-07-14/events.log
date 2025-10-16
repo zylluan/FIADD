@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000577] (my_uav) JobQueued: {'identifier': 'my_uav', 'dependencies': OrderedDict()}
+[0.001384] (my_uav) JobStarted: {'identifier': 'my_uav'}
+[0.008267] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'cmake'}
+[0.009050] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'build'}
+[0.010023] (my_uav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/uav/build/my_uav', '--', '-j2', '-l2'], 'cwd': '/home/a/uav/build/my_uav', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'a'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/a/uav/build/my_uav'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.064067] (my_uav) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o\x1b[0m\n'}
+[0.076867] (my_uav) StdoutLine: {'line': b'[ 13%] Built target image_sub\n'}
+[0.100380] (-) TimerEvent: {}
+[0.104377] (my_uav) StdoutLine: {'line': b'[ 22%] Built target internlm_m_node\n'}
+[0.133811] (my_uav) StdoutLine: {'line': b'[ 31%] Built target internvl\n'}
+[0.167800] (my_uav) StdoutLine: {'line': b'[ 40%] Built target internlm_m_listener\n'}
+[0.201294] (-) TimerEvent: {}
+[0.202133] (my_uav) StdoutLine: {'line': b'[ 50%] Built target internvl_p\n'}
+[0.236998] (my_uav) StdoutLine: {'line': b'[ 59%] Built target internvl_listener\n'}
+[0.267681] (my_uav) StdoutLine: {'line': b'[ 68%] Built target gps_sub\n'}
+[0.302079] (-) TimerEvent: {}
+[0.304968] (my_uav) StdoutLine: {'line': b'[ 77%] Built target ray_sub\n'}
+[0.335682] (my_uav) StdoutLine: {'line': b'[ 86%] Built target camera_listener\n'}
+[0.361630] (my_uav) StdoutLine: {'line': b'[ 95%] Built target ray_listener\n'}
+[0.403206] (-) TimerEvent: {}
+[0.504065] (-) TimerEvent: {}
+[0.605727] (-) TimerEvent: {}
+[0.707025] (-) TimerEvent: {}
+[0.808046] (-) TimerEvent: {}
+[0.909060] (-) TimerEvent: {}
+[1.009701] (-) TimerEvent: {}
+[1.110817] (-) TimerEvent: {}
+[1.211334] (-) TimerEvent: {}
+[1.312277] (-) TimerEvent: {}
+[1.413215] (-) TimerEvent: {}
+[1.513675] (-) TimerEvent: {}
+[1.614680] (-) TimerEvent: {}
+[1.715683] (-) TimerEvent: {}
+[1.816671] (-) TimerEvent: {}
+[1.917561] (-) TimerEvent: {}
+[1.952558] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid UAVControlNode::test()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.952825] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:48:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind non-const lvalue reference of type \xe2\x80\x98\x1b[01m\x1b[Kstd::string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99} to an rvalue of type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.952889] (my_uav) StderrLine: {'line': b'   48 |   std::string& filename = \x1b[01;31m\x1b[K"/home/a/uav/logs/conversation_history.txt"\x1b[m\x1b[K;\n'}
+[1.953060] (my_uav) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.953106] (my_uav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[1.953148] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.953188] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.953227] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.953268] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.953308] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.953350] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:154\x1b[m\x1b[K,\n'}
+[1.953390] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.953429] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:529:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  after user-defined conversion: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = std::allocator<char>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.953472] (my_uav) StderrLine: {'line': b'  529 |       \x1b[01;36m\x1b[Kbasic_string\x1b[m\x1b[K(const _CharT* __s, const _Alloc& __a = _Alloc())\n'}
+[1.953513] (my_uav) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.018272] (-) TimerEvent: {}
+[2.031559] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:98:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.031857] (my_uav) StderrLine: {'line': b'   98 |   file << "\xf0\x9f\x91\x89\xef\xb8\x8f[user]  " << \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.dump(4) << "\\n\\n";\n'}
+[2.031909] (my_uav) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.031952] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:98:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[2.031995] (my_uav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[2.032037] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.032086] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.032171] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2.032216] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2.032256] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.032296] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.032336] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.032374] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.032416] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.032466] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.032506] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.032557] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.032596] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.032636] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.032676] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.032728] (my_uav) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.032772] (my_uav) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.032943] (my_uav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[2.032988] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[2.033028] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/subscription_options.hpp:29\x1b[m\x1b[K,\n'}
+[2.033067] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[2.033134] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.033175] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.033216] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.033255] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.033296] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.033336] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.033380] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.033431] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.033478] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.033524] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.033573] (my_uav) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.033718] (my_uav) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.033769] (my_uav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22\x1b[m\x1b[K,\n'}
+[2.033818] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[2.033865] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[2.033912] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.033959] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.034005] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.034052] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.034124] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.034171] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.034218] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.034265] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.034313] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.034356] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.034400] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.034443] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.034487] (my_uav) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.034529] (my_uav) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.034572] (my_uav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/geometry_msgs/msg/detail/twist__struct.hpp:20\x1b[m\x1b[K,\n'}
+[2.034619] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[2.034662] (my_uav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.034706] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/geometry_msgs/msg/detail/vector3__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.034753] (my_uav) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.034795] (my_uav) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.034838] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:99:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.034883] (my_uav) StderrLine: {'line': b'   99 |   file << "\xf0\x9f\x91\x89\xef\xb8\x8f[assistant]  " << \x1b[01;31m\x1b[Km\x1b[m\x1b[K << "\\n\\n";\n'}
+[2.034928] (my_uav) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.034971] (my_uav) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[2.119244] (-) TimerEvent: {}
+[2.219809] (-) TimerEvent: {}
+[2.320911] (-) TimerEvent: {}
+[2.421952] (-) TimerEvent: {}
+[2.522842] (-) TimerEvent: {}
+[2.623822] (-) TimerEvent: {}
+[2.724762] (-) TimerEvent: {}
+[2.825811] (-) TimerEvent: {}
+[2.926752] (-) TimerEvent: {}
+[3.027354] (-) TimerEvent: {}
+[3.128334] (-) TimerEvent: {}
+[3.229156] (-) TimerEvent: {}
+[3.321011] (my_uav) StderrLine: {'line': b'make[2]: *** [CMakeFiles/uav_control_node.dir/build.make:63\xef\xbc\x9aCMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.322336] (my_uav) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:152\xef\xbc\x9aCMakeFiles/uav_control_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.322517] (my_uav) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.323512] (my_uav) CommandEnded: {'returncode': 2}
+[3.329559] (-) TimerEvent: {}
+[3.334613] (my_uav) JobEnded: {'identifier': 'my_uav', 'rc': 2}
+[3.345834] (-) EventReactorShutdown: {}

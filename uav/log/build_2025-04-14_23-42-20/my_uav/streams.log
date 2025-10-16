@@ -1,0 +1,113 @@
+[0.010s] Invoking command in '/home/a/uav/build/my_uav': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.064s] [  9%] Built target uav_control_node
+[0.077s] [ 18%] Built target image_sub
+[0.089s] [ 27%] Built target internlm_m_node
+[0.107s] [ 36%] Built target internvl
+[0.124s] [ 45%] Built target internlm_m_listener
+[0.124s] [35m[1mScanning dependencies of target internvl_p[0m
+[0.167s] [ 54%] Built target internvl_listener
+[0.168s] [ 59%] [32mBuilding CXX object CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o[0m
+[0.211s] [ 68%] Built target gps_sub
+[0.241s] [ 77%] Built target ray_sub
+[0.267s] [ 86%] Built target camera_listener
+[0.294s] [ 95%] Built target ray_listener
+[15.721s] [100%] [32m[1mLinking CXX executable internvl_p[0m
+[17.050s] [100%] Built target internvl_p
+[17.061s] Invoked command in '/home/a/uav/build/my_uav' returned '0': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[17.074s] Invoking command in '/home/a/uav/build/my_uav': /usr/bin/cmake --install /home/a/uav/build/my_uav
+[17.083s] -- Install configuration: ""
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/sitl.launch
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/p450.py
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/gz_launch.py
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/cam_sub.launch.py
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_3.sdf.last_generated
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_2.sdf.last_generated
+[17.083s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_1.sdf.last_generated
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_0.sdf
+[17.083s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_0.sdf.last_generated
+[17.083s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_1.sdf
+[17.084s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/model.config
+[17.084s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth.sdf
+[17.084s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_3.sdf
+[17.084s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_-m.sdf
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_2.sdf
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_-m.sdf.last_generated
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450_1.sdf
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450_2.sdf.last_generated
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf.jinja
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450_1.sdf.last_generated
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/model.config
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450_2.sdf
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_ccw.stl
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450.stl
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_cw.stl
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx.sdf
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_2.sdf.last_generated
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/model.config
+[17.085s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_2.sdf
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_1.sdf
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_1.sdf.last_generated
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/p450_hokuyo_2Dlidar.sdf
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/model.config
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth/model.config
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth/depth.sdf
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials/textures
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials/textures/realsense_diffuse.png
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/model.config
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/D435i.sdf
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes/realsense_d435.stl
+[17.086s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes/D435i.dae
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth/model.config
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth/p450_depth.sdf
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/leida.world
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/my.world
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/baylands.world
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/safe_landing.world
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/yosemite.world
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/mcmillan_airfield.world
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/cam.world
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/sonoma_raceway.world
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/empty_world.world
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/my_python_node.py
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/uav_control_node
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internlm_m_node
+[17.087s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internvl
+[17.088s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internlm_m_listener
+[17.088s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internvl_listener
+[17.088s] -- Installing: /home/a/uav/install/my_uav/lib/my_uav/internvl_p
+[17.096s] -- Set runtime path of "/home/a/uav/install/my_uav/lib/my_uav/internvl_p" to ""
+[17.096s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/image_sub
+[17.097s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/gps_sub
+[17.097s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/ray_sub
+[17.097s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/camera_listener
+[17.098s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/ray_listener
+[17.098s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/package_run_dependencies/my_uav
+[17.098s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/parent_prefix_path/my_uav
+[17.098s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.sh
+[17.098s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.dsv
+[17.099s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.sh
+[17.099s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.dsv
+[17.099s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.bash
+[17.099s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.sh
+[17.099s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.zsh
+[17.099s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.dsv
+[17.099s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/package.dsv
+[17.099s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/packages/my_uav
+[17.099s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig.cmake
+[17.099s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig-version.cmake
+[17.099s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/package.xml
+[17.101s] Invoked command in '/home/a/uav/build/my_uav' returned '0': /usr/bin/cmake --install /home/a/uav/build/my_uav

@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (my_uav) JobQueued: {'identifier': 'my_uav', 'dependencies': OrderedDict()}
+[0.000668] (my_uav) JobStarted: {'identifier': 'my_uav'}
+[0.009985] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'cmake'}
+[0.013580] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'build'}
+[0.013865] (my_uav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/uav/build/my_uav', '--', '-j2', '-l2'], 'cwd': '/home/a/uav/build/my_uav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'a'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1533'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/ros2_ws/install/px4_ros_com/lib:/home/a/ros2_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('HOME', '/home/a'), ('OLDPWD', '/home/a/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1437'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d2a1fc6477ce5af2b8621c2467e91d98'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/a/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:50177'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/a/uav/src/my_uav/models:/home/a/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/a-vm:@/tmp/.ICE-unix/1568,unix/a-vm:/tmp/.ICE-unix/1568'), ('INVOCATION_ID', '9ce1b87286544096a0794ab036aab863'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4370553c_2017_4e33_a4bb_82437622f292'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/uav/build/my_uav'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d2a1fc6477ce5af2b8621c2467e91d98'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OGRE_RENDERER', 'OGRE1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic')]), 'shell': False}
+[0.078851] (my_uav) StdoutLine: {'line': b'[ 10%] Built target uav_control_node\n'}
+[0.085802] (my_uav) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o\x1b[0m\n'}
+[0.099723] (-) TimerEvent: {}
+[0.119875] (my_uav) StdoutLine: {'line': b'[ 25%] Built target internlm_m_node\n'}
+[0.156195] (my_uav) StdoutLine: {'line': b'[ 35%] Built target internvl\n'}
+[0.192551] (my_uav) StdoutLine: {'line': b'[ 45%] Built target internlm_m_listener\n'}
+[0.200740] (-) TimerEvent: {}
+[0.236963] (my_uav) StdoutLine: {'line': b'[ 55%] Built target internvl_listener\n'}
+[0.269847] (my_uav) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o\x1b[0m\n'}
+[0.301727] (-) TimerEvent: {}
+[0.402816] (-) TimerEvent: {}
+[0.503846] (-) TimerEvent: {}
+[0.604819] (-) TimerEvent: {}
+[0.705479] (-) TimerEvent: {}
+[0.806166] (-) TimerEvent: {}
+[0.907305] (-) TimerEvent: {}
+[1.008854] (-) TimerEvent: {}
+[1.109380] (-) TimerEvent: {}
+[1.210311] (-) TimerEvent: {}
+[1.311319] (-) TimerEvent: {}
+[1.412317] (-) TimerEvent: {}
+[1.513295] (-) TimerEvent: {}
+[1.614357] (-) TimerEvent: {}
+[1.715295] (-) TimerEvent: {}
+[1.816405] (-) TimerEvent: {}
+[1.917406] (-) TimerEvent: {}
+[2.018438] (-) TimerEvent: {}
+[2.118917] (-) TimerEvent: {}
+[2.219939] (-) TimerEvent: {}
+[2.321005] (-) TimerEvent: {}
+[2.421546] (-) TimerEvent: {}
+[2.522381] (-) TimerEvent: {}
+[2.623437] (-) TimerEvent: {}
+[2.724084] (-) TimerEvent: {}
+[2.825149] (-) TimerEvent: {}
+[2.926188] (-) TimerEvent: {}
+[3.027169] (-) TimerEvent: {}
+[3.128256] (-) TimerEvent: {}
+[3.229169] (-) TimerEvent: {}
+[3.330178] (-) TimerEvent: {}
+[3.389560] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:102:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSensorGps\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.389822] (my_uav) StderrLine: {'line': b'  102 |  rclcpp::Subscription<px4_msgs::msg::\x1b[01;31m\x1b[KSensorGps\x1b[m\x1b[K>::SharedPtr sensor_sub_;\n'}
+[3.389931] (my_uav) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.390100] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:102:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.390214] (my_uav) StderrLine: {'line': b'  102 |  rclcpp::Subscription<px4_msgs::msg::SensorGps\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr sensor_sub_;\n'}
+[3.390303] (my_uav) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.390396] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:102:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[3.390511] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:102:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.390595] (my_uav) StderrLine: {'line': b'  102 |  rclcpp::Subscription<px4_msgs::msg::SensorGps>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K sensor_sub_;\n'}
+[3.390670] (my_uav) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.390751] (my_uav) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.396958] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:102:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_sub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.397210] (my_uav) StderrLine: {'line': b'  102 |  rclcpp::Subscription<px4_msgs::msg::SensorGps>::SharedPtr \x1b[01;31m\x1b[Ksensor_sub_\x1b[m\x1b[K;\n'}
+[3.397306] (my_uav) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.397485] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:107:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSensorGPS\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.397581] (my_uav) StderrLine: {'line': b'  107 |  void sensor_callback(const px4_msgs::msg::\x1b[01;31m\x1b[KSensorGPS\x1b[m\x1b[K::SharedPtr msg)\n'}
+[3.397660] (my_uav) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.397755] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:107:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.397836] (my_uav) StderrLine: {'line': b'  107 |  void sensor_callback(const px4_msgs::msg::SensorGPS::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[3.397928] (my_uav) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.398095] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:107:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.398225] (my_uav) StderrLine: {'line': b'  107 |  void sensor_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst px4_msgs::msg::SensorGPS::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[3.398312] (my_uav) StderrLine: {'line': b'      |                      \x1b[34m\x1b[K~\x1b[m\x1b[K                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[3.398397] (my_uav) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[3.398539] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:107:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.398632] (my_uav) StderrLine: {'line': b'  107 |  void sensor_callback(const px4_msgs::msg::SensorGPS::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K msg)\n'}
+[3.398716] (my_uav) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.398812] (my_uav) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.400831] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:107:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.401159] (my_uav) StderrLine: {'line': b'  107 |  void sensor_callback(const px4_msgs::msg::SensorGPS::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[3.401360] (my_uav) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.412837] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kgps_sub::gps_sub()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.413204] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:41:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.413371] (my_uav) StderrLine: {'line': b'   41 |   \x1b[01;31m\x1b[Ksensor_sub_\x1b[m\x1b[K = this->create_subscription<px4_msgs::msg::SensorGps>("/fmu/out/vehicle_gps_position", qos, std::bind(&InternvlNode::sensor_callback, this, std::placeholders::_1));\n'}
+[3.413539] (my_uav) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.415173] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:41:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSensorGps\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.415426] (my_uav) StderrLine: {'line': b'   41 |   sensor_sub_ = this->create_subscription<px4_msgs::msg::\x1b[01;31m\x1b[KSensorGps\x1b[m\x1b[K>("/fmu/out/vehicle_gps_position", qos, std::bind(&InternvlNode::sensor_callback, this, std::placeholders::_1));\n'}
+[3.415552] (my_uav) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.415735] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/gps_sub.cpp:41:118:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInternvlNode\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.415843] (my_uav) StderrLine: {'line': b'   41 |   sensor_sub_ = this->create_subscription<px4_msgs::msg::SensorGps>("/fmu/out/vehicle_gps_position", qos, std::bind(&\x1b[01;31m\x1b[KInternvlNode\x1b[m\x1b[K::sensor_callback, this, std::placeholders::_1));\n'}
+[3.415930] (my_uav) StderrLine: {'line': b'      |                                                                                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.431150] (-) TimerEvent: {}
+[3.532164] (-) TimerEvent: {}
+[3.633154] (-) TimerEvent: {}
+[3.734193] (-) TimerEvent: {}
+[3.835105] (-) TimerEvent: {}
+[3.935929] (-) TimerEvent: {}
+[4.036957] (-) TimerEvent: {}
+[4.137945] (-) TimerEvent: {}
+[4.238851] (-) TimerEvent: {}
+[4.241413] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/image_sub.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kimage_sub::image_sub()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.241572] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/image_sub.cpp:40:118:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInternvlNode\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.241627] (my_uav) StderrLine: {'line': b'   40 | sg::Image>("/ired/ired_cam/ired1/image_raw", qos, std::bind(&\x1b[01;31m\x1b[KInternvlNode\x1b[m\x1b[K::image_callback, this, std::placeholders::_1));\n'}
+[4.241673] (my_uav) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.241718] (my_uav) StderrLine: {'line': b'\n'}
+[4.339841] (-) TimerEvent: {}
+[4.440848] (-) TimerEvent: {}
+[4.541935] (-) TimerEvent: {}
+[4.642522] (-) TimerEvent: {}
+[4.743537] (-) TimerEvent: {}
+[4.844510] (-) TimerEvent: {}
+[4.945876] (-) TimerEvent: {}
+[5.046856] (-) TimerEvent: {}
+[5.099070] (my_uav) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gps_sub.dir/build.make:63\xef\xbc\x9aCMakeFiles/gps_sub.dir/src/gps_sub.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.099587] (my_uav) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:312\xef\xbc\x9aCMakeFiles/gps_sub.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.099701] (my_uav) StderrLine: {'line': b'make[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[5.147846] (-) TimerEvent: {}
+[5.248835] (-) TimerEvent: {}
+[5.349877] (-) TimerEvent: {}
+[5.450872] (-) TimerEvent: {}
+[5.551681] (-) TimerEvent: {}
+[5.652816] (-) TimerEvent: {}
+[5.753933] (-) TimerEvent: {}
+[5.854557] (-) TimerEvent: {}
+[5.955266] (-) TimerEvent: {}
+[6.056367] (-) TimerEvent: {}
+[6.156776] (-) TimerEvent: {}
+[6.257284] (-) TimerEvent: {}
+[6.357947] (-) TimerEvent: {}
+[6.458755] (-) TimerEvent: {}
+[6.499130] (my_uav) StderrLine: {'line': b'make[2]: *** [CMakeFiles/image_sub.dir/build.make:63\xef\xbc\x9aCMakeFiles/image_sub.dir/src/image_sub.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[6.499338] (my_uav) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:96\xef\xbc\x9aCMakeFiles/image_sub.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.499426] (my_uav) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.501754] (my_uav) CommandEnded: {'returncode': 2}
+[6.512482] (my_uav) JobEnded: {'identifier': 'my_uav', 'rc': 2}
+[6.523358] (-) EventReactorShutdown: {}

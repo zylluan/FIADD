@@ -1,0 +1,9 @@
+[  4%] [32mBuilding CXX object CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o[0m
+[ 13%] Built target image_sub
+[ 22%] Built target internlm_m_node
+[ 31%] Built target internvl
+[ 40%] Built target internlm_m_listener
+[35m[1mScanning dependencies of target internvl_p[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable internvl_p[0m
+[ 50%] Built target internvl_p

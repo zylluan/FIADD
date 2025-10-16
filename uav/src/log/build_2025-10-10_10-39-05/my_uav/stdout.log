@@ -1,0 +1,148 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found px4_msgs: 2.0.1 (/home/a/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+-- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/a/uav/src/build/my_uav
+[  4%] [32m[1mLinking CXX executable image_sub[0m
+[  8%] Built target image_sub
+[ 12%] [32m[1mLinking CXX executable uav_control_node[0m
+[ 16%] Built target uav_control_node
+[ 20%] [32m[1mLinking CXX executable internlm_m_node[0m
+[ 25%] Built target internlm_m_node
+[ 29%] [32m[1mLinking CXX executable internvl[0m
+[ 33%] Built target internvl
+[35m[1mScanning dependencies of target internvl_p[0m
+[ 37%] [32m[1mLinking CXX executable internvl_p[0m
+[ 41%] Built target internvl_p
+[35m[1mScanning dependencies of target internvl_listener[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/internvl_listener.dir/src/internvl_listener.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable internvl_listener[0m
+[ 50%] Built target internvl_listener
+[ 54%] [32m[1mLinking CXX executable internlm_m_listener[0m
+[ 58%] Built target internlm_m_listener
+[35m[1mScanning dependencies of target qwen_p[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/qwen_p.dir/src/Qwen.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable qwen_p[0m
+[ 66%] Built target qwen_p
+[35m[1mScanning dependencies of target ray_listener[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/ray_listener.dir/src/ray_listener.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable ray_listener[0m
+[ 75%] Built target ray_listener
+[35m[1mScanning dependencies of target camera_listener[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/camera_listener.dir/src/camera_listener.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable camera_listener[0m
+[ 83%] Built target camera_listener
+[35m[1mScanning dependencies of target gps_sub[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable gps_sub[0m
+[ 91%] Built target gps_sub
+[35m[1mScanning dependencies of target ray_sub[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/ray_sub.dir/src/ray_sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ray_sub[0m
+[100%] Built target ray_sub
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/launch/cam_sub.launch.py
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/launch/gz_launch.py
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/launch/p450.py
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/launch/sitl.launch
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/D435i/D435i.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/D435i/materials/textures/realsense_diffuse.png
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/D435i/meshes/D435i.dae
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/D435i/meshes/realsense_d435.stl
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/D435i/model.config
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/depth/depth.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/depth/model.config
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_1.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_1.sdf.last_generated
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_2.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx_2.sdf.last_generated
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/model.config
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450/meshes/p450.stl
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450/meshes/p450_ccw.stl
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450/meshes/p450_cw.stl
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450/model.config
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450/p450.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450/p450.sdf.jinja
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450/p450_1.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450/p450_1.sdf.last_generated
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450/p450_2.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450/p450_2.sdf.last_generated
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/model.config
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_-m.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_-m.sdf.last_generated
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_0.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_0.sdf.last_generated
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_1.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_1.sdf.last_generated
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_2.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_2.sdf.last_generated
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_3.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_3.sdf.last_generated
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_depth/model.config
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_depth/p450_depth.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/model.config
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/p450_hokuyo_2Dlidar.sdf
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/worlds/baylands.world
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/worlds/cam.world
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/worlds/empty_world.world
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/worlds/leida.world
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/worlds/mcmillan_airfield.world
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/worlds/my.world
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/worlds/safe_landing.world
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/worlds/sonoma_raceway.world
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/worlds/yosemite.world
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/my_python_node.py
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/uav_control_node
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/internlm_m_node
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/internvl
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/internlm_m_listener
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/internvl_listener
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/internvl_p
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/qwen_p
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/image_sub
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/gps_sub
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/ray_sub
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/camera_listener
+-- Symlinking: /home/a/uav/src/install/my_uav/lib/my_uav/ray_listener
+-- Symlinking: /home/a/uav/src/install/my_uav/share/ament_index/resource_index/package_run_dependencies/my_uav
+-- Symlinking: /home/a/uav/src/install/my_uav/share/ament_index/resource_index/parent_prefix_path/my_uav
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/environment/ament_prefix_path.sh
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/environment/ament_prefix_path.dsv
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/environment/path.sh
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/environment/path.dsv
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/local_setup.bash
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/local_setup.sh
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/local_setup.zsh
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/local_setup.dsv
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/package.dsv
+-- Symlinking: /home/a/uav/src/install/my_uav/share/ament_index/resource_index/packages/my_uav
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/cmake/my_uavConfig.cmake
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/cmake/my_uavConfig-version.cmake
+-- Symlinking: /home/a/uav/src/install/my_uav/share/my_uav/package.xml

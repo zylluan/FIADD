@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="depth">
+    <pose>0 0 0.015 0 0 0</pose>
+    <!--   <static>true</static>     为了集成在无人机上,false -->
+    <link name="depth_link">
+      <!-- 物理参数 -->
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+          <ixx>0.000001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000001</iyy>
+          <iyz>0</iyz>
+          <izz>0.000001</izz>
+        </inertia>
+      </inertial>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+      <gravity>1</gravity>
+      <!-- 显示参数 -->
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://D435i/meshes/D435i.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <!-- 传感器参数 color_error -->
+      <sensor name="color" type="camera">
+        <pose frame="">0 -0.0 0.004 0 0 0</pose>  <!--为了集成在无人机上-->
+        <camera name="realsense_camera">
+          <!-- 水平视场角，90度 -->
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>RGB_INT8</format>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>100</far>
+          </clip>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.007</stddev>
+          </noise>
+        </camera>
+        <always_on>1</always_on>
+        <update_rate>60</update_rate>
+        <visualize>0</visualize>  <!--测试的时候为true-->
+      </sensor>
+      <!-- 左右目 -->
+      <sensor name="ired" type="multicamera">
+        <always_on>1</always_on>
+        <update_rate>60</update_rate>
+        <visualize>true</visualize>     <!--测试的时候为true-->
+
+        <camera name="ired1">
+          <pose frame="">0 -0.025 0.004 0 0 0</pose>  
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>L_INT8</format>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>100</far>
+          </clip>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.007</stddev>
+          </noise>
+        </camera>
+        <!-- 右 -->
+        <camera name="ired2">
+          <pose frame="">0 0.025 0.004 0 0 0</pose>
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>L_INT8</format>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>100</far>
+          </clip>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.001</stddev>
+          </noise>
+        </camera>
+        <plugin name="camera_ired" filename="libgazebo_ros_camera.so">
+          <ros>
+            <namespace>ired</namespace>
+            <!-- topics need to be prefixed with camera_name for remapping -->
+            <remapping>ired_cam/ired1/image_raw:=ired_cam/ired1/image_raw</remapping>
+            <remapping>ired_cam/ired2/image_raw:=ired_cam/ired2/image_raw</remapping>
+            <remapping>ired_cam/ired1/camera_info:=ired_cam/ired1/camera_info</remapping>
+            <remapping>ired_cam/ired2/camera_info:=ired_cam/ired2/camera_info</remapping>
+          </ros>
+
+          <camera_name>ired_cam</camera_name>
+
+            <!-- Specify if triggered camera -->
+          <triggered>false</triggered>
+        </plugin>
+      </sensor>
+
+      <!-- 深度相机 -->
+      <sensor name="depth" type="depth">
+        <pose frame="">0 -0.0 0.004 0 0 0</pose>
+        <camera name="depth_camera">
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>100</far>
+          </clip>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.007</stddev>
+          </noise>
+        </camera>
+        <always_on>true</always_on>
+        <update_rate>60</update_rate>
+        <visualize>true</visualize>              <!--测试的时候为true-->
+          <plugin name="camera_depth" filename="libgazebo_ros_camera.so">
+            <ros>
+              <namespace>depth</namespace>
+
+              <!-- topics need to be prefixed with camera_name for remapping -->
+              <remapping>depth_cam/image_raw:=image_raw</remapping>
+              <remapping>depth_cam/depth/image_raw:=depth/image_raw</remapping>
+              <remapping>depth_cam/camera_info:=camera_info</remapping>
+              <remapping>depth_cam/depth/camera_info:=depth/camera_info</remapping>
+              <remapping>depth_cam/points:=/realsense_plugin/camera/local_pointclouds</remapping>
+            </ros>
+            <!-- omit camera_name to default to sensor name -->
+            <camera_name>depth_cam</camera_name>
+            <!-- frame_name>omit so it defaults to link name</frame_name-->
+            <min_depth>0.1</min_depth>
+            <max_depth>500</max_depth>
+          </plugin>
+      </sensor>
+    </link>
+  </model>
+
+</sdf>

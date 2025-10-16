@@ -1,0 +1,44 @@
+[0.019s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.091s] [100%] Built target uav_control_node
+[0.104s] Invoked command in '/home/a/uav/build/my_uav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.124s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/uav/build/my_uav
+[0.138s] -- Install configuration: ""
+[0.138s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch
+[0.138s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/launch/gz_launch.py
+[0.138s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models
+[0.139s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450
+[0.139s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf.jinja
+[0.139s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/model.config
+[0.139s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes
+[0.139s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_ccw.stl
+[0.140s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450.stl
+[0.140s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_cw.stl
+[0.140s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx.sdf
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/model.config
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/p450_hokuyo_2Dlidar.sdf
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/model.config
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/leida.world
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/my.world
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/cam.world
+[0.141s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/empty_world.world
+[0.142s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/uav_control_node
+[0.142s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/package_run_dependencies/my_uav
+[0.142s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/parent_prefix_path/my_uav
+[0.142s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.sh
+[0.142s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.dsv
+[0.143s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.sh
+[0.143s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.dsv
+[0.143s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.bash
+[0.143s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.sh
+[0.143s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.zsh
+[0.144s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.dsv
+[0.144s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/package.dsv
+[0.145s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/packages/my_uav
+[0.145s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig.cmake
+[0.145s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig-version.cmake
+[0.145s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/package.xml
+[0.149s] Invoked command in '/home/a/uav/build/my_uav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/uav/build/my_uav

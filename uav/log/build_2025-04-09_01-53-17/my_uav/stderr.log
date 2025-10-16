@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:41 (file):
+  file INSTALL cannot set permissions on
+  "/home/a/uav/install/my_uav/share/my_uav/launch/gz_launch.py": Operation
+  not permitted.
+
+

@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:69 (target_link_libraries):
+  Cannot specify link libraries for target "my_uav" which is not built by
+  this project.
+
+

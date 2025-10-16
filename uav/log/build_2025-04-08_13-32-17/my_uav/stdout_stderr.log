@@ -1,0 +1,48 @@
+[ 10%] Built target uav_control_node
+[ 20%] Built target image_sub
+[ 30%] Built target internlm_m_node
+[ 40%] Built target internvl
+[35m[1mScanning dependencies of target internlm_m_listener[0m
+[35m[1mScanning dependencies of target internvl_listener[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/internlm_m_listener.dir/src/internlm_m_listener.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/internvl_listener.dir/src/internvl_listener.cpp.o[0m
+[01m[K/home/a/uav/src/my_uav/src/internlm_m_listener.cpp:[m[K In constructor ‘[01m[Kinternlm_m_node::internlm_m_node()[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/internlm_m_listener.cpp:37:9:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid exit(int)[m[K’
+   37 |    exit([01;31m[K)[m[K;  // 程序退出
+      |         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+                 from [01m[K/usr/include/c++/9/ext/string_conversions.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/bits/basic_string.h:6496[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/home/a/uav/src/my_uav/src/internlm_m_listener.cpp:4[m[K:
+[01m[K/usr/include/stdlib.h:617:13:[m[K [01;36m[Knote: [m[Kdeclared here
+  617 | extern void [01;36m[Kexit[m[K (int __status) __THROW __attribute__ ((__noreturn__));
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:[m[K In constructor ‘[01m[KInternvlNode::InternvlNode()[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:48:9:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid exit(int)[m[K’
+   48 |    exit([01;31m[K)[m[K;  // 程序退出
+      |         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+                 from [01m[K/usr/include/c++/9/ext/string_conversions.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/bits/basic_string.h:6496[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:8[m[K:
+[01m[K/usr/include/stdlib.h:617:13:[m[K [01;36m[Knote: [m[Kdeclared here
+  617 | extern void [01;36m[Kexit[m[K (int __status) __THROW __attribute__ ((__noreturn__));
+      |             [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/internlm_m_listener.dir/build.make:63：CMakeFiles/internlm_m_listener.dir/src/internlm_m_listener.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:258：CMakeFiles/internlm_m_listener.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/internvl_listener.dir/build.make:63：CMakeFiles/internvl_listener.dir/src/internvl_listener.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:285：CMakeFiles/internvl_listener.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

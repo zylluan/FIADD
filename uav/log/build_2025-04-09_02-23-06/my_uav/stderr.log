@@ -1,0 +1,4 @@
+make[2]: *** 没有规则可制作目标“/home/a/uav/src/my_uav/src/uav_control_node.cpp”，由“CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o” 需求。 停止。
+make[1]: *** [CMakeFiles/Makefile2:152：CMakeFiles/uav_control_node.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [Makefile:141：all] 错误 2

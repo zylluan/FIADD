@@ -1,0 +1,177 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_uav",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_listener-9273009bc170465be7fb.json",
+					"name" : "camera_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_sub-c54b6993208955774e7e.json",
+					"name" : "gps_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_sub-b5d7d3ca7c4c39a52576.json",
+					"name" : "image_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "internlm_m_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-internlm_m_listener-57d2af4eae8cbeb562bc.json",
+					"name" : "internlm_m_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "internlm_m_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-internlm_m_node-22ec0e8b1f9de539087d.json",
+					"name" : "internlm_m_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "internvl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-internvl-8b48bc58962924cfe8b5.json",
+					"name" : "internvl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "internvl_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-internvl_listener-e883ec9e39a67bc6e658.json",
+					"name" : "internvl_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "internvl_p::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-internvl_p-ea4ad62fbdb4b85bec77.json",
+					"name" : "internvl_p",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_uav_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_uav_uninstall-a8dc9824ff0b2ab20136.json",
+					"name" : "my_uav_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qwen_p::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qwen_p-62e09aa0125c70f712ac.json",
+					"name" : "qwen_p",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ray_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ray_listener-d67e4f6dadc4cea4a8b0.json",
+					"name" : "ray_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ray_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ray_sub-de977ba2d6410a57711f.json",
+					"name" : "ray_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uav_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uav_control_node-d829beef96b70ffbc1c2.json",
+					"name" : "uav_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-149e7e175e1f19966ca5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/a/uav/src/build/my_uav",
+		"source" : "/home/a/uav/src/my_uav"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

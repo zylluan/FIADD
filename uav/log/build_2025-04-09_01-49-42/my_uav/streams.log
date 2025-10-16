@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/a/uav/build/my_uav': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.047s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.185s] Traceback (most recent call last):
+[0.185s]   File "/opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.185s]     from ament_package.templates import get_environment_hook_template_path
+[0.185s] ModuleNotFoundError: No module named 'ament_package'
+[0.206s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.206s]   execute_process(/usr/bin/python3
+[0.206s]   /opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.207s]   /home/a/uav/build/my_uav/ament_cmake_package_templates/templates.cmake)
+[0.207s]   returned error code 1
+[0.207s] Call Stack (most recent call first):
+[0.207s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.207s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.207s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.207s]   CMakeLists.txt:9 (find_package)
+[0.207s] 
+[0.207s] 
+[0.208s] -- Configuring incomplete, errors occurred!
+[0.208s] See also "/home/a/uav/build/my_uav/CMakeFiles/CMakeOutput.log".
+[0.208s] See also "/home/a/uav/build/my_uav/CMakeFiles/CMakeError.log".
+[0.212s] make: *** [Makefile:706：cmake_check_build_system] 错误 1
+[0.216s] Invoked command in '/home/a/uav/build/my_uav' returned '2': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2

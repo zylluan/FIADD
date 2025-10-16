@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/a/uav/build/my_uav': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.073s] [  4%] [32mBuilding CXX object CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o[0m
+[0.077s] [ 13%] Built target image_sub
+[0.105s] [ 22%] Built target internlm_m_node
+[0.133s] [ 31%] Built target internvl
+[0.164s] [ 40%] Built target internlm_m_listener
+[0.176s] [35m[1mScanning dependencies of target internvl_p[0m
+[0.216s] [ 45%] [32mBuilding CXX object CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o[0m
+[2.539s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:[m[K In member function ‘[01m[Kvoid UAVControlNode::append_new_messages_to_file(const json&, const string&)[m[K’:
+[2.539s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:131:22:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream file[m[K’ has initializer but incomplete type
+[2.539s]   131 |   std::ofstream file([01;31m[Kfilename[m[K, std::ios::app);  // 以追加模式打开
+[2.539s]       |                      [01;31m[K^~~~~~~~[m[K
+[2.540s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:[m[K In member function ‘[01m[Kvoid UAVControlNode::append_new_messages_to_file(const string&, const string&)[m[K’:
+[2.540s] [01m[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:141:22:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream file[m[K’ has initializer but incomplete type
+[2.540s]   141 |   std::ofstream file([01;31m[Kfilename[m[K, std::ios::app);  // 以追加模式打开
+[2.540s]       |                      [01;31m[K^~~~~~~~[m[K
+[3.890s] make[2]: *** [CMakeFiles/uav_control_node.dir/build.make:63：CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o] 错误 1
+[3.891s] make[1]: *** [CMakeFiles/Makefile2:152：CMakeFiles/uav_control_node.dir/all] 错误 2
+[3.891s] make[1]: *** 正在等待未完成的任务....
+[16.206s] [ 50%] [32m[1mLinking CXX executable internvl_p[0m
+[17.528s] [ 50%] Built target internvl_p
+[17.530s] make: *** [Makefile:141：all] 错误 2
+[17.533s] Invoked command in '/home/a/uav/build/my_uav' returned '2': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2

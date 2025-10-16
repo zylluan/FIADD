@@ -1,0 +1,14 @@
+[  9%] Built target image_sub
+[ 18%] Built target uav_control_node
+[ 27%] Built target internlm_m_node
+[ 36%] Built target internvl
+[ 45%] Built target internlm_m_listener
+[35m[1mScanning dependencies of target internvl_p[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o[0m
+[01m[K/home/a/uav/src/my_uav/src/internvl_p.cpp:[m[K In member function ‘[01m[Kvoid InternvlNode::parse_model_reply(const string&)[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/internvl_p.cpp:158:5:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kfor[m[K’
+  158 |     [01;31m[Kfor[m[K (const auto& cmd : commands) {
+      |     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/internvl_p.dir/build.make:63：CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:287：CMakeFiles/internvl_p.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

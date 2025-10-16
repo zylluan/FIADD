@@ -1,0 +1,356 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (my_uav) JobQueued: {'identifier': 'my_uav', 'dependencies': OrderedDict()}
+[0.000339] (my_uav) JobStarted: {'identifier': 'my_uav'}
+[0.008788] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'cmake'}
+[0.010122] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'build'}
+[0.010220] (my_uav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/uav/build/my_uav', '--', '-j2', '-l2'], 'cwd': '/home/a/uav/build/my_uav', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'a'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1539'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/ros2_ws/install/px4_ros_com/lib:/home/a/ros2_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('HOME', '/home/a'), ('OLDPWD', '/home/a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1438'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/a/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:50024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/a/uav/src/my_uav/models:/home/a/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/a-vm:@/tmp/.ICE-unix/1574,unix/a-vm:/tmp/.ICE-unix/1574'), ('INVOCATION_ID', '3b5c4787dc2948109713afe6696dde1a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b62c5e48_029e_41a8_a818_3e4fc19e7d58'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/uav/build/my_uav'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OGRE_RENDERER', 'OGRE1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic')]), 'shell': False}
+[0.076537] (my_uav) StdoutLine: {'line': b'[ 10%] Built target uav_control_node\n'}
+[0.085424] (my_uav) StdoutLine: {'line': b'[ 20%] Built target image_sub\n'}
+[0.098749] (-) TimerEvent: {}
+[0.106867] (my_uav) StdoutLine: {'line': b'[ 30%] Built target internlm_m_node\n'}
+[0.124445] (my_uav) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target internlm_m_listener\x1b[0m\n'}
+[0.124983] (my_uav) StdoutLine: {'line': b'[ 40%] Built target internvl\n'}
+[0.142193] (my_uav) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target internvl_listener\x1b[0m\n'}
+[0.158286] (my_uav) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/internlm_m_listener.dir/src/internlm_m_listener.cpp.o\x1b[0m\n'}
+[0.189046] (my_uav) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/internvl_listener.dir/src/internvl_listener.cpp.o\x1b[0m\n'}
+[0.199799] (-) TimerEvent: {}
+[0.300753] (-) TimerEvent: {}
+[0.401315] (-) TimerEvent: {}
+[0.502225] (-) TimerEvent: {}
+[0.602821] (-) TimerEvent: {}
+[0.703812] (-) TimerEvent: {}
+[0.804978] (-) TimerEvent: {}
+[0.905812] (-) TimerEvent: {}
+[1.012630] (-) TimerEvent: {}
+[1.114368] (-) TimerEvent: {}
+[1.216218] (-) TimerEvent: {}
+[1.316871] (-) TimerEvent: {}
+[1.417883] (-) TimerEvent: {}
+[1.518425] (-) TimerEvent: {}
+[1.619943] (-) TimerEvent: {}
+[1.720648] (-) TimerEvent: {}
+[1.821585] (-) TimerEvent: {}
+[1.922176] (-) TimerEvent: {}
+[2.022547] (-) TimerEvent: {}
+[2.123597] (-) TimerEvent: {}
+[2.224555] (-) TimerEvent: {}
+[2.325213] (-) TimerEvent: {}
+[2.426245] (-) TimerEvent: {}
+[2.527189] (-) TimerEvent: {}
+[2.627765] (-) TimerEvent: {}
+[2.728765] (-) TimerEvent: {}
+[2.830749] (-) TimerEvent: {}
+[2.931771] (-) TimerEvent: {}
+[3.032766] (-) TimerEvent: {}
+[3.133344] (-) TimerEvent: {}
+[3.233769] (-) TimerEvent: {}
+[3.334388] (-) TimerEvent: {}
+[3.437034] (-) TimerEvent: {}
+[3.538672] (-) TimerEvent: {}
+[3.639931] (-) TimerEvent: {}
+[3.740564] (-) TimerEvent: {}
+[3.841564] (-) TimerEvent: {}
+[3.942579] (-) TimerEvent: {}
+[4.043589] (-) TimerEvent: {}
+[4.144666] (-) TimerEvent: {}
+[4.245584] (-) TimerEvent: {}
+[4.346190] (-) TimerEvent: {}
+[4.447154] (-) TimerEvent: {}
+[4.548164] (-) TimerEvent: {}
+[4.648799] (-) TimerEvent: {}
+[4.749791] (-) TimerEvent: {}
+[4.850834] (-) TimerEvent: {}
+[4.951803] (-) TimerEvent: {}
+[5.052832] (-) TimerEvent: {}
+[5.153852] (-) TimerEvent: {}
+[5.254804] (-) TimerEvent: {}
+[5.355439] (-) TimerEvent: {}
+[5.456449] (-) TimerEvent: {}
+[5.557218] (-) TimerEvent: {}
+[5.658089] (-) TimerEvent: {}
+[5.758664] (-) TimerEvent: {}
+[5.859627] (-) TimerEvent: {}
+[5.960436] (-) TimerEvent: {}
+[6.061599] (-) TimerEvent: {}
+[6.162610] (-) TimerEvent: {}
+[6.264398] (-) TimerEvent: {}
+[6.365165] (-) TimerEvent: {}
+[6.465830] (-) TimerEvent: {}
+[6.566674] (-) TimerEvent: {}
+[6.667701] (-) TimerEvent: {}
+[6.769974] (-) TimerEvent: {}
+[6.870708] (-) TimerEvent: {}
+[6.971780] (-) TimerEvent: {}
+[7.072743] (-) TimerEvent: {}
+[7.173702] (-) TimerEvent: {}
+[7.274102] (-) TimerEvent: {}
+[7.375331] (-) TimerEvent: {}
+[7.476367] (-) TimerEvent: {}
+[7.577004] (-) TimerEvent: {}
+[7.678018] (-) TimerEvent: {}
+[7.778638] (-) TimerEvent: {}
+[7.879639] (-) TimerEvent: {}
+[7.980638] (-) TimerEvent: {}
+[8.081928] (-) TimerEvent: {}
+[8.186241] (-) TimerEvent: {}
+[8.290275] (-) TimerEvent: {}
+[8.391213] (-) TimerEvent: {}
+[8.492280] (-) TimerEvent: {}
+[8.592889] (-) TimerEvent: {}
+[8.693824] (-) TimerEvent: {}
+[8.797919] (-) TimerEvent: {}
+[8.898920] (-) TimerEvent: {}
+[9.001950] (-) TimerEvent: {}
+[9.102900] (-) TimerEvent: {}
+[9.203970] (-) TimerEvent: {}
+[9.304348] (-) TimerEvent: {}
+[9.405229] (-) TimerEvent: {}
+[9.505708] (-) TimerEvent: {}
+[9.606393] (-) TimerEvent: {}
+[9.707237] (-) TimerEvent: {}
+[9.807629] (-) TimerEvent: {}
+[9.908777] (-) TimerEvent: {}
+[10.009798] (-) TimerEvent: {}
+[10.110406] (-) TimerEvent: {}
+[10.210952] (-) TimerEvent: {}
+[10.311754] (-) TimerEvent: {}
+[10.412198] (-) TimerEvent: {}
+[10.513083] (-) TimerEvent: {}
+[10.613557] (-) TimerEvent: {}
+[10.714037] (-) TimerEvent: {}
+[10.814731] (-) TimerEvent: {}
+[10.916029] (-) TimerEvent: {}
+[11.016766] (-) TimerEvent: {}
+[11.117247] (-) TimerEvent: {}
+[11.217882] (-) TimerEvent: {}
+[11.318380] (-) TimerEvent: {}
+[11.419592] (-) TimerEvent: {}
+[11.520599] (-) TimerEvent: {}
+[11.621168] (-) TimerEvent: {}
+[11.721799] (-) TimerEvent: {}
+[11.822807] (-) TimerEvent: {}
+[11.923786] (-) TimerEvent: {}
+[12.024849] (-) TimerEvent: {}
+[12.081245] (my_uav) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable internlm_m_listener\x1b[0m\n'}
+[12.125807] (-) TimerEvent: {}
+[12.226868] (-) TimerEvent: {}
+[12.327437] (-) TimerEvent: {}
+[12.428431] (-) TimerEvent: {}
+[12.529450] (-) TimerEvent: {}
+[12.629998] (-) TimerEvent: {}
+[12.730982] (-) TimerEvent: {}
+[12.831966] (-) TimerEvent: {}
+[12.932966] (-) TimerEvent: {}
+[12.950775] (my_uav) StdoutLine: {'line': b'[ 55%] Built target internlm_m_listener\n'}
+[12.974708] (my_uav) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gps_sub\x1b[0m\n'}
+[13.011299] (my_uav) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o\x1b[0m\n'}
+[13.033936] (-) TimerEvent: {}
+[13.134970] (-) TimerEvent: {}
+[13.235959] (-) TimerEvent: {}
+[13.336617] (-) TimerEvent: {}
+[13.437628] (-) TimerEvent: {}
+[13.538601] (-) TimerEvent: {}
+[13.639927] (-) TimerEvent: {}
+[13.741386] (-) TimerEvent: {}
+[13.842379] (-) TimerEvent: {}
+[13.943384] (-) TimerEvent: {}
+[14.044387] (-) TimerEvent: {}
+[14.145372] (-) TimerEvent: {}
+[14.246422] (-) TimerEvent: {}
+[14.346965] (-) TimerEvent: {}
+[14.447954] (-) TimerEvent: {}
+[14.548973] (-) TimerEvent: {}
+[14.649603] (-) TimerEvent: {}
+[14.750635] (-) TimerEvent: {}
+[14.851682] (-) TimerEvent: {}
+[14.952601] (-) TimerEvent: {}
+[15.053614] (-) TimerEvent: {}
+[15.154650] (-) TimerEvent: {}
+[15.255598] (-) TimerEvent: {}
+[15.356298] (-) TimerEvent: {}
+[15.457268] (-) TimerEvent: {}
+[15.558246] (-) TimerEvent: {}
+[15.658773] (-) TimerEvent: {}
+[15.759419] (-) TimerEvent: {}
+[15.860445] (-) TimerEvent: {}
+[15.961447] (-) TimerEvent: {}
+[16.062428] (-) TimerEvent: {}
+[16.163419] (-) TimerEvent: {}
+[16.264442] (-) TimerEvent: {}
+[16.365082] (-) TimerEvent: {}
+[16.466136] (-) TimerEvent: {}
+[16.567095] (-) TimerEvent: {}
+[16.667713] (-) TimerEvent: {}
+[16.768703] (-) TimerEvent: {}
+[16.869145] (-) TimerEvent: {}
+[16.969634] (-) TimerEvent: {}
+[17.070640] (-) TimerEvent: {}
+[17.171617] (-) TimerEvent: {}
+[17.272641] (-) TimerEvent: {}
+[17.373295] (-) TimerEvent: {}
+[17.474297] (-) TimerEvent: {}
+[17.575289] (-) TimerEvent: {}
+[17.676019] (-) TimerEvent: {}
+[17.776384] (-) TimerEvent: {}
+[17.876809] (-) TimerEvent: {}
+[17.977618] (-) TimerEvent: {}
+[18.078182] (-) TimerEvent: {}
+[18.178693] (-) TimerEvent: {}
+[18.279570] (-) TimerEvent: {}
+[18.380310] (-) TimerEvent: {}
+[18.481413] (-) TimerEvent: {}
+[18.581945] (-) TimerEvent: {}
+[18.682915] (-) TimerEvent: {}
+[18.783960] (-) TimerEvent: {}
+[18.884964] (-) TimerEvent: {}
+[18.985585] (-) TimerEvent: {}
+[19.091995] (-) TimerEvent: {}
+[19.192912] (-) TimerEvent: {}
+[19.294026] (-) TimerEvent: {}
+[19.394670] (-) TimerEvent: {}
+[19.495588] (-) TimerEvent: {}
+[19.596214] (-) TimerEvent: {}
+[19.697226] (-) TimerEvent: {}
+[19.797755] (-) TimerEvent: {}
+[19.864061] (my_uav) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable internvl_listener\x1b[0m\n'}
+[19.898766] (-) TimerEvent: {}
+[19.999782] (-) TimerEvent: {}
+[20.100782] (-) TimerEvent: {}
+[20.201294] (-) TimerEvent: {}
+[20.301785] (-) TimerEvent: {}
+[20.402473] (-) TimerEvent: {}
+[20.503422] (-) TimerEvent: {}
+[20.604020] (-) TimerEvent: {}
+[20.705020] (-) TimerEvent: {}
+[20.806109] (-) TimerEvent: {}
+[20.907007] (-) TimerEvent: {}
+[21.007993] (-) TimerEvent: {}
+[21.108987] (-) TimerEvent: {}
+[21.210006] (-) TimerEvent: {}
+[21.311029] (-) TimerEvent: {}
+[21.411623] (-) TimerEvent: {}
+[21.455222] (my_uav) StdoutLine: {'line': b'[ 65%] Built target internvl_listener\n'}
+[21.498834] (my_uav) StdoutLine: {'line': b'[ 75%] Built target ray_sub\n'}
+[21.512617] (-) TimerEvent: {}
+[21.537270] (my_uav) StdoutLine: {'line': b'[ 85%] Built target camera_listener\n'}
+[21.582338] (my_uav) StdoutLine: {'line': b'[ 95%] Built target ray_listener\n'}
+[21.613248] (-) TimerEvent: {}
+[21.714252] (-) TimerEvent: {}
+[21.814894] (-) TimerEvent: {}
+[21.915888] (-) TimerEvent: {}
+[22.016890] (-) TimerEvent: {}
+[22.117990] (-) TimerEvent: {}
+[22.218894] (-) TimerEvent: {}
+[22.319421] (-) TimerEvent: {}
+[22.420432] (-) TimerEvent: {}
+[22.521434] (-) TimerEvent: {}
+[22.622763] (-) TimerEvent: {}
+[22.723684] (-) TimerEvent: {}
+[22.824691] (-) TimerEvent: {}
+[22.925726] (-) TimerEvent: {}
+[23.026699] (-) TimerEvent: {}
+[23.127726] (-) TimerEvent: {}
+[23.228683] (-) TimerEvent: {}
+[23.329403] (-) TimerEvent: {}
+[23.430481] (-) TimerEvent: {}
+[23.531323] (-) TimerEvent: {}
+[23.631928] (-) TimerEvent: {}
+[23.732570] (-) TimerEvent: {}
+[23.833660] (-) TimerEvent: {}
+[23.934625] (-) TimerEvent: {}
+[24.021179] (my_uav) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gps_sub\x1b[0m\n'}
+[24.034751] (-) TimerEvent: {}
+[24.135721] (-) TimerEvent: {}
+[24.236810] (-) TimerEvent: {}
+[24.337832] (-) TimerEvent: {}
+[24.438727] (-) TimerEvent: {}
+[24.539685] (-) TimerEvent: {}
+[24.640322] (-) TimerEvent: {}
+[24.677210] (my_uav) StdoutLine: {'line': b'[100%] Built target gps_sub\n'}
+[24.689842] (my_uav) CommandEnded: {'returncode': 0}
+[24.690758] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'install'}
+[24.699503] (my_uav) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/a/uav/build/my_uav'], 'cwd': '/home/a/uav/build/my_uav', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'a'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1539'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/ros2_ws/install/px4_ros_com/lib:/home/a/ros2_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('HOME', '/home/a'), ('OLDPWD', '/home/a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1438'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/a/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:50024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/a/uav/src/my_uav/models:/home/a/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/a-vm:@/tmp/.ICE-unix/1574,unix/a-vm:/tmp/.ICE-unix/1574'), ('INVOCATION_ID', '3b5c4787dc2948109713afe6696dde1a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b62c5e48_029e_41a8_a818_3e4fc19e7d58'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/uav/build/my_uav'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/a/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OGRE_RENDERER', 'OGRE1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/a/ros2_ws/install/px4_ros_com:/home/a/ros2_ws/install/px4_msgs:/home/a/ros2_ws/install/my_uav:/opt/ros/galactic')]), 'shell': False}
+[24.713781] (my_uav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.714069] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch\n'}
+[24.714146] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/sitl.launch\n'}
+[24.714201] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/p450.py\n'}
+[24.714243] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/gz_launch.py\n'}
+[24.714285] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/cam_sub.launch.py\n'}
+[24.714325] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models\n'}
+[24.714360] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth\n'}
+[24.715844] (my_uav) StdoutLine: {'line': b'-- Installing: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_1.sdf.last_generated\n'}
+[24.717620] (my_uav) StdoutLine: {'line': b'-- Installing: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth_1.sdf\n'}
+[24.718789] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/model.config\n'}
+[24.718888] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_2Dlidar_depth/p450_2Dlidar_depth.sdf\n'}
+[24.718947] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450\n'}
+[24.718991] (my_uav) StdoutLine: {'line': b'-- Installing: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf.jinja\n'}
+[24.721211] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/model.config\n'}
+[24.721320] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes\n'}
+[24.721374] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_ccw.stl\n'}
+[24.721428] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450.stl\n'}
+[24.721476] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_cw.stl\n'}
+[24.721516] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf\n'}
+[24.721578] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx\n'}
+[24.722434] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/hokuyo_ust_20lx.sdf\n'}
+[24.722552] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/hokuyo_ust_20lx/model.config\n'}
+[24.722598] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar\n'}
+[24.722903] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/p450_hokuyo_2Dlidar.sdf\n'}
+[24.722961] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_hokuyo_2Dlidar/model.config\n'}
+[24.723002] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth\n'}
+[24.723412] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth/model.config\n'}
+[24.723494] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/depth/depth.sdf\n'}
+[24.723552] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i\n'}
+[24.723825] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials\n'}
+[24.724387] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials/textures\n'}
+[24.724807] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/materials/textures/realsense_diffuse.png\n'}
+[24.724894] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/model.config\n'}
+[24.724942] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/D435i.sdf\n'}
+[24.724981] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes\n'}
+[24.725400] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes/realsense_d435.stl\n'}
+[24.725460] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/D435i/meshes/D435i.dae\n'}
+[24.725501] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth\n'}
+[24.725733] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth/model.config\n'}
+[24.725808] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450_depth/p450_depth.sdf\n'}
+[24.725947] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds\n'}
+[24.726080] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/leida.world\n'}
+[24.726198] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/my.world\n'}
+[24.726242] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/baylands.world\n'}
+[24.726282] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/safe_landing.world\n'}
+[24.726322] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/yosemite.world\n'}
+[24.726378] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/mcmillan_airfield.world\n'}
+[24.726417] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/cam.world\n'}
+[24.726456] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/sonoma_raceway.world\n'}
+[24.726495] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/empty_world.world\n'}
+[24.726533] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/my_python_node.py\n'}
+[24.727641] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/uav_control_node\n'}
+[24.728889] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internlm_m_node\n'}
+[24.730605] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/internvl\n'}
+[24.731772] (my_uav) StdoutLine: {'line': b'-- Installing: /home/a/uav/install/my_uav/lib/my_uav/internlm_m_listener\n'}
+[24.735631] (my_uav) StdoutLine: {'line': b'-- Set runtime path of "/home/a/uav/install/my_uav/lib/my_uav/internlm_m_listener" to ""\n'}
+[24.736734] (my_uav) StdoutLine: {'line': b'-- Installing: /home/a/uav/install/my_uav/lib/my_uav/internvl_listener\n'}
+[24.740402] (-) TimerEvent: {}
+[24.742139] (my_uav) StdoutLine: {'line': b'-- Set runtime path of "/home/a/uav/install/my_uav/lib/my_uav/internvl_listener" to ""\n'}
+[24.743490] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/image_sub\n'}
+[24.744941] (my_uav) StdoutLine: {'line': b'-- Installing: /home/a/uav/install/my_uav/lib/my_uav/gps_sub\n'}
+[24.748427] (my_uav) StdoutLine: {'line': b'-- Set runtime path of "/home/a/uav/install/my_uav/lib/my_uav/gps_sub" to ""\n'}
+[24.749428] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/ray_sub\n'}
+[24.750583] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/camera_listener\n'}
+[24.752463] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/ray_listener\n'}
+[24.753485] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/package_run_dependencies/my_uav\n'}
+[24.753839] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/parent_prefix_path/my_uav\n'}
+[24.753980] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.sh\n'}
+[24.754118] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.dsv\n'}
+[24.754250] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.sh\n'}
+[24.754349] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.dsv\n'}
+[24.754396] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.bash\n'}
+[24.754435] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.sh\n'}
+[24.754481] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.zsh\n'}
+[24.754520] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.dsv\n'}
+[24.754559] (my_uav) StdoutLine: {'line': b'-- Installing: /home/a/uav/install/my_uav/share/my_uav/package.dsv\n'}
+[24.755091] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/packages/my_uav\n'}
+[24.755228] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig.cmake\n'}
+[24.755274] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig-version.cmake\n'}
+[24.755316] (my_uav) StdoutLine: {'line': b'-- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/package.xml\n'}
+[24.758360] (my_uav) CommandEnded: {'returncode': 0}
+[24.773612] (my_uav) JobEnded: {'identifier': 'my_uav', 'rc': 0}
+[24.774438] (-) EventReactorShutdown: {}

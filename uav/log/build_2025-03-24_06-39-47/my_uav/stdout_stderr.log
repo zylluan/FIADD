@@ -1,0 +1,100 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found px4_msgs: 2.0.1 (/home/a/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+-- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/a/uav/build/my_uav
+[ 14%] Built target uav_control_node
+[ 28%] Built target internlm_m_node
+[ 42%] Built target internvl
+[35m[1mScanning dependencies of target internvl_listener[0m
+[ 57%] Built target internlm_m_listener
+[ 64%] [32mBuilding CXX object CMakeFiles/internvl_listener.dir/src/internvl_listener.cpp.o[0m
+[ 78%] Built target camera_listener
+[ 92%] Built target ray_listener
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:116:41:[m[K [01;31m[Kerror: [m[K‘[01m[KImu[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+  116 |  rclcpp::Subscription<sensor_msgs::msg::[01;31m[KImu[m[K>::SharedPtr sensor_sub_;
+      |                                         [01;31m[K^~~[m[K
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:116:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  116 |  rclcpp::Subscription<sensor_msgs::msg::Imu[01;31m[K>[m[K::SharedPtr sensor_sub_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:116:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:116:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  116 |  rclcpp::Subscription<sensor_msgs::msg::Imu>::[01;31m[KSharedPtr[m[K sensor_sub_;
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:116:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_sub_[m[K’ does not name a type
+  116 |  rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr [01;31m[Ksensor_sub_[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:[m[K In constructor ‘[01m[KInternvlNode::InternvlNode()[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_sub_[m[K’ was not declared in this scope
+   45 |   [01;31m[Ksensor_sub_[m[K = this->create_subscription<px4_msgs::msg::SensorCombined>("/fmu/out/sensor_combined", qos, std::bind(&InternvlNode::sensor_callback, this, std::placeholders::_1));
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:20[m[K:
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:[m[K In member function ‘[01m[Kvoid InternvlNode::send_to_ai()[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:110:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+  110 |    RCLCPP_ERROR(this->get_logger(), [01;35m[K"请求失败，状态码: %d, 错误信息: %s"[m[K, [32m[Kresponse.status_code[m[K, response.text.c_str());
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                [32m[K|[m[K
+      |                                                                                                [32m[Klong int[m[K
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:110:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  110 |    RCLCPP_ERROR(this->get_logger(), "请求失败，状态码: [01;36m[K%d[m[K, 错误信息: %s", response.status_code, response.text.c_str());
+      |                                                                [01;36m[K~^[m[K
+      |                                                                 [01;36m[K|[m[K
+      |                                                                 [01;36m[Kint[m[K
+      |                                                                [32m[K%ld[m[K
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:219:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kinternvl[m[K’ was not declared in this scope
+  219 |  rclcpp::spin(std::make_shared<[01;31m[Kinternvl[m[K>());
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:219:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+  219 |  rclcpp::spin(std::make_shared<internvl>([01;31m[K)[m[K);
+      |                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/usr/include/c++/9/future:39[m[K,
+                 from [01m[K/usr/local/include/cpr/api.h:6[m[K,
+                 from [01m[K/usr/local/include/cpr/cpr.h:4[m[K,
+                 from [01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:219:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  219 |  rclcpp::spin(std::make_shared<internvl>([01;31m[K)[m[K);
+      |                                          [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/internvl_listener.dir/build.make:63：CMakeFiles/internvl_listener.dir/src/internvl_listener.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:252：CMakeFiles/internvl_listener.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.001510] (my_uav) JobQueued: {'identifier': 'my_uav', 'dependencies': OrderedDict()}
+[0.001571] (my_uav) JobStarted: {'identifier': 'my_uav'}
+[0.009945] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'cmake'}
+[0.010658] (my_uav) JobProgress: {'identifier': 'my_uav', 'progress': 'build'}
+[0.014164] (my_uav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/uav/build/my_uav', '--', '-j2', '-l2'], 'cwd': '/home/a/uav/build/my_uav', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'a'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/a/uav/build/my_uav'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.074106] (my_uav) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o\x1b[0m\n'}
+[0.078684] (my_uav) StdoutLine: {'line': b'[ 13%] Built target image_sub\n'}
+[0.099980] (-) TimerEvent: {}
+[0.106959] (my_uav) StdoutLine: {'line': b'[ 22%] Built target internlm_m_node\n'}
+[0.134535] (my_uav) StdoutLine: {'line': b'[ 31%] Built target internvl\n'}
+[0.165530] (my_uav) StdoutLine: {'line': b'[ 40%] Built target internlm_m_listener\n'}
+[0.177726] (my_uav) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target internvl_p\x1b[0m\n'}
+[0.200363] (-) TimerEvent: {}
+[0.217877] (my_uav) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/internvl_p.dir/src/internvl_p.cpp.o\x1b[0m\n'}
+[0.300861] (-) TimerEvent: {}
+[0.402053] (-) TimerEvent: {}
+[0.503068] (-) TimerEvent: {}
+[0.603673] (-) TimerEvent: {}
+[0.704752] (-) TimerEvent: {}
+[0.805553] (-) TimerEvent: {}
+[0.906477] (-) TimerEvent: {}
+[1.007556] (-) TimerEvent: {}
+[1.108342] (-) TimerEvent: {}
+[1.208847] (-) TimerEvent: {}
+[1.309549] (-) TimerEvent: {}
+[1.410527] (-) TimerEvent: {}
+[1.511186] (-) TimerEvent: {}
+[1.612134] (-) TimerEvent: {}
+[1.712802] (-) TimerEvent: {}
+[1.813450] (-) TimerEvent: {}
+[1.914435] (-) TimerEvent: {}
+[2.015641] (-) TimerEvent: {}
+[2.116694] (-) TimerEvent: {}
+[2.217574] (-) TimerEvent: {}
+[2.318611] (-) TimerEvent: {}
+[2.419592] (-) TimerEvent: {}
+[2.520543] (-) TimerEvent: {}
+[2.540097] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid UAVControlNode::append_new_messages_to_file(const json&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.540311] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:131:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kstd::ofstream file\x1b[m\x1b[K\xe2\x80\x99 has initializer but incomplete type\n'}
+[2.540392] (my_uav) StderrLine: {'line': b'  131 |   std::ofstream file(\x1b[01;31m\x1b[Kfilename\x1b[m\x1b[K, std::ios::app);  // \xe4\xbb\xa5\xe8\xbf\xbd\xe5\x8a\xa0\xe6\xa8\xa1\xe5\xbc\x8f\xe6\x89\x93\xe5\xbc\x80\n'}
+[2.540505] (my_uav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.541176] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid UAVControlNode::append_new_messages_to_file(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.541290] (my_uav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/uav/src/my_uav/src/uav_control_node.cpp:141:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kstd::ofstream file\x1b[m\x1b[K\xe2\x80\x99 has initializer but incomplete type\n'}
+[2.541355] (my_uav) StderrLine: {'line': b'  141 |   std::ofstream file(\x1b[01;31m\x1b[Kfilename\x1b[m\x1b[K, std::ios::app);  // \xe4\xbb\xa5\xe8\xbf\xbd\xe5\x8a\xa0\xe6\xa8\xa1\xe5\xbc\x8f\xe6\x89\x93\xe5\xbc\x80\n'}
+[2.541423] (my_uav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.620905] (-) TimerEvent: {}
+[2.721905] (-) TimerEvent: {}
+[2.822568] (-) TimerEvent: {}
+[2.923579] (-) TimerEvent: {}
+[3.024632] (-) TimerEvent: {}
+[3.125393] (-) TimerEvent: {}
+[3.226570] (-) TimerEvent: {}
+[3.327224] (-) TimerEvent: {}
+[3.428361] (-) TimerEvent: {}
+[3.528987] (-) TimerEvent: {}
+[3.629464] (-) TimerEvent: {}
+[3.730810] (-) TimerEvent: {}
+[3.831512] (-) TimerEvent: {}
+[3.891173] (my_uav) StderrLine: {'line': b'make[2]: *** [CMakeFiles/uav_control_node.dir/build.make:63\xef\xbc\x9aCMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.892009] (my_uav) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:152\xef\xbc\x9aCMakeFiles/uav_control_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.892131] (my_uav) StderrLine: {'line': b'make[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[3.932541] (-) TimerEvent: {}
+[4.033424] (-) TimerEvent: {}
+[4.134437] (-) TimerEvent: {}
+[4.235494] (-) TimerEvent: {}
+[4.336565] (-) TimerEvent: {}
+[4.437424] (-) TimerEvent: {}
+[4.538363] (-) TimerEvent: {}
+[4.639563] (-) TimerEvent: {}
+[4.740269] (-) TimerEvent: {}
+[4.841759] (-) TimerEvent: {}
+[4.942705] (-) TimerEvent: {}
+[5.043834] (-) TimerEvent: {}
+[5.144776] (-) TimerEvent: {}
+[5.245747] (-) TimerEvent: {}
+[5.346696] (-) TimerEvent: {}
+[5.447823] (-) TimerEvent: {}
+[5.548760] (-) TimerEvent: {}
+[5.649372] (-) TimerEvent: {}
+[5.749889] (-) TimerEvent: {}
+[5.850781] (-) TimerEvent: {}
+[5.951759] (-) TimerEvent: {}
+[6.052735] (-) TimerEvent: {}
+[6.153777] (-) TimerEvent: {}
+[6.255486] (-) TimerEvent: {}
+[6.356696] (-) TimerEvent: {}
+[6.457694] (-) TimerEvent: {}
+[6.558693] (-) TimerEvent: {}
+[6.659314] (-) TimerEvent: {}
+[6.760332] (-) TimerEvent: {}
+[6.860905] (-) TimerEvent: {}
+[6.961827] (-) TimerEvent: {}
+[7.062906] (-) TimerEvent: {}
+[7.163948] (-) TimerEvent: {}
+[7.264911] (-) TimerEvent: {}
+[7.365852] (-) TimerEvent: {}
+[7.466847] (-) TimerEvent: {}
+[7.567555] (-) TimerEvent: {}
+[7.668496] (-) TimerEvent: {}
+[7.769025] (-) TimerEvent: {}
+[7.869718] (-) TimerEvent: {}
+[7.970656] (-) TimerEvent: {}
+[8.071783] (-) TimerEvent: {}
+[8.173034] (-) TimerEvent: {}
+[8.273699] (-) TimerEvent: {}
+[8.374684] (-) TimerEvent: {}
+[8.475700] (-) TimerEvent: {}
+[8.576346] (-) TimerEvent: {}
+[8.677264] (-) TimerEvent: {}
+[8.778324] (-) TimerEvent: {}
+[8.878997] (-) TimerEvent: {}
+[8.980050] (-) TimerEvent: {}
+[9.080974] (-) TimerEvent: {}
+[9.182008] (-) TimerEvent: {}
+[9.282899] (-) TimerEvent: {}
+[9.384118] (-) TimerEvent: {}
+[9.485081] (-) TimerEvent: {}
+[9.585622] (-) TimerEvent: {}
+[9.686652] (-) TimerEvent: {}
+[9.787430] (-) TimerEvent: {}
+[9.888062] (-) TimerEvent: {}
+[9.989243] (-) TimerEvent: {}
+[10.090111] (-) TimerEvent: {}
+[10.190772] (-) TimerEvent: {}
+[10.291410] (-) TimerEvent: {}
+[10.392347] (-) TimerEvent: {}
+[10.496963] (-) TimerEvent: {}
+[10.597527] (-) TimerEvent: {}
+[10.698469] (-) TimerEvent: {}
+[10.799514] (-) TimerEvent: {}
+[10.899896] (-) TimerEvent: {}
+[11.000795] (-) TimerEvent: {}
+[11.101775] (-) TimerEvent: {}
+[11.202731] (-) TimerEvent: {}
+[11.303777] (-) TimerEvent: {}
+[11.404752] (-) TimerEvent: {}
+[11.505723] (-) TimerEvent: {}
+[11.606355] (-) TimerEvent: {}
+[11.706830] (-) TimerEvent: {}
+[11.807797] (-) TimerEvent: {}
+[11.908382] (-) TimerEvent: {}
+[12.009374] (-) TimerEvent: {}
+[12.110368] (-) TimerEvent: {}
+[12.211340] (-) TimerEvent: {}
+[12.312360] (-) TimerEvent: {}
+[12.412730] (-) TimerEvent: {}
+[12.513298] (-) TimerEvent: {}
+[12.613708] (-) TimerEvent: {}
+[12.714695] (-) TimerEvent: {}
+[12.815238] (-) TimerEvent: {}
+[12.916330] (-) TimerEvent: {}
+[13.017366] (-) TimerEvent: {}
+[13.118271] (-) TimerEvent: {}
+[13.219359] (-) TimerEvent: {}
+[13.320271] (-) TimerEvent: {}
+[13.421223] (-) TimerEvent: {}
+[13.522339] (-) TimerEvent: {}
+[13.623502] (-) TimerEvent: {}
+[13.723866] (-) TimerEvent: {}
+[13.824518] (-) TimerEvent: {}
+[13.925120] (-) TimerEvent: {}
+[14.026151] (-) TimerEvent: {}
+[14.127088] (-) TimerEvent: {}
+[14.228061] (-) TimerEvent: {}
+[14.328592] (-) TimerEvent: {}
+[14.429548] (-) TimerEvent: {}
+[14.530211] (-) TimerEvent: {}
+[14.630795] (-) TimerEvent: {}
+[14.731756] (-) TimerEvent: {}
+[14.832303] (-) TimerEvent: {}
+[14.933330] (-) TimerEvent: {}
+[15.034399] (-) TimerEvent: {}
+[15.135272] (-) TimerEvent: {}
+[15.236346] (-) TimerEvent: {}
+[15.337292] (-) TimerEvent: {}
+[15.438498] (-) TimerEvent: {}
+[15.539313] (-) TimerEvent: {}
+[15.639952] (-) TimerEvent: {}
+[15.740508] (-) TimerEvent: {}
+[15.841032] (-) TimerEvent: {}
+[15.942034] (-) TimerEvent: {}
+[16.043057] (-) TimerEvent: {}
+[16.144018] (-) TimerEvent: {}
+[16.207151] (my_uav) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable internvl_p\x1b[0m\n'}
+[16.244995] (-) TimerEvent: {}
+[16.346045] (-) TimerEvent: {}
+[16.447061] (-) TimerEvent: {}
+[16.548144] (-) TimerEvent: {}
+[16.649697] (-) TimerEvent: {}
+[16.750668] (-) TimerEvent: {}
+[16.852424] (-) TimerEvent: {}
+[16.953180] (-) TimerEvent: {}
+[17.054138] (-) TimerEvent: {}
+[17.155166] (-) TimerEvent: {}
+[17.256320] (-) TimerEvent: {}
+[17.357263] (-) TimerEvent: {}
+[17.458143] (-) TimerEvent: {}
+[17.529814] (my_uav) StdoutLine: {'line': b'[ 50%] Built target internvl_p\n'}
+[17.531219] (my_uav) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[17.534421] (my_uav) CommandEnded: {'returncode': 2}
+[17.552694] (my_uav) JobEnded: {'identifier': 'my_uav', 'rc': 2}
+[17.558630] (-) TimerEvent: {}
+[17.564386] (-) EventReactorShutdown: {}

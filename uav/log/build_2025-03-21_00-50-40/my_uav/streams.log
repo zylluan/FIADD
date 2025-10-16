@@ -1,0 +1,35 @@
+[0.015s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.078s] [100%] Built target uav_control_node
+[0.088s] Invoked command in '/home/a/uav/build/my_uav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
+[0.100s] Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/uav/build/my_uav
+[0.108s] -- Install configuration: ""
+[0.108s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch
+[0.108s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/launch/gz_launch.py
+[0.108s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models
+[0.108s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450
+[0.108s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf.jinja
+[0.108s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/model.config
+[0.108s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes
+[0.109s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_ccw.stl
+[0.109s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450.stl
+[0.109s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/models/p450/meshes/p450_cw.stl
+[0.109s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/models/p450/p450.sdf
+[0.109s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds
+[0.109s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/worlds/empty_world.world
+[0.109s] -- Up-to-date: /home/a/uav/install/my_uav/lib/my_uav/uav_control_node
+[0.109s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/package_run_dependencies/my_uav
+[0.109s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/parent_prefix_path/my_uav
+[0.109s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.sh
+[0.110s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/ament_prefix_path.dsv
+[0.110s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.sh
+[0.110s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/environment/path.dsv
+[0.110s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.bash
+[0.110s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.sh
+[0.110s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.zsh
+[0.110s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/local_setup.dsv
+[0.110s] -- Installing: /home/a/uav/install/my_uav/share/my_uav/package.dsv
+[0.110s] -- Up-to-date: /home/a/uav/install/my_uav/share/ament_index/resource_index/packages/my_uav
+[0.111s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig.cmake
+[0.111s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/cmake/my_uavConfig-version.cmake
+[0.111s] -- Up-to-date: /home/a/uav/install/my_uav/share/my_uav/package.xml
+[0.115s] Invoked command in '/home/a/uav/build/my_uav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/uav/build/my_uav

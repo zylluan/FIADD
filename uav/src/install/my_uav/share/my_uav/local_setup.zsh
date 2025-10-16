@@ -1,0 +1,1 @@
+/home/a/uav/src/build/my_uav/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,8 @@
+[ 10%] Built target uav_control_node
+[ 15%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[ 25%] Built target internlm_m_node
+[ 35%] Built target internvl
+[ 45%] Built target internlm_m_listener
+[ 55%] Built target internvl_listener
+[35m[1mScanning dependencies of target gps_sub[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/gps_sub.dir/src/gps_sub.cpp.o[0m
