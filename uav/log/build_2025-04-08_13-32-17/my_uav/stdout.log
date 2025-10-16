@@ -1,8 +1,0 @@
-[ 10%] Built target uav_control_node
-[ 20%] Built target image_sub
-[ 30%] Built target internlm_m_node
-[ 40%] Built target internvl
-[35m[1mScanning dependencies of target internlm_m_listener[0m
-[35m[1mScanning dependencies of target internvl_listener[0m
-[ 45%] [32mBuilding CXX object CMakeFiles/internlm_m_listener.dir/src/internlm_m_listener.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/internvl_listener.dir/src/internvl_listener.cpp.o[0m

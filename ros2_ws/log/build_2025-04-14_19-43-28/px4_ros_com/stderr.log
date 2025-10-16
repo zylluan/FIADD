@@ -1,7 +1,0 @@
-[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:[m[K In constructor ‘[01m[KOffboardmode::Offboardmode()[m[K’:
-[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control_mode.cpp:88:63:[m[K [01;31m[Kerror: [m[K‘[01m[KOffboardControl[m[K’ has not been declared
-   88 |          stop_timer_ = this->create_wall_timer(5s, std::bind(&[01;31m[KOffboardControl[m[K::stop_timer_callback, this));
-      |                                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/offboard_control_mode.dir/build.make:63：CMakeFiles/offboard_control_mode.dir/src/examples/offboard/offboard_control_mode.cpp.o] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:133：CMakeFiles/offboard_control_mode.dir/all] 错误 2
-make: *** [Makefile:141：all] 错误 2

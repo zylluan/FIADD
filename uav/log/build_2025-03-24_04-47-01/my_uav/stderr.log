@@ -1,8 +1,0 @@
-[01m[K/home/a/uav/src/my_uav/src/camera_listener.cpp:[m[K In constructor ‘[01m[KImageListener::ImageListener()[m[K’:
-[01m[K/home/a/uav/src/my_uav/src/camera_listener.cpp:58:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kqos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
-   58 |   auto [01;35m[Kqos[m[K = rclcpp::QoS(rclcpp::QoSInitialization(qos_profile.history, 5), qos_profile);
-      |        [01;35m[K^~~[m[K
-[01m[K/home/a/uav/src/my_uav/src/ray_listener.cpp:[m[K In constructor ‘[01m[KLaserScanListener::LaserScanListener()[m[K’:
-[01m[K/home/a/uav/src/my_uav/src/ray_listener.cpp:38:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kqos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
-   38 |   auto [01;35m[Kqos[m[K = rclcpp::QoS(rclcpp::QoSInitialization(qos_profile.history, 5), qos_profile);
-      |        [01;35m[K^~~[m[K

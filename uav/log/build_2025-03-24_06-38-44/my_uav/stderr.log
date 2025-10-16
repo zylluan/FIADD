@@ -1,8 +1,0 @@
-In file included from [01m[K/home/a/uav/src/my_uav/src/internvl_listener.cpp:28[m[K:
-[01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:43:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core/core.hpp: 没有那个文件或目录
-   43 | #include [01;31m[K<opencv2/core/core.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/internvl_listener.dir/build.make:63：CMakeFiles/internvl_listener.dir/src/internvl_listener.cpp.o] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:252：CMakeFiles/internvl_listener.dir/all] 错误 2
-make: *** [Makefile:141：all] 错误 2

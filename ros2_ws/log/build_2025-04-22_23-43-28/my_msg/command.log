@@ -1,6 +1,0 @@
-Invoking command in '/home/a/ros2_ws/build/my_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/ros2_ws/src/my_msg -DCMAKE_INSTALL_PREFIX=/home/a/ros2_ws/install/my_msg
-Invoked command in '/home/a/ros2_ws/build/my_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/ros2_ws/src/my_msg -DCMAKE_INSTALL_PREFIX=/home/a/ros2_ws/install/my_msg
-Invoking command in '/home/a/ros2_ws/build/my_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/ros2_ws/build/my_msg -- -j2 -l2
-Invoked command in '/home/a/ros2_ws/build/my_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/ros2_ws/build/my_msg -- -j2 -l2
-Invoking command in '/home/a/ros2_ws/build/my_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/ros2_ws/build/my_msg
-Invoked command in '/home/a/ros2_ws/build/my_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/ros2_ws/build/my_msg

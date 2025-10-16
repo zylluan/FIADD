@@ -1,8 +1,0 @@
-[0.011s] Invoking command in '/home/a/uav/build/my_uav': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
-[0.054s] [35m[1mScanning dependencies of target uav_control_node[0m
-[0.058s] make[2]: *** 没有规则可制作目标“/home/a/uav/src/my_uav/src/uav_control_node.cpp”，由“CMakeFiles/uav_control_node.dir/src/uav_control_node.cpp.o” 需求。 停止。
-[0.058s] make[1]: *** [CMakeFiles/Makefile2:152：CMakeFiles/uav_control_node.dir/all] 错误 2
-[0.058s] make[1]: *** 正在等待未完成的任务....
-[0.072s] [  9%] Built target image_sub
-[0.074s] make: *** [Makefile:141：all] 错误 2
-[0.076s] Invoked command in '/home/a/uav/build/my_uav' returned '2': /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2

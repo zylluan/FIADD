@@ -1,8 +1,0 @@
-[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/param_test.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kmy_msg/msg/position.hpp: 没有那个文件或目录
-    6 | #include [01;31m[K"my_msg/msg/position.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/param_test.dir/build.make:63：CMakeFiles/param_test.dir/src/examples/offboard/param_test.cpp.o] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:571：CMakeFiles/param_test.dir/all] 错误 2
-make[1]: *** 正在等待未完成的任务....
-make: *** [Makefile:141：all] 错误 2

@@ -1,5 +1,0 @@
--- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
--- Using PYTHON_EXECUTABLE: /usr/bin/python3
--- Configuring incomplete, errors occurred!
-See also "/home/a/uav/build/my_uav/CMakeFiles/CMakeOutput.log".
-See also "/home/a/uav/build/my_uav/CMakeFiles/CMakeError.log".

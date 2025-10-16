@@ -1,4 +1,0 @@
-Invoking command in '/home/a/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_msgs -- -j2 -l2
-Invoked command in '/home/a/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/a/ros2_ws/build/px4_msgs -- -j2 -l2
-Invoking command in '/home/a/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/a/ros2_ws/build/px4_msgs
-Invoked command in '/home/a/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/a/ros2_ws/build/px4_msgs

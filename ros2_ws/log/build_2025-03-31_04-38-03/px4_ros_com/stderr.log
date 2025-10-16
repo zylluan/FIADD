@@ -1,9 +1,0 @@
-[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:57:6:[m[K [01;31m[Kerror: [m[Kdefault argument given for parameter 2 of ‘[01m[Kvoid arm::publish_vehicle_command(uint16_t, float)[m[K’ [[01;31m[K-fpermissive[m[K]
-   57 | void [01;31m[Karm[m[K::publish_vehicle_command(uint16_t command, float param1=0.0)
-      |      [01;31m[K^~~[m[K
-[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/arm.cpp:35:7:[m[K [01;36m[Knote: [m[Kprevious specification in ‘[01m[Kvoid arm::publish_vehicle_command(uint16_t, float)[m[K’ here
-   35 |  void [01;36m[Kpublish_vehicle_command[m[K(uint16_t command, float param1 = 0.0);
-      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/arm.dir/build.make:63：CMakeFiles/arm.dir/src/examples/offboard/arm.cpp.o] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:206：CMakeFiles/arm.dir/all] 错误 2
-make: *** [Makefile:141：all] 错误 2

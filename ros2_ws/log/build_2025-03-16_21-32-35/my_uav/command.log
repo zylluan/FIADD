@@ -1,6 +1,0 @@
-Invoking command in '/home/a/ros2_ws/build/my_uav': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/a/ros2_ws/src/my_uav -DCMAKE_BUILD_TYPE=RELWITHDEBINFO -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/a/ros2_ws/install/my_uav
-Invoked command in '/home/a/ros2_ws/build/my_uav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/a/ros2_ws/src/my_uav -DCMAKE_BUILD_TYPE=RELWITHDEBINFO -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/a/ros2_ws/install/my_uav
-Invoking command in '/home/a/ros2_ws/build/my_uav': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/a/ros2_ws/build/my_uav -- -j2 -l2
-Invoked command in '/home/a/ros2_ws/build/my_uav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/a/ros2_ws/build/my_uav -- -j2 -l2
-Invoking command in '/home/a/ros2_ws/build/my_uav': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/a/ros2_ws/build/my_uav
-Invoked command in '/home/a/ros2_ws/build/my_uav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/a/ros2_ws/build/my_uav

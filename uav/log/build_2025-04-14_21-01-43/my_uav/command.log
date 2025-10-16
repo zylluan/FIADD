@@ -1,4 +1,0 @@
-Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
-Invoked command in '/home/a/uav/build/my_uav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/a/uav/build/my_uav -- -j2 -l2
-Invoking command in '/home/a/uav/build/my_uav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/uav/build/my_uav
-Invoked command in '/home/a/uav/build/my_uav' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/a/uav/build/my_uav

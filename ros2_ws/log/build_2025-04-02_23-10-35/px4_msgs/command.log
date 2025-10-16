@@ -1,2 +1,0 @@
-Invoking command in '/home/a/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/a/ros2_ws/install/px4_msgs
-Invoked command in '/home/a/ros2_ws/build/px4_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/a/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/a/ros2_ws/install/px4_msgs

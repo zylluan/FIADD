@@ -1,7 +1,0 @@
-[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:[m[K In member function ‘[01m[Kvoid commander::send_vehicle_command(uint32_t, float, float, float, float, double, double, float)[m[K’:
-[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:187:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-  187 | void commander::send_vehicle_command(uint32_t cmd,  [01;35m[Kfloat p1[m[K,  float p2,float p3,  float p4 ,double p5,  double p6,  float p7)
-      |                                                     [01;35m[K~~~~~~^~[m[K
-[01m[K/home/a/ros2_ws/src/px4_ros_com/src/examples/offboard/commander.cpp:187:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-  187 | void commander::send_vehicle_command(uint32_t cmd,  float p1,  [01;35m[Kfloat p2[m[K,float p3,  float p4 ,double p5,  double p6,  float p7)
-      |                                                                [01;35m[K~~~~~~^~[m[K
