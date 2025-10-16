@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/a/attack/build/spoofing_attack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/attack/install/spoofing_attack:/home/a/attack/install/route_attack:/home/a/attack/install/replay_attack:/home/a/attack/install/gps_attack_pkg:/home/a/attack/install/ddos_attack:/opt/ros/galactic /usr/bin/cmake --build /home/a/attack/build/spoofing_attack -- -j2 -l2
+[0.063s] [35m[1mScanning dependencies of target fake_gps_node[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/fake_gps_node.dir/src/fake_gps_node.cpp.o[0m
+[3.470s] [100%] [32m[1mLinking CXX executable fake_gps_node[0m
+[3.641s] [100%] Built target fake_gps_node
+[3.655s] Invoked command in '/home/a/attack/build/spoofing_attack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/attack/install/spoofing_attack:/home/a/attack/install/route_attack:/home/a/attack/install/replay_attack:/home/a/attack/install/gps_attack_pkg:/home/a/attack/install/ddos_attack:/opt/ros/galactic /usr/bin/cmake --build /home/a/attack/build/spoofing_attack -- -j2 -l2
+[3.669s] Invoking command in '/home/a/attack/build/spoofing_attack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/attack/install/spoofing_attack:/home/a/attack/install/route_attack:/home/a/attack/install/replay_attack:/home/a/attack/install/gps_attack_pkg:/home/a/attack/install/ddos_attack:/opt/ros/galactic /usr/bin/cmake --install /home/a/attack/build/spoofing_attack
+[3.680s] -- Install configuration: ""
+[3.680s] -- Installing: /home/a/attack/install/spoofing_attack/lib/spoofing_attack/fake_gps_node
+[3.682s] -- Set runtime path of "/home/a/attack/install/spoofing_attack/lib/spoofing_attack/fake_gps_node" to ""
+[3.682s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/ament_index/resource_index/package_run_dependencies/spoofing_attack
+[3.682s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/ament_index/resource_index/parent_prefix_path/spoofing_attack
+[3.682s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/ament_prefix_path.sh
+[3.682s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/ament_prefix_path.dsv
+[3.682s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/path.sh
+[3.683s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/path.dsv
+[3.683s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.bash
+[3.683s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.sh
+[3.683s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.zsh
+[3.683s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.dsv
+[3.683s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/package.dsv
+[3.683s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/ament_index/resource_index/packages/spoofing_attack
+[3.683s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/cmake/spoofing_attackConfig.cmake
+[3.683s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/cmake/spoofing_attackConfig-version.cmake
+[3.683s] -- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/package.xml
+[3.687s] Invoked command in '/home/a/attack/build/spoofing_attack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/attack/install/spoofing_attack:/home/a/attack/install/route_attack:/home/a/attack/install/replay_attack:/home/a/attack/install/gps_attack_pkg:/home/a/attack/install/ddos_attack:/opt/ros/galactic /usr/bin/cmake --install /home/a/attack/build/spoofing_attack

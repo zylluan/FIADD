@@ -1,0 +1,36 @@
+[0.755s] Invoking command in '/home/a/attack/src/replay_attack': PYTHONPATH=/home/a/attack/build/replay_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/replay_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/replay_attack build --build-base /home/a/attack/build/replay_attack/build install --record /home/a/attack/build/replay_attack/install.log --single-version-externally-managed install_data
+[0.970s] running egg_info
+[0.971s] creating ../../build/replay_attack/replay_attack.egg-info
+[0.971s] writing ../../build/replay_attack/replay_attack.egg-info/PKG-INFO
+[0.971s] writing dependency_links to ../../build/replay_attack/replay_attack.egg-info/dependency_links.txt
+[0.971s] writing entry points to ../../build/replay_attack/replay_attack.egg-info/entry_points.txt
+[0.972s] writing requirements to ../../build/replay_attack/replay_attack.egg-info/requires.txt
+[0.972s] writing top-level names to ../../build/replay_attack/replay_attack.egg-info/top_level.txt
+[0.973s] writing manifest file '../../build/replay_attack/replay_attack.egg-info/SOURCES.txt'
+[1.005s] reading manifest file '../../build/replay_attack/replay_attack.egg-info/SOURCES.txt'
+[1.005s] writing manifest file '../../build/replay_attack/replay_attack.egg-info/SOURCES.txt'
+[1.005s] running build
+[1.005s] running build_py
+[1.006s] creating /home/a/attack/build/replay_attack/build
+[1.006s] creating /home/a/attack/build/replay_attack/build/lib
+[1.006s] creating /home/a/attack/build/replay_attack/build/lib/replay_attack
+[1.006s] copying replay_attack/attack.py -> /home/a/attack/build/replay_attack/build/lib/replay_attack
+[1.006s] copying replay_attack/__init__.py -> /home/a/attack/build/replay_attack/build/lib/replay_attack
+[1.006s] running install
+[1.007s] running install_lib
+[1.008s] creating /home/a/attack/install/replay_attack/lib/python3.8/site-packages/replay_attack
+[1.008s] copying /home/a/attack/build/replay_attack/build/lib/replay_attack/attack.py -> /home/a/attack/install/replay_attack/lib/python3.8/site-packages/replay_attack
+[1.008s] copying /home/a/attack/build/replay_attack/build/lib/replay_attack/__init__.py -> /home/a/attack/install/replay_attack/lib/python3.8/site-packages/replay_attack
+[1.008s] byte-compiling /home/a/attack/install/replay_attack/lib/python3.8/site-packages/replay_attack/attack.py to attack.cpython-38.pyc
+[1.009s] byte-compiling /home/a/attack/install/replay_attack/lib/python3.8/site-packages/replay_attack/__init__.py to __init__.cpython-38.pyc
+[1.009s] running install_data
+[1.009s] creating /home/a/attack/install/replay_attack/share/ament_index
+[1.010s] creating /home/a/attack/install/replay_attack/share/ament_index/resource_index
+[1.010s] creating /home/a/attack/install/replay_attack/share/ament_index/resource_index/packages
+[1.010s] copying resource/replay_attack -> /home/a/attack/install/replay_attack/share/ament_index/resource_index/packages
+[1.010s] copying package.xml -> /home/a/attack/install/replay_attack/share/replay_attack
+[1.010s] running install_egg_info
+[1.011s] Copying ../../build/replay_attack/replay_attack.egg-info to /home/a/attack/install/replay_attack/lib/python3.8/site-packages/replay_attack-0.0.0-py3.8.egg-info
+[1.012s] running install_scripts
+[1.031s] writing list of installed files to '/home/a/attack/build/replay_attack/install.log'
+[1.055s] Invoked command in '/home/a/attack/src/replay_attack' returned '0': PYTHONPATH=/home/a/attack/build/replay_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/replay_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/replay_attack build --build-base /home/a/attack/build/replay_attack/build install --record /home/a/attack/build/replay_attack/install.log --single-version-externally-managed install_data

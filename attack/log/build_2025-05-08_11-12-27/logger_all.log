@@ -1,0 +1,327 @@
+[0.285s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.285s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f39ff6db430>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f39ff6db430>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f39ff6db940>)
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.461s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/a/attack'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddos_attack) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddos_attack) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddos_attack) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddos_attack) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddos_attack) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddos_attack) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddos_attack) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddos_attack) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddos_attack) by extension 'ros'
+[0.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ddos_attack' with type 'ros.ament_python' and name 'ddos_attack'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_attack_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_attack_pkg) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_attack_pkg) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_attack_pkg) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_attack_pkg) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_attack_pkg) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_attack_pkg) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_attack_pkg) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_attack_pkg) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_attack_pkg' with type 'ros.ament_python' and name 'gps_attack_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_attack) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_attack) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_attack) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_attack) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_attack) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_attack) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_attack) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_attack) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_attack) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/replay_attack' with type 'ros.ament_python' and name 'replay_attack'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_attack) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_attack) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_attack) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_attack) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_attack) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_attack) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_attack) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_attack) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_attack) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/route_attack' with type 'ros.ament_python' and name 'route_attack'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/spoofing_attack) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/spoofing_attack) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/spoofing_attack) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/spoofing_attack) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/spoofing_attack) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/spoofing_attack) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/spoofing_attack) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/spoofing_attack) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/spoofing_attack) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spoofing_attack' with type 'ros.ament_python' and name 'spoofing_attack'
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/a/ros2_ws/install
+[0.515s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/galactic
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'ddos_attack' build argument 'cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'ddos_attack' build argument 'cmake_target' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'ddos_attack' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'ddos_attack' build argument 'cmake_clean_cache' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'ddos_attack' build argument 'cmake_clean_first' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'ddos_attack' build argument 'cmake_force_configure' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'ddos_attack' build argument 'ament_cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'ddos_attack' build argument 'catkin_cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'ddos_attack' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.612s] DEBUG:colcon.colcon_core.verb:Building package 'ddos_attack' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/attack/build/ddos_attack', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/attack/install/ddos_attack', 'merge_install': False, 'path': '/home/a/attack/src/ddos_attack', 'symlink_install': False, 'test_result_base': None}
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'gps_attack_pkg' build argument 'cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'gps_attack_pkg' build argument 'cmake_target' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'gps_attack_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gps_attack_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gps_attack_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gps_attack_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gps_attack_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gps_attack_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gps_attack_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.613s] DEBUG:colcon.colcon_core.verb:Building package 'gps_attack_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/attack/build/gps_attack_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/attack/install/gps_attack_pkg', 'merge_install': False, 'path': '/home/a/attack/src/gps_attack_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'replay_attack' build argument 'cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'replay_attack' build argument 'cmake_target' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'replay_attack' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'replay_attack' build argument 'cmake_clean_cache' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'replay_attack' build argument 'cmake_clean_first' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'replay_attack' build argument 'cmake_force_configure' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'replay_attack' build argument 'ament_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'replay_attack' build argument 'catkin_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'replay_attack' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.613s] DEBUG:colcon.colcon_core.verb:Building package 'replay_attack' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/attack/build/replay_attack', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/attack/install/replay_attack', 'merge_install': False, 'path': '/home/a/attack/src/replay_attack', 'symlink_install': False, 'test_result_base': None}
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'route_attack' build argument 'cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'route_attack' build argument 'cmake_target' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'route_attack' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'route_attack' build argument 'cmake_clean_cache' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'route_attack' build argument 'cmake_clean_first' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'route_attack' build argument 'cmake_force_configure' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'route_attack' build argument 'ament_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'route_attack' build argument 'catkin_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'route_attack' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.613s] DEBUG:colcon.colcon_core.verb:Building package 'route_attack' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/attack/build/route_attack', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/attack/install/route_attack', 'merge_install': False, 'path': '/home/a/attack/src/route_attack', 'symlink_install': False, 'test_result_base': None}
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'spoofing_attack' build argument 'cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'spoofing_attack' build argument 'cmake_target' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'spoofing_attack' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'spoofing_attack' build argument 'cmake_clean_cache' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'spoofing_attack' build argument 'cmake_clean_first' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'spoofing_attack' build argument 'cmake_force_configure' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'spoofing_attack' build argument 'ament_cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'spoofing_attack' build argument 'catkin_cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'spoofing_attack' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.614s] DEBUG:colcon.colcon_core.verb:Building package 'spoofing_attack' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/attack/build/spoofing_attack', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/attack/install/spoofing_attack', 'merge_install': False, 'path': '/home/a/attack/src/spoofing_attack', 'symlink_install': False, 'test_result_base': None}
+[0.614s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.615s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/a/attack/src/ddos_attack' with build type 'ament_python'
+[0.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('ddos_attack', 'ament_prefix_path')
+[0.622s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/ddos_attack/share/ddos_attack/hook/ament_prefix_path.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/attack/install/ddos_attack/share/ddos_attack/hook/ament_prefix_path.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/ddos_attack/share/ddos_attack/hook/ament_prefix_path.sh'
+[0.624s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.624s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.629s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/a/attack/src/gps_attack_pkg' with build type 'ament_python'
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_attack_pkg', 'ament_prefix_path')
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/hook/ament_prefix_path.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/hook/ament_prefix_path.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/hook/ament_prefix_path.sh'
+[0.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.821s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/a/attack/src/ddos_attack'
+[0.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.011s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/a/attack/src/gps_attack_pkg'
+[1.012s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.012s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/attack/src/ddos_attack': PYTHONPATH=/home/a/attack/build/ddos_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/ddos_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddos_attack build --build-base /home/a/attack/build/ddos_attack/build install --record /home/a/attack/build/ddos_attack/install.log --single-version-externally-managed install_data
+[1.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/attack/src/gps_attack_pkg': PYTHONPATH=/home/a/attack/build/gps_attack_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/gps_attack_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_attack_pkg build --build-base /home/a/attack/build/gps_attack_pkg/build install --record /home/a/attack/build/gps_attack_pkg/install.log --single-version-externally-managed install_data
+[1.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/attack/src/gps_attack_pkg' returned '0': PYTHONPATH=/home/a/attack/build/gps_attack_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/gps_attack_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_attack_pkg build --build-base /home/a/attack/build/gps_attack_pkg/build install --record /home/a/attack/build/gps_attack_pkg/install.log --single-version-externally-managed install_data
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/gps_attack_pkg' for CMake module files
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/gps_attack_pkg' for CMake config files
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/gps_attack_pkg/lib'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/gps_attack_pkg/bin'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/gps_attack_pkg/lib/pkgconfig/gps_attack_pkg.pc'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/gps_attack_pkg/lib/python3.8/site-packages'
+[1.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_attack_pkg', 'pythonpath')
+[1.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/hook/pythonpath.ps1'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/hook/pythonpath.dsv'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/hook/pythonpath.sh'
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/gps_attack_pkg/bin'
+[1.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_attack_pkg)
+[1.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/package.ps1'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/package.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/package.sh'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/package.bash'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg/package.zsh'
+[1.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/attack/install/gps_attack_pkg/share/colcon-core/packages/gps_attack_pkg)
+[1.822s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/a/attack/src/replay_attack' with build type 'ament_python'
+[1.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('replay_attack', 'ament_prefix_path')
+[1.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/replay_attack/share/replay_attack/hook/ament_prefix_path.ps1'
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/attack/install/replay_attack/share/replay_attack/hook/ament_prefix_path.dsv'
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/replay_attack/share/replay_attack/hook/ament_prefix_path.sh'
+[1.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/ddos_attack' for CMake module files
+[1.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/attack/src/ddos_attack' returned '0': PYTHONPATH=/home/a/attack/build/ddos_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/ddos_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddos_attack build --build-base /home/a/attack/build/ddos_attack/build install --record /home/a/attack/build/ddos_attack/install.log --single-version-externally-managed install_data
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/ddos_attack' for CMake config files
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/ddos_attack/lib'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/ddos_attack/bin'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/ddos_attack/lib/pkgconfig/ddos_attack.pc'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/ddos_attack/lib/python3.8/site-packages'
+[1.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('ddos_attack', 'pythonpath')
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/ddos_attack/share/ddos_attack/hook/pythonpath.ps1'
+[1.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/attack/install/ddos_attack/share/ddos_attack/hook/pythonpath.dsv'
+[1.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/ddos_attack/share/ddos_attack/hook/pythonpath.sh'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/ddos_attack/bin'
+[1.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ddos_attack)
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/ddos_attack/share/ddos_attack/package.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/attack/install/ddos_attack/share/ddos_attack/package.dsv'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/ddos_attack/share/ddos_attack/package.sh'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/ddos_attack/share/ddos_attack/package.bash'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/ddos_attack/share/ddos_attack/package.zsh'
+[1.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/attack/install/ddos_attack/share/colcon-core/packages/ddos_attack)
+[1.839s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/a/attack/src/route_attack' with build type 'ament_python'
+[1.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('route_attack', 'ament_prefix_path')
+[1.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/route_attack/share/route_attack/hook/ament_prefix_path.ps1'
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/attack/install/route_attack/share/route_attack/hook/ament_prefix_path.dsv'
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/route_attack/share/route_attack/hook/ament_prefix_path.sh'
+[1.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.029s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/a/attack/src/replay_attack'
+[2.030s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.030s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.221s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/a/attack/src/route_attack'
+[2.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/attack/src/replay_attack': PYTHONPATH=/home/a/attack/build/replay_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/replay_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/replay_attack build --build-base /home/a/attack/build/replay_attack/build install --record /home/a/attack/build/replay_attack/install.log --single-version-externally-managed install_data
+[2.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/attack/src/route_attack': PYTHONPATH=/home/a/attack/build/route_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/route_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/route_attack build --build-base /home/a/attack/build/route_attack/build install --record /home/a/attack/build/route_attack/install.log --single-version-externally-managed install_data
+[2.878s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/replay_attack' for CMake module files
+[2.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/attack/src/replay_attack' returned '0': PYTHONPATH=/home/a/attack/build/replay_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/replay_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/replay_attack build --build-base /home/a/attack/build/replay_attack/build install --record /home/a/attack/build/replay_attack/install.log --single-version-externally-managed install_data
+[2.878s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/replay_attack' for CMake config files
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/replay_attack/lib'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/replay_attack/bin'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/replay_attack/lib/pkgconfig/replay_attack.pc'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/replay_attack/lib/python3.8/site-packages'
+[2.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('replay_attack', 'pythonpath')
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/replay_attack/share/replay_attack/hook/pythonpath.ps1'
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/attack/install/replay_attack/share/replay_attack/hook/pythonpath.dsv'
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/replay_attack/share/replay_attack/hook/pythonpath.sh'
+[2.881s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/replay_attack/bin'
+[2.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(replay_attack)
+[2.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/replay_attack/share/replay_attack/package.ps1'
+[2.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/attack/install/replay_attack/share/replay_attack/package.dsv'
+[2.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/replay_attack/share/replay_attack/package.sh'
+[2.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/replay_attack/share/replay_attack/package.bash'
+[2.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/replay_attack/share/replay_attack/package.zsh'
+[2.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/attack/install/replay_attack/share/colcon-core/packages/replay_attack)
+[2.884s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/a/attack/src/spoofing_attack' with build type 'ament_python'
+[2.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('spoofing_attack', 'ament_prefix_path')
+[2.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/spoofing_attack/share/spoofing_attack/hook/ament_prefix_path.ps1'
+[2.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/attack/install/spoofing_attack/share/spoofing_attack/hook/ament_prefix_path.dsv'
+[2.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/spoofing_attack/share/spoofing_attack/hook/ament_prefix_path.sh'
+[2.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.887s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.901s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/route_attack' for CMake module files
+[2.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/attack/src/route_attack' returned '0': PYTHONPATH=/home/a/attack/build/route_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/route_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/route_attack build --build-base /home/a/attack/build/route_attack/build install --record /home/a/attack/build/route_attack/install.log --single-version-externally-managed install_data
+[2.903s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/route_attack' for CMake config files
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/route_attack/lib'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/route_attack/bin'
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/route_attack/lib/pkgconfig/route_attack.pc'
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/route_attack/lib/python3.8/site-packages'
+[2.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('route_attack', 'pythonpath')
+[2.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/route_attack/share/route_attack/hook/pythonpath.ps1'
+[2.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/attack/install/route_attack/share/route_attack/hook/pythonpath.dsv'
+[2.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/route_attack/share/route_attack/hook/pythonpath.sh'
+[2.906s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/route_attack/bin'
+[2.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(route_attack)
+[2.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/route_attack/share/route_attack/package.ps1'
+[2.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/attack/install/route_attack/share/route_attack/package.dsv'
+[2.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/route_attack/share/route_attack/package.sh'
+[2.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/route_attack/share/route_attack/package.bash'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/route_attack/share/route_attack/package.zsh'
+[2.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/attack/install/route_attack/share/colcon-core/packages/route_attack)
+[3.089s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/a/attack/src/spoofing_attack'
+[3.089s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.089s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/attack/src/spoofing_attack': PYTHONPATH=/home/a/attack/build/spoofing_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/spoofing_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/spoofing_attack build --build-base /home/a/attack/build/spoofing_attack/build install --record /home/a/attack/build/spoofing_attack/install.log --single-version-externally-managed install_data
+[3.636s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/spoofing_attack' for CMake module files
+[3.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/attack/src/spoofing_attack' returned '0': PYTHONPATH=/home/a/attack/build/spoofing_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/spoofing_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/spoofing_attack build --build-base /home/a/attack/build/spoofing_attack/build install --record /home/a/attack/build/spoofing_attack/install.log --single-version-externally-managed install_data
+[3.636s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/spoofing_attack' for CMake config files
+[3.637s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/spoofing_attack/lib'
+[3.637s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/spoofing_attack/bin'
+[3.637s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/spoofing_attack/lib/pkgconfig/spoofing_attack.pc'
+[3.637s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/spoofing_attack/lib/python3.8/site-packages'
+[3.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('spoofing_attack', 'pythonpath')
+[3.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/spoofing_attack/share/spoofing_attack/hook/pythonpath.ps1'
+[3.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/attack/install/spoofing_attack/share/spoofing_attack/hook/pythonpath.dsv'
+[3.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/attack/install/spoofing_attack/share/spoofing_attack/hook/pythonpath.sh'
+[3.639s] Level 1:colcon.colcon_core.environment:checking '/home/a/attack/install/spoofing_attack/bin'
+[3.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spoofing_attack)
+[3.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/spoofing_attack/share/spoofing_attack/package.ps1'
+[3.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/attack/install/spoofing_attack/share/spoofing_attack/package.dsv'
+[3.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/spoofing_attack/share/spoofing_attack/package.sh'
+[3.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/spoofing_attack/share/spoofing_attack/package.bash'
+[3.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/attack/install/spoofing_attack/share/spoofing_attack/package.zsh'
+[3.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/attack/install/spoofing_attack/share/colcon-core/packages/spoofing_attack)
+[3.641s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.641s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.641s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.642s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.647s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.673s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/attack/install/local_setup.ps1'
+[3.674s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/a/attack/install/_local_setup_util_ps1.py'
+[3.675s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/attack/install/setup.ps1'
+[3.676s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/attack/install/local_setup.sh'
+[3.677s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/a/attack/install/_local_setup_util_sh.py'
+[3.677s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/attack/install/setup.sh'
+[3.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/attack/install/local_setup.bash'
+[3.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/attack/install/setup.bash'
+[3.680s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/attack/install/local_setup.zsh'
+[3.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/attack/install/setup.zsh'

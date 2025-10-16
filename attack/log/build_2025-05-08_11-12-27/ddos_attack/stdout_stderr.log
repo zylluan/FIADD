@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/ddos_attack/ddos_attack.egg-info
+writing ../../build/ddos_attack/ddos_attack.egg-info/PKG-INFO
+writing dependency_links to ../../build/ddos_attack/ddos_attack.egg-info/dependency_links.txt
+writing entry points to ../../build/ddos_attack/ddos_attack.egg-info/entry_points.txt
+writing requirements to ../../build/ddos_attack/ddos_attack.egg-info/requires.txt
+writing top-level names to ../../build/ddos_attack/ddos_attack.egg-info/top_level.txt
+writing manifest file '../../build/ddos_attack/ddos_attack.egg-info/SOURCES.txt'
+reading manifest file '../../build/ddos_attack/ddos_attack.egg-info/SOURCES.txt'
+writing manifest file '../../build/ddos_attack/ddos_attack.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/a/attack/build/ddos_attack/build
+creating /home/a/attack/build/ddos_attack/build/lib
+creating /home/a/attack/build/ddos_attack/build/lib/ddos_attack
+copying ddos_attack/attack.py -> /home/a/attack/build/ddos_attack/build/lib/ddos_attack
+copying ddos_attack/__init__.py -> /home/a/attack/build/ddos_attack/build/lib/ddos_attack
+running install
+running install_lib
+creating /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack
+copying /home/a/attack/build/ddos_attack/build/lib/ddos_attack/attack.py -> /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack
+copying /home/a/attack/build/ddos_attack/build/lib/ddos_attack/__init__.py -> /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack
+byte-compiling /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack/attack.py to attack.cpython-38.pyc
+byte-compiling /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/a/attack/install/ddos_attack/share/ament_index
+creating /home/a/attack/install/ddos_attack/share/ament_index/resource_index
+creating /home/a/attack/install/ddos_attack/share/ament_index/resource_index/packages
+copying resource/ddos_attack -> /home/a/attack/install/ddos_attack/share/ament_index/resource_index/packages
+copying package.xml -> /home/a/attack/install/ddos_attack/share/ddos_attack
+running install_egg_info
+Copying ../../build/ddos_attack/ddos_attack.egg-info to /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/a/attack/build/ddos_attack/install.log'

@@ -1,0 +1,36 @@
+[0.913s] Invoking command in '/home/a/attack/src/ddos_attack': PYTHONPATH=/home/a/attack/build/ddos_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/ddos_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddos_attack build --build-base /home/a/attack/build/ddos_attack/build install --record /home/a/attack/build/ddos_attack/install.log --single-version-externally-managed install_data
+[1.103s] running egg_info
+[1.104s] creating ../../build/ddos_attack/ddos_attack.egg-info
+[1.104s] writing ../../build/ddos_attack/ddos_attack.egg-info/PKG-INFO
+[1.106s] writing dependency_links to ../../build/ddos_attack/ddos_attack.egg-info/dependency_links.txt
+[1.106s] writing entry points to ../../build/ddos_attack/ddos_attack.egg-info/entry_points.txt
+[1.106s] writing requirements to ../../build/ddos_attack/ddos_attack.egg-info/requires.txt
+[1.106s] writing top-level names to ../../build/ddos_attack/ddos_attack.egg-info/top_level.txt
+[1.113s] writing manifest file '../../build/ddos_attack/ddos_attack.egg-info/SOURCES.txt'
+[1.146s] reading manifest file '../../build/ddos_attack/ddos_attack.egg-info/SOURCES.txt'
+[1.147s] writing manifest file '../../build/ddos_attack/ddos_attack.egg-info/SOURCES.txt'
+[1.148s] running build
+[1.148s] running build_py
+[1.148s] creating /home/a/attack/build/ddos_attack/build
+[1.148s] creating /home/a/attack/build/ddos_attack/build/lib
+[1.148s] creating /home/a/attack/build/ddos_attack/build/lib/ddos_attack
+[1.149s] copying ddos_attack/attack.py -> /home/a/attack/build/ddos_attack/build/lib/ddos_attack
+[1.149s] copying ddos_attack/__init__.py -> /home/a/attack/build/ddos_attack/build/lib/ddos_attack
+[1.149s] running install
+[1.151s] running install_lib
+[1.152s] creating /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack
+[1.152s] copying /home/a/attack/build/ddos_attack/build/lib/ddos_attack/attack.py -> /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack
+[1.153s] copying /home/a/attack/build/ddos_attack/build/lib/ddos_attack/__init__.py -> /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack
+[1.153s] byte-compiling /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack/attack.py to attack.cpython-38.pyc
+[1.155s] byte-compiling /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack/__init__.py to __init__.cpython-38.pyc
+[1.156s] running install_data
+[1.156s] creating /home/a/attack/install/ddos_attack/share/ament_index
+[1.156s] creating /home/a/attack/install/ddos_attack/share/ament_index/resource_index
+[1.157s] creating /home/a/attack/install/ddos_attack/share/ament_index/resource_index/packages
+[1.157s] copying resource/ddos_attack -> /home/a/attack/install/ddos_attack/share/ament_index/resource_index/packages
+[1.157s] copying package.xml -> /home/a/attack/install/ddos_attack/share/ddos_attack
+[1.157s] running install_egg_info
+[1.159s] Copying ../../build/ddos_attack/ddos_attack.egg-info to /home/a/attack/install/ddos_attack/lib/python3.8/site-packages/ddos_attack-0.0.0-py3.8.egg-info
+[1.160s] running install_scripts
+[1.176s] writing list of installed files to '/home/a/attack/build/ddos_attack/install.log'
+[1.214s] Invoked command in '/home/a/attack/src/ddos_attack' returned '0': PYTHONPATH=/home/a/attack/build/ddos_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/ddos_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddos_attack build --build-base /home/a/attack/build/ddos_attack/build install --record /home/a/attack/build/ddos_attack/install.log --single-version-externally-managed install_data

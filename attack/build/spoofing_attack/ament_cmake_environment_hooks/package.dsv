@@ -1,0 +1,4 @@
+source;share/spoofing_attack/local_setup.bash
+source;share/spoofing_attack/local_setup.dsv
+source;share/spoofing_attack/local_setup.sh
+source;share/spoofing_attack/local_setup.zsh

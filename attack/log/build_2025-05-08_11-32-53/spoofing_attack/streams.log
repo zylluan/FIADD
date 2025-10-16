@@ -1,0 +1,67 @@
+[0.016s] Invoking command in '/home/a/attack/build/spoofing_attack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/attack/install/spoofing_attack:/home/a/attack/install/route_attack:/home/a/attack/install/replay_attack:/home/a/attack/install/gps_attack_pkg:/home/a/attack/install/ddos_attack:/opt/ros/galactic /usr/bin/cmake /home/a/attack/src/spoofing_attack -DCMAKE_INSTALL_PREFIX=/home/a/attack/install/spoofing_attack
+[0.213s] -- The C compiler identification is GNU 9.4.0
+[0.331s] -- The CXX compiler identification is GNU 9.4.0
+[0.353s] -- Check for working C compiler: /usr/bin/cc
+[0.448s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.451s] -- Detecting C compiler ABI info
+[0.541s] -- Detecting C compiler ABI info - done
+[0.552s] -- Detecting C compile features
+[0.553s] -- Detecting C compile features - done
+[0.559s] -- Check for working CXX compiler: /usr/bin/c++
+[0.641s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.642s] -- Detecting CXX compiler ABI info
+[0.720s] -- Detecting CXX compiler ABI info - done
+[0.729s] -- Detecting CXX compile features
+[0.731s] -- Detecting CXX compile features - done
+[0.742s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.771s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.771s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.892s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.970s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.980s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.099s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.128s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.301s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.306s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.330s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.334s] -- Looking for pthread.h
+[1.418s] -- Looking for pthread.h - found
+[1.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.488s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.488s] -- Looking for pthread_create in pthreads
+[1.550s] -- Looking for pthread_create in pthreads - not found
+[1.550s] -- Looking for pthread_create in pthread
+[1.609s] -- Looking for pthread_create in pthread - found
+[1.610s] -- Found Threads: TRUE  
+[1.780s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.972s] -- Configuring done
+[1.980s] -- Generating done
+[1.984s] -- Build files have been written to: /home/a/attack/build/spoofing_attack
+[1.993s] Invoked command in '/home/a/attack/build/spoofing_attack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/attack/install/spoofing_attack:/home/a/attack/install/route_attack:/home/a/attack/install/replay_attack:/home/a/attack/install/gps_attack_pkg:/home/a/attack/install/ddos_attack:/opt/ros/galactic /usr/bin/cmake /home/a/attack/src/spoofing_attack -DCMAKE_INSTALL_PREFIX=/home/a/attack/install/spoofing_attack
+[1.994s] Invoking command in '/home/a/attack/build/spoofing_attack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/attack/install/spoofing_attack:/home/a/attack/install/route_attack:/home/a/attack/install/replay_attack:/home/a/attack/install/gps_attack_pkg:/home/a/attack/install/ddos_attack:/opt/ros/galactic /usr/bin/cmake --build /home/a/attack/build/spoofing_attack -- -j2 -l2
+[2.033s] [35m[1mScanning dependencies of target fake_gps_node[0m
+[2.166s] [ 50%] [32mBuilding CXX object CMakeFiles/fake_gps_node.dir/src/fake_gps_node.cpp.o[0m
+[7.500s] [100%] [32m[1mLinking CXX executable fake_gps_node[0m
+[7.680s] [100%] Built target fake_gps_node
+[7.694s] Invoked command in '/home/a/attack/build/spoofing_attack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/attack/install/spoofing_attack:/home/a/attack/install/route_attack:/home/a/attack/install/replay_attack:/home/a/attack/install/gps_attack_pkg:/home/a/attack/install/ddos_attack:/opt/ros/galactic /usr/bin/cmake --build /home/a/attack/build/spoofing_attack -- -j2 -l2
+[7.704s] Invoking command in '/home/a/attack/build/spoofing_attack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/attack/install/spoofing_attack:/home/a/attack/install/route_attack:/home/a/attack/install/replay_attack:/home/a/attack/install/gps_attack_pkg:/home/a/attack/install/ddos_attack:/opt/ros/galactic /usr/bin/cmake --install /home/a/attack/build/spoofing_attack
+[7.712s] -- Install configuration: ""
+[7.713s] -- Installing: /home/a/attack/install/spoofing_attack/lib/spoofing_attack/fake_gps_node
+[7.714s] -- Set runtime path of "/home/a/attack/install/spoofing_attack/lib/spoofing_attack/fake_gps_node" to ""
+[7.714s] -- Installing: /home/a/attack/install/spoofing_attack/share/ament_index/resource_index/package_run_dependencies/spoofing_attack
+[7.715s] -- Installing: /home/a/attack/install/spoofing_attack/share/ament_index/resource_index/parent_prefix_path/spoofing_attack
+[7.715s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/ament_prefix_path.sh
+[7.715s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/ament_prefix_path.dsv
+[7.715s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/path.sh
+[7.715s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/path.dsv
+[7.715s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.bash
+[7.715s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.sh
+[7.715s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.zsh
+[7.715s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.dsv
+[7.716s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/package.dsv
+[7.716s] -- Installing: /home/a/attack/install/spoofing_attack/share/ament_index/resource_index/packages/spoofing_attack
+[7.716s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/cmake/spoofing_attackConfig.cmake
+[7.716s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/cmake/spoofing_attackConfig-version.cmake
+[7.717s] -- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/package.xml
+[7.723s] Invoked command in '/home/a/attack/build/spoofing_attack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/a/attack/install/spoofing_attack:/home/a/attack/install/route_attack:/home/a/attack/install/replay_attack:/home/a/attack/install/gps_attack_pkg:/home/a/attack/install/ddos_attack:/opt/ros/galactic /usr/bin/cmake --install /home/a/attack/build/spoofing_attack

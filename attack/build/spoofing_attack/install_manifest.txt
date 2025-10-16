@@ -1,0 +1,16 @@
+/home/a/attack/install/spoofing_attack/lib/spoofing_attack/fake_gps_node
+/home/a/attack/install/spoofing_attack/share/ament_index/resource_index/package_run_dependencies/spoofing_attack
+/home/a/attack/install/spoofing_attack/share/ament_index/resource_index/parent_prefix_path/spoofing_attack
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/ament_prefix_path.sh
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/ament_prefix_path.dsv
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/path.sh
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/path.dsv
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.bash
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.sh
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.zsh
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.dsv
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/package.dsv
+/home/a/attack/install/spoofing_attack/share/ament_index/resource_index/packages/spoofing_attack
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/cmake/spoofing_attackConfig.cmake
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/cmake/spoofing_attackConfig-version.cmake
+/home/a/attack/install/spoofing_attack/share/spoofing_attack/package.xml

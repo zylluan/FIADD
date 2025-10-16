@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target fake_gps_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fake_gps_node.dir/src/fake_gps_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable fake_gps_node[0m
+[100%] Built target fake_gps_node
+-- Install configuration: ""
+-- Installing: /home/a/attack/install/spoofing_attack/lib/spoofing_attack/fake_gps_node
+-- Set runtime path of "/home/a/attack/install/spoofing_attack/lib/spoofing_attack/fake_gps_node" to ""
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/ament_index/resource_index/package_run_dependencies/spoofing_attack
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/ament_index/resource_index/parent_prefix_path/spoofing_attack
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/ament_prefix_path.sh
+-- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/path.sh
+-- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/environment/path.dsv
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.bash
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.sh
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.zsh
+-- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/local_setup.dsv
+-- Installing: /home/a/attack/install/spoofing_attack/share/spoofing_attack/package.dsv
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/ament_index/resource_index/packages/spoofing_attack
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/cmake/spoofing_attackConfig.cmake
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/cmake/spoofing_attackConfig-version.cmake
+-- Up-to-date: /home/a/attack/install/spoofing_attack/share/spoofing_attack/package.xml

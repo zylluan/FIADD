@@ -1,0 +1,36 @@
+[0.770s] Invoking command in '/home/a/attack/src/route_attack': PYTHONPATH=/home/a/attack/build/route_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/route_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/route_attack build --build-base /home/a/attack/build/route_attack/build install --record /home/a/attack/build/route_attack/install.log --single-version-externally-managed install_data
+[0.969s] running egg_info
+[0.970s] creating ../../build/route_attack/route_attack.egg-info
+[0.970s] writing ../../build/route_attack/route_attack.egg-info/PKG-INFO
+[0.971s] writing dependency_links to ../../build/route_attack/route_attack.egg-info/dependency_links.txt
+[0.971s] writing entry points to ../../build/route_attack/route_attack.egg-info/entry_points.txt
+[0.971s] writing requirements to ../../build/route_attack/route_attack.egg-info/requires.txt
+[0.971s] writing top-level names to ../../build/route_attack/route_attack.egg-info/top_level.txt
+[0.972s] writing manifest file '../../build/route_attack/route_attack.egg-info/SOURCES.txt'
+[1.007s] reading manifest file '../../build/route_attack/route_attack.egg-info/SOURCES.txt'
+[1.008s] writing manifest file '../../build/route_attack/route_attack.egg-info/SOURCES.txt'
+[1.008s] running build
+[1.008s] running build_py
+[1.008s] creating /home/a/attack/build/route_attack/build
+[1.009s] creating /home/a/attack/build/route_attack/build/lib
+[1.009s] creating /home/a/attack/build/route_attack/build/lib/route_attack
+[1.009s] copying route_attack/blackhole_attack.py -> /home/a/attack/build/route_attack/build/lib/route_attack
+[1.009s] copying route_attack/__init__.py -> /home/a/attack/build/route_attack/build/lib/route_attack
+[1.009s] running install
+[1.010s] running install_lib
+[1.011s] creating /home/a/attack/install/route_attack/lib/python3.8/site-packages/route_attack
+[1.011s] copying /home/a/attack/build/route_attack/build/lib/route_attack/blackhole_attack.py -> /home/a/attack/install/route_attack/lib/python3.8/site-packages/route_attack
+[1.011s] copying /home/a/attack/build/route_attack/build/lib/route_attack/__init__.py -> /home/a/attack/install/route_attack/lib/python3.8/site-packages/route_attack
+[1.012s] byte-compiling /home/a/attack/install/route_attack/lib/python3.8/site-packages/route_attack/blackhole_attack.py to blackhole_attack.cpython-38.pyc
+[1.014s] byte-compiling /home/a/attack/install/route_attack/lib/python3.8/site-packages/route_attack/__init__.py to __init__.cpython-38.pyc
+[1.014s] running install_data
+[1.014s] creating /home/a/attack/install/route_attack/share/ament_index
+[1.014s] creating /home/a/attack/install/route_attack/share/ament_index/resource_index
+[1.015s] creating /home/a/attack/install/route_attack/share/ament_index/resource_index/packages
+[1.015s] copying resource/route_attack -> /home/a/attack/install/route_attack/share/ament_index/resource_index/packages
+[1.015s] copying package.xml -> /home/a/attack/install/route_attack/share/route_attack
+[1.015s] running install_egg_info
+[1.017s] Copying ../../build/route_attack/route_attack.egg-info to /home/a/attack/install/route_attack/lib/python3.8/site-packages/route_attack-0.0.0-py3.8.egg-info
+[1.018s] running install_scripts
+[1.034s] writing list of installed files to '/home/a/attack/build/route_attack/install.log'
+[1.062s] Invoked command in '/home/a/attack/src/route_attack' returned '0': PYTHONPATH=/home/a/attack/build/route_attack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/route_attack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/route_attack build --build-base /home/a/attack/build/route_attack/build install --record /home/a/attack/build/route_attack/install.log --single-version-externally-managed install_data

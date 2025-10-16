@@ -1,0 +1,11 @@
+source;share/spoofing_attack/hook/cmake_prefix_path.ps1
+source;share/spoofing_attack/hook/cmake_prefix_path.dsv
+source;share/spoofing_attack/hook/cmake_prefix_path.sh
+source;share/spoofing_attack/hook/pythonpath.ps1
+source;share/spoofing_attack/hook/pythonpath.dsv
+source;share/spoofing_attack/hook/pythonpath.sh
+source;share/spoofing_attack/local_setup.bash
+source;share/spoofing_attack/local_setup.dsv
+source;share/spoofing_attack/local_setup.ps1
+source;share/spoofing_attack/local_setup.sh
+source;share/spoofing_attack/local_setup.zsh

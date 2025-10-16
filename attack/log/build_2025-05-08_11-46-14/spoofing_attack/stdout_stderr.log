@@ -1,0 +1,23 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found px4_msgs: 2.0.1 (/home/a/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/a/attack/build/spoofing_attack
+[35m[1mScanning dependencies of target fake_gps_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fake_gps_node.dir/src/fake_gps_node.cpp.o[0m
+[01m[K/home/a/attack/src/spoofing_attack/src/fake_gps_node.cpp:[m[K In member function ‘[01m[Kvoid FakeGPSPublisher::publish_fake_gps()[m[K’:
+[01m[K/home/a/attack/src/spoofing_attack/src/fake_gps_node.cpp:32:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+   32 |         msg.timestamp = [01;31m[K=[m[K this->get_clock()->now().nanoseconds() / 1000;
+      |                         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/fake_gps_node.dir/build.make:63：CMakeFiles/fake_gps_node.dir/src/fake_gps_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/fake_gps_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

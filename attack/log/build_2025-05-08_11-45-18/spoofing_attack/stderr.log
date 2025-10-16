@@ -1,0 +1,7 @@
+[01m[K/home/a/attack/src/spoofing_attack/src/fake_gps_node.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kpx4_msgs/msg/sensor_gps.hpp: 没有那个文件或目录
+   10 | #include [01;31m[K<px4_msgs/msg/sensor_gps.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/fake_gps_node.dir/build.make:63：CMakeFiles/fake_gps_node.dir/src/fake_gps_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/fake_gps_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

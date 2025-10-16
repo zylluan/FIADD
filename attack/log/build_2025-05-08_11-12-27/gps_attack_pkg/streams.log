@@ -1,0 +1,33 @@
+[0.905s] Invoking command in '/home/a/attack/src/gps_attack_pkg': PYTHONPATH=/home/a/attack/build/gps_attack_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/gps_attack_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_attack_pkg build --build-base /home/a/attack/build/gps_attack_pkg/build install --record /home/a/attack/build/gps_attack_pkg/install.log --single-version-externally-managed install_data
+[1.099s] running egg_info
+[1.100s] creating ../../build/gps_attack_pkg/gps_attack_pkg.egg-info
+[1.100s] writing ../../build/gps_attack_pkg/gps_attack_pkg.egg-info/PKG-INFO
+[1.101s] writing dependency_links to ../../build/gps_attack_pkg/gps_attack_pkg.egg-info/dependency_links.txt
+[1.101s] writing entry points to ../../build/gps_attack_pkg/gps_attack_pkg.egg-info/entry_points.txt
+[1.101s] writing requirements to ../../build/gps_attack_pkg/gps_attack_pkg.egg-info/requires.txt
+[1.101s] writing top-level names to ../../build/gps_attack_pkg/gps_attack_pkg.egg-info/top_level.txt
+[1.102s] writing manifest file '../../build/gps_attack_pkg/gps_attack_pkg.egg-info/SOURCES.txt'
+[1.133s] reading manifest file '../../build/gps_attack_pkg/gps_attack_pkg.egg-info/SOURCES.txt'
+[1.134s] writing manifest file '../../build/gps_attack_pkg/gps_attack_pkg.egg-info/SOURCES.txt'
+[1.134s] running build
+[1.134s] running build_py
+[1.134s] creating /home/a/attack/build/gps_attack_pkg/build
+[1.134s] creating /home/a/attack/build/gps_attack_pkg/build/lib
+[1.134s] creating /home/a/attack/build/gps_attack_pkg/build/lib/gps_attack_pkg
+[1.134s] copying gps_attack_pkg/__init__.py -> /home/a/attack/build/gps_attack_pkg/build/lib/gps_attack_pkg
+[1.134s] running install
+[1.135s] running install_lib
+[1.136s] creating /home/a/attack/install/gps_attack_pkg/lib/python3.8/site-packages/gps_attack_pkg
+[1.136s] copying /home/a/attack/build/gps_attack_pkg/build/lib/gps_attack_pkg/__init__.py -> /home/a/attack/install/gps_attack_pkg/lib/python3.8/site-packages/gps_attack_pkg
+[1.137s] byte-compiling /home/a/attack/install/gps_attack_pkg/lib/python3.8/site-packages/gps_attack_pkg/__init__.py to __init__.cpython-38.pyc
+[1.138s] running install_data
+[1.138s] creating /home/a/attack/install/gps_attack_pkg/share/ament_index
+[1.138s] creating /home/a/attack/install/gps_attack_pkg/share/ament_index/resource_index
+[1.138s] creating /home/a/attack/install/gps_attack_pkg/share/ament_index/resource_index/packages
+[1.138s] copying resource/gps_attack_pkg -> /home/a/attack/install/gps_attack_pkg/share/ament_index/resource_index/packages
+[1.138s] copying package.xml -> /home/a/attack/install/gps_attack_pkg/share/gps_attack_pkg
+[1.138s] running install_egg_info
+[1.140s] Copying ../../build/gps_attack_pkg/gps_attack_pkg.egg-info to /home/a/attack/install/gps_attack_pkg/lib/python3.8/site-packages/gps_attack_pkg-0.0.0-py3.8.egg-info
+[1.141s] running install_scripts
+[1.158s] writing list of installed files to '/home/a/attack/build/gps_attack_pkg/install.log'
+[1.180s] Invoked command in '/home/a/attack/src/gps_attack_pkg' returned '0': PYTHONPATH=/home/a/attack/build/gps_attack_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a/attack/install/gps_attack_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_attack_pkg build --build-base /home/a/attack/build/gps_attack_pkg/build install --record /home/a/attack/build/gps_attack_pkg/install.log --single-version-externally-managed install_data

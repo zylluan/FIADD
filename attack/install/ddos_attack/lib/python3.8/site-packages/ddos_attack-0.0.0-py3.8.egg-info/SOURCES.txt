@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ddos_attack/ddos_attack.egg-info/PKG-INFO
+../../build/ddos_attack/ddos_attack.egg-info/SOURCES.txt
+../../build/ddos_attack/ddos_attack.egg-info/dependency_links.txt
+../../build/ddos_attack/ddos_attack.egg-info/entry_points.txt
+../../build/ddos_attack/ddos_attack.egg-info/requires.txt
+../../build/ddos_attack/ddos_attack.egg-info/top_level.txt
+../../build/ddos_attack/ddos_attack.egg-info/zip-safe
+ddos_attack/__init__.py
+ddos_attack/attack.py
+resource/ddos_attack
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
