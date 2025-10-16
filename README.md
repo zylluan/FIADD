@@ -1,4 +1,4 @@
-﻿FIADD
+﻿# FIADD
 
 
 ### About FIADD
@@ -45,11 +45,8 @@ echo “export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/a/uav/src/my_uav/model
 cd mininet-wifi  && sudo util/install.sh -Wlnfv  
 
 6. 将DDS和ros2_ws目录中的setup.bash脚本写入~/.bashrc
-# ROS-PX4桥
 source ~/ros2_ws/install/setup.bash
-# DDS
-#source ~/px4_ros_uxrce_dds_ws/install/setup.bash
-
+source ~/px4_ros_uxrce_dds_ws/install/setup.bash
 
 ### FIADD启动步骤：
 1. 开启olsr自组织网络：
