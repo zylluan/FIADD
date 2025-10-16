@@ -1,0 +1,32 @@
+#!/bin/sh
+#
+# @name Generic Iris Quadrotor SITL
+#
+# @type Quadrotor Wide
+#
+
+#执行一个默认的多旋翼参数设置脚本
+. ${R}etc/init.d/rc.mc_defaults
+
+#启用自定义空气动力学模型配置（非标准PX4内置机型）
+param set-default CA_AIRFRAME 0
+
+param set-default CA_ROTOR_COUNT 4         #设置该无人机有4个旋翼
+param set-default CA_ROTOR0_PX 0.1515   #PX, PY 定义在无人机机体坐标系下的相对位置 /米
+param set-default CA_ROTOR0_PY 0.245     #第0号旋翼（通常是前右）
+param set-default CA_ROTOR0_KM 0.05   #KM是反映旋翼旋转引起的力矩方向与大小（正为顺时针，负为逆时针）
+param set-default CA_ROTOR1_PX -0.1515   #第1号旋翼（后左）
+param set-default CA_ROTOR1_PY -0.1875
+param set-default CA_ROTOR1_KM 0.05
+param set-default CA_ROTOR2_PX 0.1515     #第2号旋翼（后右），旋转方向为负
+param set-default CA_ROTOR2_PY -0.245
+param set-default CA_ROTOR2_KM -0.05
+param set-default CA_ROTOR3_PX -0.1515   #第3号旋翼（前左），也是逆时针方向旋转
+param set-default CA_ROTOR3_PY 0.1875
+param set-default CA_ROTOR3_KM -0.05
+
+#PWM 输出功能配置 数值 101~104 是 PX4 中电机输出的功能编号
+param set-default PWM_MAIN_FUNC1 101     #通道1分配给电机1（Rotor 1）
+param set-default PWM_MAIN_FUNC2 102
+param set-default PWM_MAIN_FUNC3 103
+param set-default PWM_MAIN_FUNC4 104
