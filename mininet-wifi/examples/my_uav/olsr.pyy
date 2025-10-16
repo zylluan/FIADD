@@ -1,0 +1,92 @@
+#!/usr/bin/python3
+
+"""
+sudo python olsr.py olsrd
+python olsr.py 不加路由协议
+加参数-a   指定无线通信距离
+
+路由配置文件：/etc/olsrd/olsrd.conf
+
+查看节点网络信息：nodes net 
+路由：
+    sta1 route     
+    sta1 olsrd -i sta1-wlan0 -d 2   节点 OLSR协议的守护进程名称  接口参数-i sta1-wlan0  日志记录的详细程度。-d是--debug的简写，后面跟字表示日志级别，数字越大记录的信息越详细。
+    olsrd -v
+sta1 ping sta2
+sta1 traceroute sta4
+"""
+
+import sys
+
+from mininet.log import setLogLevel, info
+from mn_wifi.link import wmediumd, adhoc
+from mn_wifi.manetRoutingProtocols import olsrd
+from mn_wifi.cli import CLI
+from mn_wifi.net import Mininet_wifi
+from mn_wifi.wmediumdConnector import interference
+
+
+def topology(args):
+    "Create a network."
+    net = Mininet_wifi(link=wmediumd, wmediumd_mode=interference)
+
+    info("*** Creating nodes\n")
+    kwargs = dict()
+    if '-a' in args:
+        kwargs['range'] = 90
+
+    info("position：\n  sta1 25,50,0\n  sta2 75,10,0\n  sta3 75,90,0\n  sta4 125,50,0\n")
+    sta1 = net.addStation('sta1', ip6='fe80::1',position='25,50,0', **kwargs)
+    sta2 = net.addStation('sta2', ip6='fe80::2',position='75,10,0', **kwargs)
+    sta3 = net.addStation('sta3', ip6='fe80::3',position='75,90,0', **kwargs)
+    sta4 = net.addStation('sta4', ip6='fe80::4',position='125,50,0', **kwargs)
+
+    net.setPropagationModel(model="logDistance", exp=4)
+
+    info("*** Configuring wifi nodes\n")
+    net.configureWifiNodes()
+
+    info("*** Creating links\n")
+    protocols = ['babel', 'batman_adv', 'batmand', 'olsrd', 'olsrd2']
+    kwargs = dict()
+    for proto in args:
+        if proto in protocols:
+            kwargs['proto'] = proto
+
+    net.addLink(sta1, cls=adhoc, intf='sta1-wlan0',
+                ssid='adhocNet', mode='g', channel=5,
+                ht_cap='HT40+',  **kwargs)
+    net.addLink(sta2, cls=adhoc, intf='sta2-wlan0',
+                ssid='adhocNet', mode='g', channel=5,
+                ht_cap='HT40+', **kwargs)
+    net.addLink(sta3, cls=adhoc, intf='sta3-wlan0',
+                ssid='adhocNet', mode='g', channel=5,
+                ht_cap='HT40+', **kwargs)
+    net.addLink(sta4, cls=adhoc, intf='sta4-wlan0',
+                ssid='adhocNet', mode='g', channel=5,
+                ht_cap='HT40+', **kwargs)
+
+    net.plotGraph(max_x=200, max_y=200)
+
+    info("*** Starting network\n")
+    net.build()
+
+    
+    if 'proto' not in kwargs:
+        info("\n*** Addressing...\n")
+        sta1.setIP6('2001::1/64', intf="sta1-wlan0")
+        sta2.setIP6('2001::2/64', intf="sta2-wlan0")
+        sta3.setIP6('2001::3/64', intf="sta3-wlan0")
+        sta4.setIP6('2001::4/64', intf="sta4-wlan0")
+
+    info("*** Running CLI\n")
+    CLI(net)
+
+    info("*** Stopping network\n")
+    net.stop()
+
+
+if __name__ == '__main__':
+    setLogLevel('info')
+    topology(sys.argv)
+

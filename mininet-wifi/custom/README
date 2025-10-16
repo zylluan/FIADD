@@ -1,0 +1,13 @@
+This directory should hold configuration files for custom mininets.
+
+See custom_example.py, which loads the default minimal topology.  The advantage of defining a mininet in a separate file is that you then use the --custom option in mn to run the CLI or specific tests with it.
+
+To start up a mininet with the provided custom topology, do:
+  sudo mn --custom custom_example.py --topo mytopo
+  
+这个目录应该保存自定义mininet的配置文件。
+
+请参阅custom_example.py，它加载默认的最小拓扑。在单独的文件中定义mininet的好处是，您可以在mn中使用--custom选项来运行CLI或使用它运行特定的测试。
+
+使用提供的自定义拓扑启动miniet，请执行以下操作：
+    sudo mn --custom custom_example.py --topo mytopo

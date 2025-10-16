@@ -1,0 +1,16 @@
+mnexec
+*.pyc
+*~
+*.1
+*.xcodeproj
+*.xcworkspace
+*.apconf
+*.swp
+\#*\#
+mininet.egg-info
+build
+dist
+doc/html
+doc/latex
+trunk
+.DS_Store
