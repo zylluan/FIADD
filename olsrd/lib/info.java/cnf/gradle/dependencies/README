@@ -1,0 +1,18 @@
+===========
+= WARNING =
+===========
+
+This directory contains JAR file dependencies that are intended
+ONLY FOR BUILT-TIME usage by the Gradle build.
+
+None are intended to be used as bundles in any project.
+
+
+Get the jars here:
+
+biz.aQute.bnd.gradle : https://plugins.gradle.org/m2/biz/aQute/bnd/biz.aQute.bnd.gradle/
+                       https://search.maven.org/search?q=a:biz.aQute.bnd.gradle
+biz.aQute.bndlib     : https://search.maven.org/search?q=a:biz.aQute.bndlib
+biz.aQute.repository : https://search.maven.org/search?q=a:biz.aQute.repository
+biz.aQute.resolve    : https://search.maven.org/search?q=a:biz.aQute.resolve
+com.github.spotbugs  : https://plugins.gradle.org/m2/gradle/plugin/com/github/spotbugs/spotbugs-gradle-plugin/

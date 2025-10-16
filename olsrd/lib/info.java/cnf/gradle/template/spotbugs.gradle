@@ -1,0 +1,78 @@
+/*
+ * WARNING
+ *
+ * This file should not be edited.
+ *
+ * GNU LIBRARY GENERAL PUBLIC LICENSE
+ * Version 2, June 1991
+ *
+ * Add spotbugs tasks to a (java) project.
+ *
+ * Note: the 'java' plugin must have been applied to the project before this
+ *       file can be applied.
+ *
+ * Note: Set the 'CI' property (-PCI on the command line) to generate XML
+ *       reports instead of html reports.
+ */
+
+assert(project != rootProject   )
+assert(hasProperty('sourceSets'))
+
+
+repositories {
+  mavenCentral()
+}
+
+
+apply plugin: 'com.github.spotbugs'
+
+
+if (!hasProperty('spotbugsReportXML'     )) ext.spotbugsReportXML      = 'CI'
+
+if (!hasProperty('spotbugsIgnoreFailures')) ext.spotbugsIgnoreFailures = true
+if (!hasProperty('spotbugsIncludesFile'  )) ext.spotbugsIncludesFile   = "${rootProject.rootDir}/${rootProject.bnd_cnf}/spotbugs/spotbugs.include.xml"
+if (!hasProperty('spotbugsExcludesFile'  )) ext.spotbugsExcludesFile   = "${rootProject.rootDir}/${rootProject.bnd_cnf}/spotbugs/spotbugs.exclude.xml"
+
+
+spotbugs {
+  ignoreFailures =          spotbugsIgnoreFailures
+  includeFilter  =     file(spotbugsIncludesFile             )
+  excludeFilter  =     file(spotbugsExcludesFile             )
+}
+
+spotbugsMain {
+  dependsOn assemble
+  reports {
+    xml.enabled  = rootProject.hasProperty(spotbugsReportXML) ? true  : false
+    html.enabled = rootProject.hasProperty(spotbugsReportXML) ? false : true
+  }
+}
+
+spotbugsTest {
+  dependsOn test
+  reports {
+    xml.enabled  = rootProject.hasProperty(spotbugsReportXML) ? true  : false
+    html.enabled = rootProject.hasProperty(spotbugsReportXML) ? false : true
+  }
+}
+
+/* Placeholder task to facilitate enabling the spotbugsMain task (disabled by default) */
+task spotbugs {
+  description "Enables spotbugs on the source code (disabled by default; use -P${spotbugsReportXML} to generate xml reports)."
+  group 'verification'
+}
+
+/* Placeholder task to facilitate enabling the spotbugsTest task (disabled by default) */
+task spotbugstest {
+  description "Enables spotbugs on the test code (disabled by default; use -P${spotbugsReportXML} to generate xml reports)."
+  group 'verification'
+}
+
+gradle.taskGraph.whenReady { taskGraph ->
+  tasks.spotbugsMain.onlyIf {
+    taskGraph.hasTask((tasks.spotbugs))
+  }
+  tasks.spotbugsTest.onlyIf {
+    taskGraph.hasTask((tasks.spotbugstest))
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "two_hop_neighbor_table.h": "c",
+        "net_olsr.h": "c",
+        "generate_msg.h": "c",
+        "cstdlib": "c",
+        "defs.h": "c",
+        "ipcalc.h": "c"
+    }
+}

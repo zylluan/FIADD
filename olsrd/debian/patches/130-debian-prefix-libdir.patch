@@ -1,0 +1,28 @@
+diff --git a/Makefile.inc b/Makefile.inc
+index 214b353e..33188f2c 100644
+--- a/Makefile.inc
++++ b/Makefile.inc
+@@ -120,7 +120,7 @@ DESTDIR  ?=
+ ETCDIR   ?= $(DESTDIR)/etc/olsrd
+ USRDIR   ?= $(DESTDIR)/usr
+ INCLUDEDIR ?= $(DESTDIR)/usr/include
+-LIBDIR   ?= $(USRDIR)/lib
++LIBDIR   ?= $(USRDIR)/lib/olsrd
+ SBINDIR  ?= $(USRDIR)/sbin
+ SHAREDIR ?= $(USRDIR)/share
+ DOCDIR   ?= $(SHAREDIR)/doc
+diff --git a/make/Makefile.linux b/make/Makefile.linux
+index 6b55f450..8a83c7bf 100644
+--- a/make/Makefile.linux
++++ b/make/Makefile.linux
+@@ -49,8 +49,8 @@ ARCH := $(shell uname -m)
+ LDCONFIG ?= /sbin/ldconfig
+ 
+ DESTDIR ?=
+-prefix ?= /usr/local
+-libdir ?= $(prefix)/lib
++prefix ?= /usr
++libdir ?= $(prefix)/lib/olsrd
+ datarootdir ?= $(prefix)/share
+ mandir ?= $(datarootdir)/man
+ sbindir ?= $(prefix)/sbin

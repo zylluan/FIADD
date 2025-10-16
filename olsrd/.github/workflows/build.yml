@@ -1,0 +1,17 @@
+name: Build olsrd
+on:
+  push:
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: olsrd
+      - name: Install dependencies
+        run: sudo apt-get install build-essential dpkg-dev bison flex libgps-dev
+      - name: Compile olsrd
+        run: cd olsrd && make build_all
