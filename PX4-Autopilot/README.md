@@ -10,8 +10,11 @@
 3. 回到上层目录：colcon make 
 
 ### 运行PX4：
-方法1：使用make指令
+  方法1：使用make指令
 
-方法2：运行PX4-Autopilot/Tools/simulation/gazebo-classic目录下相应脚本
+  方法2：运行PX4-Autopilot/Tools/simulation/gazebo-classic目录下相应脚本
+
+### Gazebo
+Gazebo需要的一些模块源文件可以保存在最上层的.gazebo中，可以避免从远程拉取，节省时间。其他路径可以查看环境变量：GAZEBO_MADEL_PATH
 
 
