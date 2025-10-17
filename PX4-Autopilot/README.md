@@ -9,8 +9,11 @@
    
 3. 回到上层目录：colcon make 
 
-### 运行PX4：
-  方法1：使用make指令
+### 运行PX4
+  方法1：使用make指令:   make  [VENDOR_][MODEL][_VARIANT]   [VIEWER_MODEL_DEBUGGER_WORLD]，如运行 make px4_sitl_default gazebo
+
+
+
 
   方法2：运行PX4-Autopilot/Tools/simulation/gazebo-classic目录下相应脚本
 
