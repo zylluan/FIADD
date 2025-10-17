@@ -50,16 +50,18 @@ source ~/px4_ros_uxrce_dds_ws/install/setup.bash
 
 ### FIADD启动步骤：
 1. 开启olsr自组织网络：
-cd ~/mininet-wifi/examples/my_uav && sudo python3 olsr.py olsrd  # 开启9个虚拟节点uav1~uav9，代表9个UAV，和一个用于加载Gazebo world的虚拟节点sta1.
+cd mininet-wifi/examples/my_uav && sudo python3 olsr.py olsrd  # 开启9个虚拟节点uav1~uav9，代表9个UAV，和一个用于加载Gazebo world的虚拟节点sta1.
 
 2. 初始化FANET：
-在sat1节点上执行：source FANET/sat1.sh
-在uav1~uav9节点上分别执行：source FANET/uav.sh 1/2/3/4/5/6/7/8/9 p450_2Dlidar_depth
+在sat1节点上执行：
+	source FANET/sat1.sh
+在uav1~uav9节点上分别执行：
+	source FANET/uav.sh 1/2/3/4/5/6/7/8/9 p450_2Dlidar_depth
 
 3. 开启随机通信任务：
 在mininet-wifi的CLI终端：
-start_traffic 6000 10  	# 随机通信6000s
-tcpdump 6000 		# 对所有节点抓包，时长为6000s
+	start_traffic 6000 10  	# 随机通信6000s
+	tcpdump 6000 		# 对所有节点抓包，时长为6000s
 
 4. 模拟攻击
 在mininet-wifi的CLI终端，执行相应攻击的指令：
@@ -78,14 +80,14 @@ tcpdump 6000 		# 对所有节点抓包，时长为6000s
     • ~/uav/logs/
     • ~/mininet-wifi/zy_attack_log
 运行：
-cd  uav/src/my_uav/src/evaluate
-python extract_attack_results.py 
-        --attack_log ~/mininet-wifi/zy_attack_log/ddos.log 
-        --conv_log ~/uav/logs/conversation_history.txt 
-        --out extracted_attacks.csv 
-        --default_duration 60 
-        --timezone "+08:00"
-python eval.py
+	cd  uav/src/my_uav/src/evaluate
+	python extract_attack_results.py 
+        	--attack_log ~/mininet-wifi/zy_attack_log/ddos.log 
+        	--conv_log ~/uav/logs/conversation_history.txt 
+        	--out extracted_attacks.csv 
+        	--default_duration 60 
+        	--timezone "+08:00"
+	python eval.py
 
 
 
