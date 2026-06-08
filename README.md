@@ -1,4 +1,5 @@
 # UAV-SMLLM
 
-<img width="1081" height="551" alt="image" src="https://github.com/user-attachments/assets/ccf04e63-5215-4d11-a5e0-d658b5533b9f" />
+
+<img width="3000" height="2250" alt="图_20260608192158_page-0001" src="https://github.com/user-attachments/assets/d3b8d51f-78b8-430a-93b3-5a0c3e53a0d4" />
 
